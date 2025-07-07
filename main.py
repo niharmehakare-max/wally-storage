@@ -24,7 +24,7 @@ warnings.simplefilter('ignore', Image.DecompressionBombWarning)
 Image.MAX_IMAGE_PIXELS = None
 
 # Define directories
-source_dir = r"C:\Users\Ayan\Pictures\up\upscayl_png_digital-art-4x_4x"
+source_dir = r"C:\Users\Ayan\Pictures\uo\upscayl_png_digital-art-4x_4x"
 destination_dir = r"D:\storage\cache"
 main_dir = r"D:\storage\main"
 output_file = r"D:\storage\index.json"
@@ -117,15 +117,37 @@ def generate_filename(image_path):
         
         # Create the prompt
         prompt = """
-        Analyze this image and generate a short, descriptive filename (without extension) that captures the essence of the image.
-        
+       Analyze this image carefully and identify:
+
+        1. CHARACTER IDENTIFICATION:
+        - Character names (if recognizable from popular anime, games, or media)
+        - Character traits and appearance details
+        - Art style (official art, fan art, original character, etc.)
+
+        2. SOURCE IDENTIFICATION:
+        - Anime/game/series name if identifiable
+        - Franchise or universe
+        - Art style classification
+
+        3. VISUAL ELEMENTS:
+        - Color scheme and mood
+        - Art technique (digital painting, cel shading, realism, etc.)
+        - Image quality and resolution hints
+        - Scene description
+
+        4. CATEGORIZATION:
+        - Type: anime, game art, fan art, original art, etc.
+        - Genre or thematic elements
+        - Artistic style tags
+
+        Based on your analysis, generate a short, descriptive **filename** (without extension) that captures the essence of the image.
+
         Requirements:
-        - Use only lowercase letters, numbers, and hyphens
-        - Maximum 15 characters
+        - Use lowercase letters, numbers, and hyphens
         - Be descriptive but concise
-        - Examples: "starry-sky", "red-car", "anime-girl", "mountain-peak"
-        
-        Just respond with the filename only, no explanation.
+        - make sure the name is within 20 characters
+
+        Just respond with the filename only, no explanation or formatting.
         """
         
         # Call the Gemini API
@@ -137,7 +159,6 @@ def generate_filename(image_path):
         # Remove any invalid characters and ensure it meets requirements
         import re
         filename = re.sub(r'[^a-z0-9\-]', '', filename)
-        filename = filename[:15]  # Ensure max 15 characters
         
         if not filename:
             filename = "image"
