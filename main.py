@@ -461,6 +461,136 @@ def is_newer_timestamp(timestamp1, timestamp2):
         print(f"Error comparing timestamps: {str(e)}")
         return False
 
+def generate_image_data(image_path):
+    """Generate detailed image analysis data using Gemini."""
+    try:
+        # Read the image file
+        with Image.open(image_path) as img:
+            # Resize image if too large to save bandwidth and processing time
+            max_size = 800
+            if img.width > max_size or img.height > max_size:
+                img.thumbnail((max_size, max_size), Image.Resampling.LANCZOS)
+            
+            # Convert RGBA to RGB if necessary (for JPEG compatibility)
+            if img.mode in ('RGBA', 'LA', 'P'):
+                # Create a white background
+                background = Image.new('RGB', img.size, (255, 255, 255))
+                if img.mode == 'P':
+                    img = img.convert('RGBA')
+                background.paste(img, mask=img.split()[-1] if img.mode in ('RGBA', 'LA') else None)
+                img = background
+            elif img.mode != 'RGB':
+                img = img.convert('RGB')
+            
+            # Convert to bytes
+            buffer = BytesIO()
+            img.save(buffer, format="JPEG")
+            image_bytes = buffer.getvalue()
+        
+        # Set up the Gemini model
+        model = genai.GenerativeModel('gemini-2.0-flash')
+        
+        # Create the prompt
+        prompt = """
+        Analyze this image carefully and identify:
+
+        1. CHARACTER IDENTIFICATION:
+        - Character names (if recognizable from popular anime, games, or media)
+        - Character traits, appearance details
+        - Art style (official art, fan art, original character, etc.)
+
+        2. SOURCE IDENTIFICATION:
+        - Anime/game/series name if identifiable
+        - Franchise or universe
+        - Art style classification
+
+        3. VISUAL ELEMENTS:
+        - Color scheme and mood
+        - Art technique (digital painting, cel shading, realistic, etc.)
+        - Image quality and resolution hints
+        - Scene description
+
+        4. CATEGORIZATION:
+        - Type: anime, game art, fan art, original art, etc.
+        - Genre/theme elements
+        - Artistic style tags
+
+        Based on your analysis, provide:
+        - 10-15 relevant tags covering characters, series, art style, colors, mood, themes
+
+        Return the response as a JSON object with the following structure:
+        {
+            "character_names": ["character1", "character2"],
+            "series": "series name or unknown",
+            "art_style": "art style description",
+            "color_scheme": "color description",
+            "mood": "mood description",
+            "technique": "art technique",
+            "scene_description": "scene description",
+            "type": "image type",
+            "tags": ["tag1", "tag2", "tag3", ...]
+        }
+        
+        If any field is not applicable or unknown, use "unknown" or empty array for tags.
+        """
+        
+        # Call the Gemini API
+        response = model.generate_content([prompt, {"mime_type": "image/jpeg", "data": image_bytes}])
+        
+        # Parse JSON response
+        try:
+            response_text = response.text.strip()
+            # Remove any markdown formatting if present
+            if response_text.startswith('```json'):
+                response_text = response_text[7:]
+            if response_text.endswith('```'):
+                response_text = response_text[:-3]
+            
+            data = json.loads(response_text)
+            
+            # Validate and clean the data
+            cleaned_data = {
+                "character_names": data.get("character_names", []),
+                "series": data.get("series", "unknown"),
+                "art_style": data.get("art_style", "unknown"),
+                "color_scheme": data.get("color_scheme", "unknown"),
+                "mood": data.get("mood", "unknown"),
+                "technique": data.get("technique", "unknown"),
+                "scene_description": data.get("scene_description", "unknown"),
+                "type": data.get("type", "unknown"),
+                "tags": data.get("tags", [])
+            }
+            
+            return cleaned_data
+            
+        except json.JSONDecodeError:
+            print(f"Error parsing JSON response for {image_path}, using fallback data")
+            return {
+                "character_names": [],
+                "series": "unknown",
+                "art_style": "unknown",
+                "color_scheme": "unknown",
+                "mood": "unknown",
+                "technique": "unknown",
+                "scene_description": "unknown",
+                "type": "unknown",
+                "tags": []
+            }
+
+    except Exception as e:
+        print(f"Error generating image data for {image_path}: {str(e)}")
+        return {
+            "character_names": [],
+            "series": "unknown",
+            "art_style": "unknown",
+            "color_scheme": "unknown",
+            "mood": "unknown",
+            "technique": "unknown",
+            "scene_description": "unknown",
+            "type": "unknown",
+            "tags": []
+        }
+
 def run_indexing():
     """Run the image indexing process with rate limiting and continuous file updates."""
     print("\nStarting image indexing...")
@@ -514,6 +644,7 @@ def run_indexing():
                 entry = existing_entries[base_name]
                 changed = False
                 needs_category_update = False
+                needs_data_update = False
                 main_path = None
                 
                 if entry.get('file_cache_name', '') != cache_file:
@@ -535,6 +666,7 @@ def run_indexing():
                                 "timestamp": get_file_timestamp(main_path)
                             })
                             needs_category_update = True
+                            needs_data_update = True
                     changed = True
                 elif not "timestamp" in entry and main_file:  # Add timestamp if missing
                     main_path = os.path.join(main_dir, main_file)
@@ -547,19 +679,24 @@ def run_indexing():
                     if is_newer_timestamp(current_timestamp, entry.get("timestamp", "")):
                         entry["timestamp"] = current_timestamp
                         needs_category_update = True
+                        needs_data_update = True
                         changed = True
                 
-                # Add category if missing or needs update
-                if main_file and (not "category" in entry or needs_category_update):
+                # Check if data field is missing
+                if not "data" in entry:
+                    needs_data_update = True
+                
+                # Add category and data if missing or needs update
+                if main_file and (not "category" in entry or needs_category_update or needs_data_update):
                     main_path = os.path.join(main_dir, main_file)
                     if os.path.isfile(main_path):
                         entries_to_process.append((entry, main_path, base_name, "update"))
                 
-                if changed and not needs_category_update:
+                if changed and not (needs_category_update or needs_data_update):
                     updated_entries += 1
                     print(f"Updated metadata for: {base_name}")
                 
-                if not needs_category_update:
+                if not (needs_category_update or needs_data_update):
                     result.append(entry)
             else:
                 # Create a new entry
@@ -613,16 +750,23 @@ def run_indexing():
         
         # Process each image in the current batch
         for j, (entry, image_path, base_name, entry_type) in enumerate(batch):
-            category = identify_image(image_path)
-            entry["category"] = category
+            # Generate category if missing
+            if "category" not in entry:
+                category = identify_image(image_path)
+                entry["category"] = category
+            
+            # Generate data if missing
+            if "data" not in entry:
+                data = generate_image_data(image_path)
+                entry["data"] = data
             
             result.append(entry)
             if entry_type == "new":
                 new_entries += 1
-                print(f"New ({i+j+1}/{len(entries_to_process)}): {base_name} - {category}")
+                print(f"New ({i+j+1}/{len(entries_to_process)}): {base_name} - {entry.get('category', 'unknown')} - {len(entry.get('data', {}).get('tags', []))} tags")
             else:
                 updated_entries += 1
-                print(f"Updated ({i+j+1}/{len(entries_to_process)}): {base_name} - {category}")
+                print(f"Updated ({i+j+1}/{len(entries_to_process)}): {base_name} - {entry.get('category', 'unknown')} - {len(entry.get('data', {}).get('tags', []))} tags")
             
             # Update the index file after each image is processed
             try:
