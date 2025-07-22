@@ -29,6 +29,39 @@ BATCH_WAIT_TIME = 60  # seconds
 MAX_RETRIES = 2
 RETRY_DELAY = 10  # seconds
 
+# Available Gemini models (in order of preference)
+GEMINI_MODELS = [
+    'gemini-2.5-flash-lite-preview-06-17',
+    'gemini-2.0-flash-lite',
+    'gemini-1.5-flash',
+    'gemini-1.5-pro'
+]
+
+# Current model index
+current_model_index = 0
+
+def get_current_model():
+    """Get the current Gemini model to use."""
+    global current_model_index
+    if current_model_index < len(GEMINI_MODELS):
+        return GEMINI_MODELS[current_model_index]
+    else:
+        # If we've exhausted all models, reset to first one
+        current_model_index = 0
+        return GEMINI_MODELS[0]
+
+def switch_to_next_model():
+    """Switch to the next available Gemini model."""
+    global current_model_index
+    current_model_index += 1
+    if current_model_index < len(GEMINI_MODELS):
+        print(f"  → Switching to model: {GEMINI_MODELS[current_model_index]}")
+        return True
+    else:
+        print(f"  → All models exhausted, resetting to first model")
+        current_model_index = 0
+        return False
+
 def generate_image_data(image_path, retry_count=0):
     """Generate detailed image analysis data using Gemini with retry logic."""
     try:
@@ -52,99 +85,188 @@ def generate_image_data(image_path, retry_count=0):
             
             # Convert to bytes
             buffer = BytesIO()
-            img.save(buffer, format="JPEG")
+            img.save(buffer, format="JPEG", quality=85)
             image_bytes = buffer.getvalue()
         
         # Set up the Gemini model
-        model = genai.GenerativeModel('gemini-2.5-flash-lite-preview-06-17')
+        current_model = get_current_model()
+        model = genai.GenerativeModel(current_model)
+        print(f"  → Using model: {current_model}")
         
-        # Create the prompt with better structure
+        # Create a highly specific prompt optimized for algorithmic processing
         prompt = """
-        Analyze this image and return a JSON object with the following structure:
-
+        ANALYZE THIS IMAGE WITH EXTREME PRECISION FOR ALGORITHMIC CLASSIFICATION.
+        
+        Return ONLY this JSON structure with SPECIFIC STANDARDIZED TERMS:
+        
         {
-            "character_names": ["list of recognizable character names or empty array"],
-            "series": "anime/game/series name or unknown",
-            "art_style": "description of art style",
-            "color_scheme": "dominant colors description",
-            "mood": "emotional tone/mood",
-            "technique": "art technique used",
-            "scene_description": "what's happening in the image",
-            "type": "category like anime, game art, fan art, original art, abstract, etc.",
-            "tags": ["10-15 relevant tags covering characters, series, style, colors, mood, themes"]
+          "character_names": ["exact character names from anime/manga/games"],
+          "series": "exact franchise name or unknown",
+          "art_style": "SELECT ONE: anime | realistic | cartoon | pixel-art | digital-painting | oil-painting | watercolor | sketch | vector-art | 3d-render | photography | cel-shading | line-art | minimalist | abstract | grunge | vintage",
+          "primary_colors": ["SELECT 3-5 FROM: red | crimson | scarlet | maroon | pink | rose | magenta | fuchsia | orange | coral | peach | yellow | gold | amber | green | emerald | lime | forest | cyan | teal | blue | azure | navy | purple | violet | lavender | brown | tan | beige | black | charcoal | gray | silver | white | cream"],
+          "secondary_colors": ["SELECT 2-4 FROM ABOVE COLOR LIST"],
+          "color_palette": "SELECT ONE: monochromatic | complementary | analogous | triadic | warm-tones | cool-tones | pastel | vibrant | muted | high-contrast | low-contrast | neon | earth-tones | jewel-tones",
+          "mood": "SELECT ONE: cheerful | melancholic | energetic | calm | mysterious | romantic | dramatic | peaceful | intense | playful | serious | nostalgic | dreamy | dark | bright",
+          "technique": "SELECT ONE: digital-painting | traditional-painting | photography | 3d-rendering | vector-graphics | pixel-art | mixed-media | pencil-drawing | ink-drawing | watercolor | oil-painting | acrylic-painting",
+          "scene_description": "detailed description of what is shown",
+          "character_details": {
+            "hair_color": "SELECT FROM COLOR LIST or unknown",
+            "eye_color": "SELECT FROM COLOR LIST or unknown",
+            "clothing_style": "SELECT ONE: casual | formal | fantasy | modern | traditional | futuristic | gothic | cute | elegant | sporty | military | school-uniform or unknown",
+            "pose": "SELECT ONE: standing | sitting | lying | running | walking | dancing | fighting | flying | crouching | kneeling | portrait-pose or unknown",
+            "facial_expression": "SELECT ONE: happy | sad | angry | surprised | neutral | smiling | serious | cute | determined | shy | confident or unknown"
+          },
+          "environment": "SELECT ONE: indoor | outdoor | fantasy-world | urban | natural | space | underwater | sky | abstract-background | studio | bedroom | kitchen | park | forest | beach | mountain | city | desert | winter | summer | spring | autumn",
+          "lighting": "SELECT ONE: natural-daylight | artificial-light | sunset | sunrise | golden-hour | blue-hour | night | neon | backlit | front-lit | side-lit | dramatic | soft | harsh | ambient | spotlight | candlelight",
+          "composition": "SELECT ONE: portrait | landscape | close-up | wide-shot | medium-shot | centered | rule-of-thirds | symmetrical | asymmetrical | diagonal | vertical | horizontal",
+          "art_quality": "SELECT ONE: professional | high-detail | medium-detail | sketch-quality | rough | polished | photorealistic | stylized | simple | complex",
+          "style_influences": ["SELECT FROM: anime | manga | western-animation | disney | pixar | ghibli | cyberpunk | steampunk | gothic | kawaii | chibi | realistic | impressionism | surrealism | pop-art | art-nouveau | minimalism"],
+          "objects": ["list prominent objects/items visible"],
+          "textures": ["SELECT FROM: smooth | rough | metallic | fabric | glass | wood | stone | plastic | fur | skin | water | fire | clouds | grass | concrete | brick | leather"],
+          "type": "SELECT ONE: character-portrait | full-body-character | multiple-characters | landscape | still-life | abstract-art | vehicle | animal | food | architecture | nature | technology | weapon | clothing | accessories",
+          "tags": ["15-20 SPECIFIC searchable tags covering: character-name, series-name, colors, art-style, mood, objects, environment, lighting, pose, clothing, hair-color, eye-color, technique, quality, composition"]
         }
-
-        Focus on:
-        - Character identification (anime/game characters)
-        - Art style and technique
-        - Color scheme and mood
-        - Scene content
-        - Relevant searchable tags
-
-        Return ONLY the JSON object, no other text.
-        """
         
-        # Call the Gemini API
-        response = model.generate_content([prompt, {"mime_type": "image/jpeg", "data": image_bytes}])
+        CRITICAL REQUIREMENTS:
+        - Use EXACT terms from the SELECT lists above
+        - For colors: Use specific names like "crimson", "azure", "emerald" NOT generic terms
+        - Include character names if recognizable from popular media
+        - Include series/franchise names if identifiable  
+        - Tags must be hyphenated (e.g., "blue-hair", "night-scene", "fantasy-art")
+        - Provide 15-20 tags for maximum searchability
+        - Use "unknown" only when truly not applicable
         
-        # Check if response is blocked
-        if hasattr(response, 'prompt_feedback') and response.prompt_feedback:
-            if hasattr(response.prompt_feedback, 'block_reason'):
-                print(f"  → Prompt blocked for {os.path.basename(image_path)}: {response.prompt_feedback.block_reason}")
-                return generate_fallback_data(image_path)
+        Return ONLY the JSON object, no explanations."""
         
-        # Check if response is empty
-        if not response.text or not response.text.strip():
-            print(f"  → Empty response for {os.path.basename(image_path)}")
+        # Configure generation parameters for better consistency
+        generation_config = {
+            "temperature": 0.1,
+            "top_p": 0.8,
+            "top_k": 40,
+            "max_output_tokens": 2048,
+        }
+        
+        # Call the Gemini API with safety settings
+        safety_settings = [
+            {
+                "category": "HARM_CATEGORY_HARASSMENT",
+                "threshold": "BLOCK_MEDIUM_AND_ABOVE"
+            },
+            {
+                "category": "HARM_CATEGORY_HATE_SPEECH",
+                "threshold": "BLOCK_MEDIUM_AND_ABOVE"
+            },
+            {
+                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                "threshold": "BLOCK_MEDIUM_AND_ABOVE"
+            },
+            {
+                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                "threshold": "BLOCK_MEDIUM_AND_ABOVE"
+            }
+        ]
+        
+        try:
+            response = model.generate_content(
+                [prompt, {"mime_type": "image/jpeg", "data": image_bytes}],
+                generation_config=generation_config,
+                safety_settings=safety_settings
+            )
+        except Exception as api_error:
+            error_msg = str(api_error).lower()
+            print(f"  → API Error: {str(api_error)}")
+            
+            # Check if it's a rate limit or quota error
+            if any(keyword in error_msg for keyword in ["rate limit", "quota", "429", "resource has been exhausted"]):
+                print(f"  → Rate limit/quota hit, attempting to switch models...")
+                if switch_to_next_model():
+                    print(f"  → Retrying with new model in {RETRY_DELAY} seconds...")
+                    time.sleep(RETRY_DELAY)
+                    return generate_image_data(image_path, retry_count)
+                else:
+                    print(f"  → All models exhausted, waiting longer...")
+                    time.sleep(BATCH_WAIT_TIME)  # Wait longer before retrying with first model
+            
             if retry_count < MAX_RETRIES:
-                print(f"  → Retrying in {RETRY_DELAY} seconds... (attempt {retry_count + 1}/{MAX_RETRIES})")
+                print(f"  → Retrying in {RETRY_DELAY} seconds... (attempt {retry_count + 1}/{MAX_RETRIES + 1})")
                 time.sleep(RETRY_DELAY)
                 return generate_image_data(image_path, retry_count + 1)
             return generate_fallback_data(image_path)
         
-        # Parse JSON response
+        # Check for blocked content
+        if hasattr(response, 'prompt_feedback') and response.prompt_feedback:
+            if hasattr(response.prompt_feedback, 'block_reason'):
+                print(f"  → Content blocked: {response.prompt_feedback.block_reason}")
+                return generate_fallback_data(image_path)
+        
+        # Check if candidates are empty
+        if not hasattr(response, 'candidates') or not response.candidates:
+            print(f"  → No response candidates generated")
+            if retry_count < MAX_RETRIES:
+                print(f"  → Retrying in {RETRY_DELAY} seconds... (attempt {retry_count + 1}/{MAX_RETRIES + 1})")
+                time.sleep(RETRY_DELAY)
+                return generate_image_data(image_path, retry_count + 1)
+            return generate_fallback_data(image_path)
+        
+        # Check if response text is available
+        if not hasattr(response, 'text') or not response.text or not response.text.strip():
+            print(f"  → Empty response text")
+            if retry_count < MAX_RETRIES:
+                print(f"  → Retrying in {RETRY_DELAY} seconds... (attempt {retry_count + 1}/{MAX_RETRIES + 1})")
+                time.sleep(RETRY_DELAY)
+                return generate_image_data(image_path, retry_count + 1)
+            return generate_fallback_data(image_path)
+        
+        # Parse JSON response with enhanced error handling
         try:
             response_text = response.text.strip()
             
-            # Clean up response text
+            # Enhanced JSON cleaning
             response_text = clean_json_response(response_text)
             
+            # Try to parse JSON
             data = json.loads(response_text)
             
-            # Validate and clean the data
-            cleaned_data = {
-                "character_names": data.get("character_names", []) if isinstance(data.get("character_names"), list) else [],
-                "series": str(data.get("series", "unknown")),
-                "art_style": str(data.get("art_style", "unknown")),
-                "color_scheme": str(data.get("color_scheme", "unknown")),
-                "mood": str(data.get("mood", "unknown")),
-                "technique": str(data.get("technique", "unknown")),
-                "scene_description": str(data.get("scene_description", "unknown")),
-                "type": str(data.get("type", "unknown")),
-                "tags": data.get("tags", []) if isinstance(data.get("tags"), list) else []
-            }
-            
-            # Ensure tags is a list of strings
-            cleaned_data["tags"] = [str(tag) for tag in cleaned_data["tags"] if tag]
+            # Validate and clean the data with enhanced structure
+            cleaned_data = validate_and_clean_data(data)
             
             return cleaned_data
             
         except json.JSONDecodeError as e:
-            print(f"  → JSON parsing error for {os.path.basename(image_path)}: {str(e)}")
+            print(f"  → JSON parsing failed: {str(e)[:100]}...")
+            # Try to extract and fix common JSON issues
+            try:
+                fixed_json = fix_json_response(response.text)
+                if fixed_json:
+                    data = json.loads(fixed_json)
+                    cleaned_data = validate_and_clean_data(data)
+                    return cleaned_data
+            except:
+                pass
+            
             if retry_count < MAX_RETRIES:
-                print(f"  → Retrying in {RETRY_DELAY} seconds... (attempt {retry_count + 1}/{MAX_RETRIES})")
+                print(f"  → Retrying in {RETRY_DELAY} seconds... (attempt {retry_count + 1}/{MAX_RETRIES + 1})")
                 time.sleep(RETRY_DELAY)
                 return generate_image_data(image_path, retry_count + 1)
             return generate_fallback_data(image_path)
 
     except Exception as e:
         error_msg = str(e)
-        print(f"  → Error generating image data for {os.path.basename(image_path)}: {error_msg}")
+        print(f"  → Unexpected error: {error_msg[:100]}...")
         
-        # Check for specific error types that might benefit from retry
-        if "blocked prompt" in error_msg.lower() or "empty" in error_msg.lower():
+        # Check for specific error types that might benefit from retry or model switching
+        if any(keyword in error_msg.lower() for keyword in ["blocked", "empty", "timeout", "rate limit", "quota", "429"]):
+            if any(keyword in error_msg.lower() for keyword in ["rate limit", "quota", "429"]):
+                print(f"  → Rate limit detected, attempting to switch models...")
+                if switch_to_next_model():
+                    print(f"  → Retrying with new model...")
+                    return generate_image_data(image_path, retry_count)
+                else:
+                    print(f"  → All models exhausted, waiting longer...")
+                    time.sleep(BATCH_WAIT_TIME)
+            
             if retry_count < MAX_RETRIES:
-                print(f"  → Retrying in {RETRY_DELAY} seconds... (attempt {retry_count + 1}/{MAX_RETRIES})")
+                print(f"  → Retrying in {RETRY_DELAY} seconds... (attempt {retry_count + 1}/{MAX_RETRIES + 1})")
                 time.sleep(RETRY_DELAY)
                 return generate_image_data(image_path, retry_count + 1)
         
@@ -170,60 +292,201 @@ def clean_json_response(response_text):
     if json_end > 0:
         response_text = response_text[:json_end + 1]
     
+    # Fix common JSON issues
+    response_text = response_text.replace('\\n', ' ').replace('\\t', ' ')
+    response_text = re.sub(r'\s+', ' ', response_text)
+    
     return response_text.strip()
 
+def fix_json_response(response_text):
+    """Attempt to fix common JSON formatting issues."""
+    try:
+        # Remove markdown and extra text
+        cleaned = clean_json_response(response_text)
+        
+        # Try to fix missing quotes around keys
+        cleaned = re.sub(r'(\w+):', r'"\1":', cleaned)
+        
+        # Fix trailing commas
+        cleaned = re.sub(r',(\s*[}\]])', r'\1', cleaned)
+        
+        # Try to validate the structure
+        if cleaned.startswith('{') and cleaned.endswith('}'):
+            return cleaned
+        
+        return None
+    except:
+        return None
+
+def validate_and_clean_data(data):
+    """Validate and clean the parsed JSON data."""
+    # Ensure all required fields exist with proper types
+    cleaned_data = {
+        "character_names": data.get("character_names", []) if isinstance(data.get("character_names"), list) else [],
+        "series": str(data.get("series", "unknown")),
+        "art_style": str(data.get("art_style", "unknown")),
+        "primary_colors": data.get("primary_colors", []) if isinstance(data.get("primary_colors"), list) else [],
+        "secondary_colors": data.get("secondary_colors", []) if isinstance(data.get("secondary_colors"), list) else [],
+        "color_palette": str(data.get("color_palette", "unknown")),
+        "mood": str(data.get("mood", "unknown")),
+        "technique": str(data.get("technique", "unknown")),
+        "scene_description": str(data.get("scene_description", "unknown")),
+        "character_details": {
+            "hair_color": str(data.get("character_details", {}).get("hair_color", "unknown")),
+            "eye_color": str(data.get("character_details", {}).get("eye_color", "unknown")),
+            "clothing_style": str(data.get("character_details", {}).get("clothing_style", "unknown")),
+            "pose": str(data.get("character_details", {}).get("pose", "unknown")),
+            "facial_expression": str(data.get("character_details", {}).get("facial_expression", "unknown"))
+        },
+        "environment": str(data.get("environment", "unknown")),
+        "lighting": str(data.get("lighting", "unknown")),
+        "composition": str(data.get("composition", "unknown")),
+        "art_quality": str(data.get("art_quality", "unknown")),
+        "style_influences": data.get("style_influences", []) if isinstance(data.get("style_influences"), list) else [],
+        "objects": data.get("objects", []) if isinstance(data.get("objects"), list) else [],
+        "textures": data.get("textures", []) if isinstance(data.get("textures"), list) else [],
+        "type": str(data.get("type", "unknown")),
+        "tags": data.get("tags", []) if isinstance(data.get("tags"), list) else []
+    }
+    
+    # Ensure all array fields contain only strings and remove empty values
+    for key in ["character_names", "primary_colors", "secondary_colors", "style_influences", "objects", "textures", "tags"]:
+        cleaned_data[key] = [str(item).strip() for item in cleaned_data[key] if item and str(item).strip()]
+    
+    # Ensure we have at least some tags
+    if not cleaned_data["tags"]:
+        # Generate some basic tags from other fields
+        basic_tags = []
+        if cleaned_data["type"] != "unknown":
+            basic_tags.append(cleaned_data["type"])
+        if cleaned_data["primary_colors"]:
+            basic_tags.extend(cleaned_data["primary_colors"][:3])
+        if cleaned_data["mood"] != "unknown":
+            basic_tags.append(cleaned_data["mood"])
+        cleaned_data["tags"] = basic_tags
+    
+    return cleaned_data
+
 def generate_fallback_data(image_path):
-    """Generate fallback data based on filename analysis."""
+    """Generate enhanced fallback data based on filename analysis."""
     filename = os.path.basename(image_path).lower()
     base_name = os.path.splitext(filename)[0]
     
     # Basic categorization based on filename
     fallback_type = "unknown"
     fallback_tags = []
+    primary_colors = []
+    secondary_colors = []
     
-    # Simple keyword matching
-    if any(word in base_name for word in ['anime', 'manga', 'waifu', 'girl', 'boy']):
-        fallback_type = "anime"
-        fallback_tags.extend(["anime", "manga"])
-    elif any(word in base_name for word in ['abstract', 'geometric', 'pattern']):
-        fallback_type = "abstract"
-        fallback_tags.extend(["abstract", "geometric"])
-    elif any(word in base_name for word in ['nature', 'landscape', 'forest', 'mountain']):
-        fallback_type = "nature"
-        fallback_tags.extend(["nature", "landscape"])
-    elif any(word in base_name for word in ['car', 'vehicle', 'bike', 'motorcycle']):
-        fallback_type = "automotive"
-        fallback_tags.extend(["car", "vehicle"])
-    elif any(word in base_name for word in ['tech', 'cyber', 'digital', 'neon']):
-        fallback_type = "tech"
-        fallback_tags.extend(["tech", "digital"])
+    # Enhanced keyword matching
+    type_keywords = {
+        "anime": ["anime", "manga", "waifu", "girl", "boy", "character", "kawaii"],
+        "abstract": ["abstract", "geometric", "pattern", "lines", "shapes"],
+        "nature": ["nature", "landscape", "forest", "mountain", "tree", "flower", "sky"],
+        "automotive": ["car", "vehicle", "bike", "motorcycle", "road", "racing"],
+        "tech": ["tech", "cyber", "digital", "neon", "circuit", "robot"],
+        "architecture": ["building", "house", "tower", "bridge", "city", "urban"],
+        "minimal": ["minimal", "clean", "simple", "basic", "plain"],
+        "dark": ["dark", "night", "shadow", "black", "gothic"],
+        "fantasy": ["fantasy", "magic", "dragon", "castle", "fairy"]
+    }
     
-    # Color detection from filename
-    colors = ['red', 'blue', 'green', 'yellow', 'purple', 'orange', 'pink', 'black', 'white', 'grey', 'gray']
-    for color in colors:
-        if color in base_name:
-            fallback_tags.append(color)
+    for category, keywords in type_keywords.items():
+        if any(word in base_name for word in keywords):
+            fallback_type = category
+            fallback_tags.extend(keywords[:2])
+            break
     
-    # Add filename-based tags
+    # Enhanced color detection
+    color_map = {
+        "red": ["red", "crimson", "scarlet", "rose"],
+        "blue": ["blue", "azure", "navy", "cyan", "teal"],
+        "green": ["green", "emerald", "lime", "forest"],
+        "yellow": ["yellow", "gold", "amber", "lemon"],
+        "purple": ["purple", "violet", "magenta", "lavender"],
+        "orange": ["orange", "coral", "peach", "sunset"],
+        "pink": ["pink", "rose", "blush", "cherry"],
+        "black": ["black", "dark", "shadow", "night"],
+        "white": ["white", "light", "bright", "snow"],
+        "brown": ["brown", "tan", "beige", "wood"],
+        "gray": ["gray", "grey", "silver", "steel"]
+    }
+    
+    for main_color, variations in color_map.items():
+        for variation in variations:
+            if variation in base_name:
+                if main_color not in primary_colors:
+                    primary_colors.append(main_color)
+                    fallback_tags.append(main_color)
+                break
+    
+    # Extract descriptive words from filename
     words = re.findall(r'[a-zA-Z]+', base_name)
-    fallback_tags.extend([word for word in words if len(word) > 2 and word not in ['png', 'jpg', 'jpeg', 'webp']])
+    meaningful_words = [word for word in words if len(word) > 2 and word not in ['png', 'jpg', 'jpeg', 'webp', 'image', 'wallpaper']]
+    fallback_tags.extend(meaningful_words[:5])
     
     # Remove duplicates and limit tags
-    fallback_tags = list(set(fallback_tags))[:10]
+    fallback_tags = list(dict.fromkeys(fallback_tags))[:12]  # Preserve order while removing duplicates
     
-    print(f"  → Using fallback data with {len(fallback_tags)} tags")
+    print(f"  → Enhanced fallback data: {len(fallback_tags)} tags, {len(primary_colors)} colors")
     
     return {
         "character_names": [],
         "series": "unknown",
-        "art_style": "unknown",
-        "color_scheme": "unknown",
+        "art_style": f"unknown - {fallback_type} style" if fallback_type != "unknown" else "unknown",
+        "primary_colors": primary_colors[:5],
+        "secondary_colors": secondary_colors,
+        "color_palette": f"{', '.join(primary_colors)} tones" if primary_colors else "unknown",
         "mood": "unknown",
         "technique": "unknown",
-        "scene_description": "unknown",
+        "scene_description": f"appears to be {fallback_type} related content" if fallback_type != "unknown" else "unknown",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "unknown",
+            "pose": "unknown",
+            "facial_expression": "unknown"
+        },
+        "environment": "unknown",
+        "lighting": "unknown",
+        "composition": "unknown",
+        "art_quality": "unknown",
+        "style_influences": [fallback_type] if fallback_type != "unknown" else [],
+        "objects": meaningful_words[:3],
+        "textures": [],
         "type": fallback_type,
         "tags": fallback_tags
     }
+
+def check_model_availability():
+    """Check which Gemini models are available and working."""
+    global GEMINI_MODELS, current_model_index
+    
+    print("Checking model availability...")
+    working_models = []
+    
+    for i, model_name in enumerate(GEMINI_MODELS):
+        try:
+            model = genai.GenerativeModel(model_name)
+            # Try a simple test
+            response = model.generate_content("Test", generation_config={"max_output_tokens": 10})
+            if response.text:
+                working_models.append(model_name)
+                print(f"  ✓ {model_name} - Available")
+            else:
+                print(f"  ✗ {model_name} - No response")
+        except Exception as e:
+            print(f"  ✗ {model_name} - Error: {str(e)[:50]}...")
+    
+    if working_models:
+        print(f"Found {len(working_models)} working models out of {len(GEMINI_MODELS)}")
+        # Update the global model list to only include working models
+        GEMINI_MODELS = working_models
+        current_model_index = 0
+        return True
+    else:
+        print("No working models found!")
+        return False
 
 def get_file_without_extension(filename):
     return os.path.splitext(filename)[0]
@@ -233,6 +496,11 @@ def update_image_data():
     print("=" * 60)
     print("IMAGE DATA UPDATE SCRIPT")
     print("=" * 60)
+    
+    # Check model availability first
+    if not check_model_availability():
+        print("Cannot proceed without working models. Please check your API key and internet connection.")
+        return
     
     # Load existing index.json if it exists
     existing_data = []
