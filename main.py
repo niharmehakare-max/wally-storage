@@ -114,7 +114,7 @@ def generate_filename(image_path):
             image_bytes = buffer.getvalue()
         
         # Set up the Gemini model
-        model = genai.GenerativeModel('gemini-2.0-flash-lite')
+        model = genai.GenerativeModel('gemini-2.5-flash-lite-preview-06-17')
         
         # Create the prompt
         prompt = """
@@ -362,7 +362,7 @@ def identify_image(image_path):
             image_bytes = buffer.getvalue()
         
         # Set up the Gemini model
-        model = genai.GenerativeModel('gemini-2.0-flash-lite')
+        model = genai.GenerativeModel('gemini-2.5-flash-lite-preview-06-17')
         
         # Create the prompt
         prompt = f"""
@@ -489,7 +489,7 @@ def generate_image_data(image_path):
             image_bytes = buffer.getvalue()
         
         # Set up the Gemini model
-        model = genai.GenerativeModel('gemini-2.0-flash')
+        model = genai.GenerativeModel('gemini-2.5-flash-lite-preview-06-17')
         
         # Create a highly specific prompt optimized for algorithmic processing
         prompt = """
