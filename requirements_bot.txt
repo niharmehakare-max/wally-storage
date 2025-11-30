@@ -1,0 +1,11 @@
+# Telegram Bot
+aiogram==3.7.0
+
+# Already required by main.py
+Pillow
+google-generativeai
+python-dotenv
+
+# Note: The following are already in your environment from main.py:
+# - requests
+# - sqlite3 (built-in)
