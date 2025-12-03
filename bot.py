@@ -46,7 +46,6 @@ destination_dir = r"D:\storage\cache"
 main_dir = r"D:\storage\main"
 output_file = r"D:\storage\index.json"
 db_file = r"D:\storage\processed_files.db"
-log_file = r"D:\storage\bot_activity.log"
 
 # Ensure directories exist
 os.makedirs(temp_download_dir, exist_ok=True)
@@ -62,8 +61,9 @@ RETRY_DELAY = 10
 # Available Gemini models
 GEMINI_MODELS = [
     'gemini-2.5-flash-lite',
-    'gemini-2.5-flash',
-    'gemini-2.5-flash-preview',
+    'gemini-2.0-flash-lite',
+    'gemini-1.5-flash',
+    'gemini-1.5-pro'
 ]
 
 # Current model index
@@ -578,7 +578,7 @@ def compress_and_process_image(source_path, filename):
         # Copy to main directory
         main_path = os.path.join(main_dir, new_filename)
         shutil.copy2(source_path, main_path)
-        log_activity(f"Copied: {filename} -> {new_filename}")
+        print(f"Copied: {filename} -> {new_filename}")
         
         # Create compressed WebP version
         destination_path = os.path.join(destination_dir, os.path.splitext(new_filename)[0] + ".webp")
@@ -595,7 +595,7 @@ def compress_and_process_image(source_path, filename):
                 else:
                     new_height = max_dimension
                     new_width = math.floor(width * (max_dimension / height))
-                img = img.resize((new_width, new_height), Image.Resampling.LANCZOS)
+                img = img.resize((new_width, new_height), Image.LANCZOS)
             
             # Determine quality based on size
             original_size = os.path.getsize(source_path) / 1024
@@ -804,7 +804,6 @@ async def cmd_start(message: Message):
         "Commands:\n"
         "/begin - Start collecting images\n"
         "/end - Process collected images\n"
-        "/retry - Retry unprocessed images\n"
         "/cancel - Cancel current operation\n"
         "/status - Check bot status"
     )
@@ -868,77 +867,6 @@ async def cmd_cancel(message: Message, state: FSMContext):
     
     await state.clear()
     await message.answer("❌ Operation cancelled.")
-
-@dp.message(Command("retry"))
-async def cmd_retry(message: Message):
-    """Retry processing images left in temp directory."""
-    if not check_authorized(message):
-        await message.answer("❌ You are not authorized to use this bot.")
-        return
-    
-    # Get processed files from DB
-    processed_files = set()
-    try:
-        conn = sqlite3.connect(db_file)
-        cursor = conn.cursor()
-        cursor.execute('SELECT original_name FROM processed_files')
-        processed_files = {row[0] for row in cursor.fetchall()}
-        conn.close()
-    except Exception as e:
-        await message.answer(f"⚠️ Error reading database: {e}")
-    
-    # Also check log file for "Copied: ... ->" pattern
-    try:
-        if os.path.exists(log_file):
-            with open(log_file, 'r', encoding='utf-8') as f:
-                for line in f:
-                    if "Copied:" in line and "->" in line:
-                        try:
-                            # Extract filename: "Copied: original.jpg -> new.jpg"
-                            parts = line.split("Copied:")[1].split("->")[0].strip()
-                            processed_files.add(parts)
-                        except:
-                            pass
-    except Exception as e:
-        print(f"Error reading log file: {e}")
-
-    # Scan temp directory
-    files = []
-    cleaned_count = 0
-    try:
-        if os.path.exists(temp_download_dir):
-            for f in os.listdir(temp_download_dir):
-                file_path = os.path.join(temp_download_dir, f)
-                
-                # Skip if already processed and clean it up
-                if f in processed_files:
-                    try:
-                        os.remove(file_path)
-                        cleaned_count += 1
-                    except:
-                        pass
-                    continue
-                    
-                if os.path.isfile(file_path):
-                    # Check extension
-                    ext = os.path.splitext(f)[1].lower()
-                    if ext in ['.jpg', '.jpeg', '.png', '.webp']:
-                        files.append(file_path)
-    except Exception as e:
-        await message.answer(f"❌ Error scanning temp directory: {str(e)}")
-        return
-    
-    if not files:
-        msg = "✅ No unprocessed images found in temp directory."
-        if cleaned_count > 0:
-            msg += f"\n(Cleaned up {cleaned_count} already processed files)"
-        await message.answer(msg)
-        return
-    
-    await message.answer(f"🔄 Found {len(files)} unprocessed images. Retrying...\n(Cleaned up {cleaned_count} already processed files)")
-    
-    # Process images
-    await process_images_batch(files, message)
 
 @dp.message(Command("status"))
 async def cmd_status(message: Message):
