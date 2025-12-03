@@ -109084,5 +109084,1914 @@
                 "art-style-anime"
             ]
         }
+    },
+    {
+        "file_name": "forest-road-trip-bus",
+        "file_cache_name": "forest-road-trip-bus.webp",
+        "file_main_name": "forest-road-trip-bus.jpg",
+        "width": 5740,
+        "height": 10240,
+        "resolution": "8K",
+        "orientation": "Mobile",
+        "timestamp": "2025-12-03T06:14:36.944788+00:00",
+        "category": "#nature",
+        "data": {
+            "character_names": [
+                "unknown"
+            ],
+            "series": "unknown",
+            "art_style": "digital-painting",
+            "primary_colors": [
+                "green",
+                "yellow",
+                "black",
+                "white",
+                "tan"
+            ],
+            "secondary_colors": [
+                "forest",
+                "lime",
+                "cream"
+            ],
+            "color_palette": "warm-tones",
+            "mood": "calm",
+            "technique": "digital-painting",
+            "scene_description": "A stylized forest scene with a winding road. A vintage camper van is driving on the road, and a person on a bicycle is following behind it. The trees are depicted in various shades of green and yellow, with some dark silhouettes.",
+            "character_details": {
+                "hair_color": "unknown",
+                "eye_color": "unknown",
+                "clothing_style": "unknown",
+                "pose": "riding",
+                "facial_expression": "unknown"
+            },
+            "environment": "natural",
+            "lighting": "natural-daylight",
+            "composition": "rule-of-thirds",
+            "art_quality": "polished",
+            "style_influences": [
+                "stylized"
+            ],
+            "objects": [
+                "camper van",
+                "bicycle",
+                "trees",
+                "road"
+            ],
+            "textures": [
+                "smooth",
+                "fabric",
+                "grass",
+                "wood"
+            ],
+            "type": "full-body-character",
+            "tags": [
+                "forest-scene",
+                "stylized-art",
+                "digital-painting",
+                "green-trees",
+                "yellow-foliage",
+                "camper-van",
+                "bicycle-rider",
+                "winding-road",
+                "natural-light",
+                "calm-mood",
+                "vintage-style",
+                "nature-illustration",
+                "outdoor-scene",
+                "road-trip",
+                "summer-vibe",
+                "earth-tones",
+                "graphic-design",
+                "illustration",
+                "foliage",
+                "trees"
+            ]
+        }
+    },
+    {
+        "file_name": "willow-cats-landscape",
+        "file_cache_name": "willow-cats-landscape.webp",
+        "file_main_name": "willow-cats-landscape.jpg",
+        "width": 5740,
+        "height": 10240,
+        "resolution": "8K",
+        "orientation": "Mobile",
+        "timestamp": "2025-12-03T06:14:43.863607+00:00",
+        "category": "#art",
+        "data": {
+            "character_names": [
+                "unknown"
+            ],
+            "series": "unknown",
+            "art_style": "digital-painting",
+            "primary_colors": [
+                "green",
+                "lime",
+                "tan",
+                "black",
+                "white"
+            ],
+            "secondary_colors": [
+                "cream",
+                "gray"
+            ],
+            "color_palette": "warm-tones",
+            "mood": "calm",
+            "technique": "digital-painting",
+            "scene_description": "A serene landscape painting featuring numerous weeping willow trees with lush green foliage. In the foreground, a black cat sits on a grassy slope, and a small white cat is positioned slightly further down the slope. The background is a soft, pale yellow, suggesting a gentle, diffused light.",
+            "character_details": {
+                "hair_color": "unknown",
+                "eye_color": "unknown",
+                "clothing_style": "unknown",
+                "pose": "sitting",
+                "facial_expression": "neutral"
+            },
+            "environment": "natural",
+            "lighting": "ambient",
+            "composition": "landscape",
+            "art_quality": "high-detail",
+            "style_influences": [
+                "anime"
+            ],
+            "objects": [
+                "cat",
+                "tree",
+                "grass"
+            ],
+            "textures": [
+                "fabric",
+                "grass",
+                "wood"
+            ],
+            "type": "multiple-characters",
+            "tags": [
+                "cat",
+                "black-cat",
+                "white-cat",
+                "weeping-willow",
+                "trees",
+                "green-foliage",
+                "grassy-slope",
+                "calm-scene",
+                "serene-landscape",
+                "nature-art",
+                "digital-painting",
+                "ambient-lighting",
+                "minimalist-style",
+                "animal-art",
+                "outdoor-scene",
+                "soft-colors",
+                "peaceful-mood",
+                "stylized-art",
+                "tan-background",
+                "white-cat-sitting"
+            ]
+        }
+    },
+    {
+        "file_name": "minimal-pink-sun-mountains",
+        "file_cache_name": "minimal-pink-sun-mountains.webp",
+        "file_main_name": "minimal-pink-sun-mountains.png",
+        "width": 5120,
+        "height": 10240,
+        "resolution": "8K",
+        "orientation": "Mobile",
+        "timestamp": "2025-12-03T06:14:44.511995+00:00",
+        "category": "#nature",
+        "data": {
+            "character_names": [],
+            "series": "unknown",
+            "art_style": "digital-painting",
+            "primary_colors": [
+                "white",
+                "gray",
+                "blue",
+                "orange",
+                "pink"
+            ],
+            "secondary_colors": [
+                "cyan",
+                "peach"
+            ],
+            "color_palette": "pastel",
+            "mood": "calm",
+            "technique": "digital-painting",
+            "scene_description": "A soft, ethereal landscape featuring a large, glowing orange orb resembling a sun or moon, positioned above a hazy, blue-toned mountain range. The background is a gradient of pale white and light gray, with subtle hints of pink and peach around the orb.",
+            "character_details": {
+                "hair_color": "unknown",
+                "eye_color": "unknown",
+                "clothing_style": "unknown",
+                "pose": "unknown",
+                "facial_expression": "unknown"
+            },
+            "environment": "natural",
+            "lighting": "ambient",
+            "composition": "vertical",
+            "art_quality": "polished",
+            "style_influences": [
+                "minimalist"
+            ],
+            "objects": [
+                "sun",
+                "moon",
+                "mountain"
+            ],
+            "textures": [
+                "smooth",
+                "clouds"
+            ],
+            "type": "landscape",
+            "tags": [
+                "landscape",
+                "minimalist",
+                "calm",
+                "pastel-colors",
+                "soft-lighting",
+                "digital-art",
+                "ethereal",
+                "dreamy",
+                "orange-orb",
+                "blue-mountains",
+                "hazy",
+                "gradient-background",
+                "serene",
+                "nature-scene",
+                "abstract-landscape",
+                "peaceful",
+                "ambient-light",
+                "white-background",
+                "pink-hues",
+                "peach-tones"
+            ]
+        }
+    },
+    {
+        "file_name": "black-cat-open-sky",
+        "file_cache_name": "black-cat-open-sky.webp",
+        "file_main_name": "black-cat-open-sky.jpg",
+        "width": 4840,
+        "height": 8640,
+        "resolution": "8K",
+        "orientation": "Mobile",
+        "timestamp": "2025-12-03T06:14:47.450286+00:00",
+        "category": "#anime",
+        "data": {
+            "character_names": [
+                "unknown"
+            ],
+            "series": "unknown",
+            "art_style": "anime",
+            "primary_colors": [
+                "green",
+                "blue",
+                "white",
+                "black",
+                "tan"
+            ],
+            "secondary_colors": [
+                "cyan",
+                "gray"
+            ],
+            "color_palette": "natural-tones",
+            "mood": "calm",
+            "technique": "watercolor",
+            "scene_description": "A black cat sits on a grassy hill, looking out at a vast landscape of green fields, a winding path, a body of water, and a sky filled with clouds and numerous white birds in flight. A large tree branch extends from the upper left corner.",
+            "character_details": {
+                "hair_color": "unknown",
+                "eye_color": "unknown",
+                "clothing_style": "unknown",
+                "pose": "sitting",
+                "facial_expression": "neutral"
+            },
+            "environment": "natural",
+            "lighting": "natural-daylight",
+            "composition": "rule-of-thirds",
+            "art_quality": "high-detail",
+            "style_influences": [
+                "anime",
+                "ghibli"
+            ],
+            "objects": [
+                "cat",
+                "tree",
+                "grass",
+                "clouds",
+                "birds",
+                "water",
+                "path"
+            ],
+            "textures": [
+                "grass",
+                "fabric",
+                "clouds",
+                "water",
+                "wood"
+            ],
+            "type": "full-body-character",
+            "tags": [
+                "black-cat",
+                "cat-sitting",
+                "grassy-hill",
+                "landscape",
+                "nature-scene",
+                "birds-in-flight",
+                "clouds",
+                "blue-sky",
+                "green-fields",
+                "winding-path",
+                "ocean-view",
+                "tree-branch",
+                "calm-mood",
+                "watercolor-art",
+                "anime-style",
+                "ghibli-inspired",
+                "outdoor-scene",
+                "daylight",
+                "serene-atmosphere",
+                "animal-portrait"
+            ]
+        }
+    },
+    {
+        "file_name": "stylized-forest-pattern",
+        "file_cache_name": "stylized-forest-pattern.webp",
+        "file_main_name": "stylized-forest-pattern.jpg",
+        "width": 5740,
+        "height": 10240,
+        "resolution": "8K",
+        "orientation": "Mobile",
+        "timestamp": "2025-12-03T06:14:49.851115+00:00",
+        "category": "#nature",
+        "data": {
+            "character_names": [],
+            "series": "unknown",
+            "art_style": "digital-painting",
+            "primary_colors": [
+                "green",
+                "gray",
+                "brown",
+                "white",
+                "black"
+            ],
+            "secondary_colors": [
+                "tan",
+                "forest",
+                "emerald",
+                "charcoal"
+            ],
+            "color_palette": "earth-tones",
+            "mood": "calm",
+            "technique": "digital-painting",
+            "scene_description": "A stylized illustration of a forest with various trees of different shapes and sizes. The trees are rendered with textured patterns and are set against a neutral gray background with small white tufts representing grass or foliage.",
+            "character_details": {
+                "hair_color": "unknown",
+                "eye_color": "unknown",
+                "clothing_style": "unknown",
+                "pose": "unknown",
+                "facial_expression": "unknown"
+            },
+            "environment": "natural",
+            "lighting": "ambient",
+            "composition": "vertical",
+            "art_quality": "polished",
+            "style_influences": [
+                "minimalist"
+            ],
+            "objects": [
+                "trees",
+                "foliage"
+            ],
+            "textures": [
+                "fabric",
+                "wood",
+                "grass",
+                "smooth"
+            ],
+            "type": "nature",
+            "tags": [
+                "forest-illustration",
+                "stylized-trees",
+                "nature-art",
+                "earth-tones",
+                "calm-mood",
+                "digital-painting",
+                "polished-art",
+                "minimalist-style",
+                "green-trees",
+                "brown-trees",
+                "gray-background",
+                "textured-art",
+                "foliage",
+                "outdoor-scene",
+                "pattern-design",
+                "botanical-art",
+                "woodland-scene",
+                "ambient-lighting",
+                "vertical-composition",
+                "nature-inspired"
+            ]
+        }
+    },
+    {
+        "file_name": "school-of-fish-art",
+        "file_cache_name": "school-of-fish-art.webp",
+        "file_main_name": "school-of-fish-art.jpg",
+        "width": 5740,
+        "height": 10240,
+        "resolution": "8K",
+        "orientation": "Mobile",
+        "timestamp": "2025-12-03T06:14:57.671676+00:00",
+        "category": "#nature",
+        "data": {
+            "character_names": [],
+            "series": "unknown",
+            "art_style": "digital-painting",
+            "primary_colors": [
+                "blue",
+                "yellow",
+                "orange",
+                "brown",
+                "white"
+            ],
+            "secondary_colors": [
+                "cyan",
+                "tan",
+                "gray"
+            ],
+            "color_palette": "cool-tones",
+            "mood": "calm",
+            "technique": "digital-painting",
+            "scene_description": "A school of small, stylized fish swim through dark blue, textured water. Some fish are bright yellow, others are orange, and a few are a muted brown. The water has a swirling, textured appearance with small white speckles that resemble stars or bubbles.",
+            "character_details": {
+                "hair_color": "unknown",
+                "eye_color": "unknown",
+                "clothing_style": "unknown",
+                "pose": "swimming",
+                "facial_expression": "unknown"
+            },
+            "environment": "underwater",
+            "lighting": "ambient",
+            "composition": "vertical",
+            "art_quality": "polished",
+            "style_influences": [
+                "minimalist"
+            ],
+            "objects": [
+                "fish",
+                "water"
+            ],
+            "textures": [
+                "water",
+                "smooth"
+            ],
+            "type": "nature",
+            "tags": [
+                "fish",
+                "underwater",
+                "school-of-fish",
+                "swimming",
+                "blue-water",
+                "yellow-fish",
+                "orange-fish",
+                "brown-fish",
+                "textured-water",
+                "calm-mood",
+                "nature-scene",
+                "digital-art",
+                "minimalist-style",
+                "abstract-background",
+                "ocean-life",
+                "aquatic",
+                "stylized-fish",
+                "whimsical",
+                "serene",
+                "dark-blue"
+            ]
+        }
+    },
+    {
+        "file_name": "surfer-ocean-sun-painting",
+        "file_cache_name": "surfer-ocean-sun-painting.webp",
+        "file_main_name": "surfer-ocean-sun-painting.jpg",
+        "width": 4840,
+        "height": 8640,
+        "resolution": "8K",
+        "orientation": "Mobile",
+        "timestamp": "2025-12-03T06:15:00.166018+00:00",
+        "category": "#art",
+        "data": {
+            "character_names": [
+                "unknown"
+            ],
+            "series": "unknown",
+            "art_style": "watercolor",
+            "primary_colors": [
+                "blue",
+                "cyan",
+                "yellow",
+                "pink",
+                "green"
+            ],
+            "secondary_colors": [
+                "white",
+                "tan"
+            ],
+            "color_palette": "vibrant",
+            "mood": "calm",
+            "technique": "watercolor",
+            "scene_description": "A lone figure is swimming or surfing in a vast expanse of water, with a large, stylized sun in the upper portion of the image. The water is depicted with broad, sweeping brushstrokes, creating a sense of movement and depth. The sun is a bright yellow circle with a pinkish-red disc in its center. Green foliage or waves are visible on the sides.",
+            "character_details": {
+                "hair_color": "unknown",
+                "eye_color": "unknown",
+                "clothing_style": "casual",
+                "pose": "swimming",
+                "facial_expression": "unknown"
+            },
+            "environment": "natural",
+            "lighting": "natural-daylight",
+            "composition": "vertical",
+            "art_quality": "medium-detail",
+            "style_influences": [
+                "anime"
+            ],
+            "objects": [
+                "sun",
+                "water",
+                "figure"
+            ],
+            "textures": [
+                "water",
+                "smooth"
+            ],
+            "type": "full-body-character",
+            "tags": [
+                "swimming",
+                "surfing",
+                "ocean",
+                "sea",
+                "sun",
+                "summer",
+                "water",
+                "nature",
+                "calm",
+                "vibrant-colors",
+                "watercolor-art",
+                "stylized",
+                "figure",
+                "outdoor",
+                "daylight",
+                "blue-water",
+                "green-foliage",
+                "pink-sun",
+                "yellow-sun",
+                "peaceful"
+            ]
+        }
+    },
+    {
+        "file_name": "ginkgo-koi-dreamscape",
+        "file_cache_name": "ginkgo-koi-dreamscape.webp",
+        "file_main_name": "ginkgo-koi-dreamscape.jpg",
+        "width": 5740,
+        "height": 10240,
+        "resolution": "8K",
+        "orientation": "Mobile",
+        "timestamp": "2025-12-03T06:15:07.290797+00:00",
+        "category": "#art",
+        "data": {
+            "character_names": [],
+            "series": "unknown",
+            "art_style": "digital-painting",
+            "primary_colors": [
+                "blue",
+                "yellow",
+                "white",
+                "orange"
+            ],
+            "secondary_colors": [
+                "tan",
+                "gray"
+            ],
+            "color_palette": "vibrant",
+            "mood": "calm",
+            "technique": "digital-painting",
+            "scene_description": "A serene scene depicting a body of water with flowing currents, populated by several koi fish. Ginkgo leaves are scattered across the surface and edges of the water. The water has a textured, wavy appearance, with small white speckles that could represent stars or light reflections.",
+            "character_details": {
+                "hair_color": "unknown",
+                "eye_color": "unknown",
+                "clothing_style": "unknown",
+                "pose": "unknown",
+                "facial_expression": "unknown"
+            },
+            "environment": "natural",
+            "lighting": "ambient",
+            "composition": "vertical",
+            "art_quality": "high-detail",
+            "style_influences": [
+                "anime",
+                "minimalist"
+            ],
+            "objects": [
+                "koi fish",
+                "ginkgo leaves",
+                "water"
+            ],
+            "textures": [
+                "water",
+                "fabric",
+                "smooth"
+            ],
+            "type": "nature",
+            "tags": [
+                "koi-fish",
+                "ginkgo-leaves",
+                "water-scene",
+                "blue-water",
+                "yellow-leaves",
+                "calm-mood",
+                "digital-painting",
+                "nature-art",
+                "serene-scene",
+                "flowing-water",
+                "fish-swimming",
+                "autumn-leaves",
+                "japanese-art",
+                "vibrant-colors",
+                "high-detail",
+                "vertical-composition",
+                "ambient-lighting",
+                "minimalist-style"
+            ]
+        }
+    },
+    {
+        "file_name": "picnic-sakura-spring-tea",
+        "file_cache_name": "picnic-sakura-spring-tea.webp",
+        "file_main_name": "picnic-sakura-spring-tea.jpg",
+        "width": 5740,
+        "height": 10240,
+        "resolution": "8K",
+        "orientation": "Mobile",
+        "timestamp": "2025-12-03T06:15:07.710570+00:00",
+        "category": "#art",
+        "data": {
+            "character_names": [
+                "unknown"
+            ],
+            "series": "unknown",
+            "art_style": "anime",
+            "primary_colors": [
+                "pink",
+                "green",
+                "white",
+                "black",
+                "gray"
+            ],
+            "secondary_colors": [
+                "tan",
+                "brown"
+            ],
+            "color_palette": "pastel",
+            "mood": "peaceful",
+            "technique": "digital-painting",
+            "scene_description": "Two people are having a picnic under blooming cherry blossom trees in a garden. Petals are falling from the trees, covering the green grass. A path made of stone slabs leads through the garden.",
+            "character_details": {
+                "hair_color": "black",
+                "eye_color": "unknown",
+                "clothing_style": "traditional",
+                "pose": "sitting",
+                "facial_expression": "neutral"
+            },
+            "environment": "natural",
+            "lighting": "ambient",
+            "composition": "rule-of-thirds",
+            "art_quality": "high-detail",
+            "style_influences": [
+                "anime",
+                "kawaii"
+            ],
+            "objects": [
+                "cherry blossom trees",
+                "picnic mat",
+                "tea set",
+                "stone path",
+                "bushes"
+            ],
+            "textures": [
+                "fabric",
+                "grass",
+                "stone",
+                "wood",
+                "petals"
+            ],
+            "type": "full-body-character",
+            "tags": [
+                "cherry-blossom",
+                "picnic",
+                "garden",
+                "spring",
+                "japanese-style",
+                "peaceful-scene",
+                "traditional-clothing",
+                "sitting-pose",
+                "falling-petals",
+                "anime-art",
+                "digital-art",
+                "pastel-colors",
+                "green-grass",
+                "stone-path",
+                "tea-ceremony",
+                "nature-scene",
+                "outdoor-setting",
+                "high-detail",
+                "serene-mood",
+                "pink-flowers"
+            ]
+        }
+    },
+    {
+        "file_name": "green-willow-cat",
+        "file_cache_name": "green-willow-cat.webp",
+        "file_main_name": "green-willow-cat.jpg",
+        "width": 5740,
+        "height": 10240,
+        "resolution": "8K",
+        "orientation": "Mobile",
+        "timestamp": "2025-12-03T06:15:07.735597+00:00",
+        "category": "#art",
+        "data": {
+            "character_names": [
+                "unknown"
+            ],
+            "series": "unknown",
+            "art_style": "digital-painting",
+            "primary_colors": [
+                "green",
+                "lime",
+                "forest",
+                "gray",
+                "white"
+            ],
+            "secondary_colors": [
+                "tan",
+                "beige"
+            ],
+            "color_palette": "muted",
+            "mood": "calm",
+            "technique": "digital-painting",
+            "scene_description": "A stylized landscape featuring several large, rounded, tree-like forms with cascading foliage. In the foreground, a small, dark silhouette of an animal, possibly a cat or a deer, is sitting. The background is a soft, hazy sky.",
+            "character_details": {
+                "hair_color": "unknown",
+                "eye_color": "unknown",
+                "clothing_style": "unknown",
+                "pose": "sitting",
+                "facial_expression": "unknown"
+            },
+            "environment": "natural",
+            "lighting": "ambient",
+            "composition": "vertical",
+            "art_quality": "high-detail",
+            "style_influences": [
+                "minimalist"
+            ],
+            "objects": [
+                "tree-like forms",
+                "animal silhouette"
+            ],
+            "textures": [
+                "fabric",
+                "grass",
+                "smooth"
+            ],
+            "type": "landscape",
+            "tags": [
+                "green-landscape",
+                "calm-mood",
+                "minimalist-art",
+                "digital-painting",
+                "nature-scene",
+                "animal-silhouette",
+                "stylized-trees",
+                "muted-colors",
+                "ambient-lighting",
+                "vertical-composition",
+                "high-detail",
+                "foggy-background",
+                "serene-atmosphere",
+                "forest-green",
+                "lime-green",
+                "earth-tones",
+                "outdoor-scene",
+                "abstract-nature"
+            ]
+        }
+    },
+    {
+        "file_name": "blue-green-hills-abstract",
+        "file_cache_name": "blue-green-hills-abstract.webp",
+        "file_main_name": "blue-green-hills-abstract.jpg",
+        "width": 5740,
+        "height": 10240,
+        "resolution": "8K",
+        "orientation": "Mobile",
+        "timestamp": "2025-12-03T06:15:11.799929+00:00",
+        "category": "#art",
+        "data": {
+            "character_names": [],
+            "series": "unknown",
+            "art_style": "digital-painting",
+            "primary_colors": [
+                "blue",
+                "cyan",
+                "green",
+                "lime"
+            ],
+            "secondary_colors": [
+                "navy",
+                "teal"
+            ],
+            "color_palette": "cool-tones",
+            "mood": "calm",
+            "technique": "digital-painting",
+            "scene_description": "An abstract landscape painting depicting rolling hills or mountains rendered in horizontal bands of varying shades of blue and green. The texture suggests thick brushstrokes or impasto.",
+            "character_details": {
+                "hair_color": "unknown",
+                "eye_color": "unknown",
+                "clothing_style": "unknown",
+                "pose": "unknown",
+                "facial_expression": "unknown"
+            },
+            "environment": "natural",
+            "lighting": "ambient",
+            "composition": "vertical",
+            "art_quality": "high-detail",
+            "style_influences": [
+                "minimalist"
+            ],
+            "objects": [
+                "hills",
+                "mountains"
+            ],
+            "textures": [
+                "smooth",
+                "fabric"
+            ],
+            "type": "landscape",
+            "tags": [
+                "abstract-landscape",
+                "blue-hills",
+                "green-hills",
+                "rolling-hills",
+                "mountains",
+                "horizontal-bands",
+                "impasto-texture",
+                "digital-painting",
+                "cool-tones",
+                "calm-mood",
+                "natural-environment",
+                "ambient-lighting",
+                "vertical-composition",
+                "high-detail",
+                "minimalist-style",
+                "blue-shades",
+                "green-shades",
+                "abstract-art",
+                "landscape-art",
+                "textured-painting"
+            ]
+        }
+    },
+    {
+        "file_name": "lone-figure-flock",
+        "file_cache_name": "lone-figure-flock.webp",
+        "file_main_name": "lone-figure-flock.jpg",
+        "width": 5740,
+        "height": 10240,
+        "resolution": "8K",
+        "orientation": "Mobile",
+        "timestamp": "2025-12-03T06:15:14.571233+00:00",
+        "category": "#art",
+        "data": {
+            "character_names": [
+                "unknown"
+            ],
+            "series": "unknown",
+            "art_style": "digital-painting",
+            "primary_colors": [
+                "blue",
+                "green",
+                "white",
+                "black"
+            ],
+            "secondary_colors": [
+                "cyan",
+                "teal"
+            ],
+            "color_palette": "cool-tones",
+            "mood": "calm",
+            "technique": "digital-painting",
+            "scene_description": "A lone figure stands on a green grassy field, looking towards a body of deep blue water where a flock of white birds is migrating.",
+            "character_details": {
+                "hair_color": "black",
+                "eye_color": "unknown",
+                "clothing_style": "casual",
+                "pose": "standing",
+                "facial_expression": "neutral"
+            },
+            "environment": "natural",
+            "lighting": "ambient",
+            "composition": "rule-of-thirds",
+            "art_quality": "high-detail",
+            "style_influences": [
+                "anime"
+            ],
+            "objects": [
+                "person",
+                "birds",
+                "grass",
+                "water"
+            ],
+            "textures": [
+                "grass",
+                "water",
+                "fabric"
+            ],
+            "type": "full-body-character",
+            "tags": [
+                "lone-figure",
+                "flock-of-birds",
+                "migration",
+                "blue-water",
+                "green-field",
+                "calm-scene",
+                "natural-environment",
+                "digital-art",
+                "stylized",
+                "cool-tones",
+                "ambient-lighting",
+                "standing-pose",
+                "white-birds",
+                "blue-and-green-palette",
+                "minimalist-character",
+                "outdoor-scene",
+                "high-detail-texture",
+                "unknown-character",
+                "unknown-series"
+            ]
+        }
+    },
+    {
+        "file_name": "lone-figure-yellow-trees",
+        "file_cache_name": "lone-figure-yellow-trees.webp",
+        "file_main_name": "lone-figure-yellow-trees.jpg",
+        "width": 5740,
+        "height": 10240,
+        "resolution": "8K",
+        "orientation": "Mobile",
+        "timestamp": "2025-12-03T06:15:28.357649+00:00",
+        "category": "#art",
+        "data": {
+            "character_names": [
+                "unknown"
+            ],
+            "series": "unknown",
+            "art_style": "digital-painting",
+            "primary_colors": [
+                "yellow",
+                "black",
+                "white",
+                "gray"
+            ],
+            "secondary_colors": [
+                "green",
+                "tan"
+            ],
+            "color_palette": "warm-tones",
+            "mood": "melancholic",
+            "technique": "digital-painting",
+            "scene_description": "A solitary figure in a dark coat stands on a light-colored path, casting a long shadow. Behind the figure is a dense forest of stylized trees with bright yellow foliage. The background is dark, suggesting a forest interior or twilight.",
+            "character_details": {
+                "hair_color": "unknown",
+                "eye_color": "unknown",
+                "clothing_style": "casual",
+                "pose": "standing",
+                "facial_expression": "neutral"
+            },
+            "environment": "forest",
+            "lighting": "ambient",
+            "composition": "rule-of-thirds",
+            "art_quality": "polished",
+            "style_influences": [
+                "minimalist"
+            ],
+            "objects": [
+                "tree",
+                "coat",
+                "shadow"
+            ],
+            "textures": [
+                "smooth",
+                "fabric"
+            ],
+            "type": "full-body-character",
+            "tags": [
+                "solitary-figure",
+                "yellow-trees",
+                "forest-scene",
+                "melancholic-mood",
+                "minimalist-art",
+                "digital-painting",
+                "autumn-colors",
+                "long-shadow",
+                "dark-coat",
+                "stylized-trees",
+                "ambient-lighting",
+                "outdoor-scene",
+                "neutral-expression",
+                "polished-art",
+                "rule-of-thirds-composition",
+                "unknown-character",
+                "unknown-series",
+                "earth-tones"
+            ]
+        }
+    },
+    {
+        "file_name": "autumn-lake-scene",
+        "file_cache_name": "autumn-lake-scene.webp",
+        "file_main_name": "autumn-lake-scene.jpg",
+        "width": 5760,
+        "height": 8640,
+        "resolution": "8K",
+        "orientation": "Mobile",
+        "timestamp": "2025-12-03T06:15:31.260139+00:00",
+        "category": "#nature",
+        "data": {
+            "character_names": [],
+            "series": "unknown",
+            "art_style": "digital-painting",
+            "primary_colors": [
+                "yellow",
+                "green",
+                "red",
+                "blue",
+                "brown"
+            ],
+            "secondary_colors": [
+                "gold",
+                "emerald",
+                "scarlet",
+                "azure",
+                "tan"
+            ],
+            "color_palette": "vibrant",
+            "mood": "peaceful",
+            "technique": "digital-painting",
+            "scene_description": "A serene landscape featuring a body of water reflecting trees with vibrant yellow and red foliage. Lush green hills and forests form the background, suggesting an autumn scene.",
+            "character_details": {
+                "hair_color": "unknown",
+                "eye_color": "unknown",
+                "clothing_style": "unknown",
+                "pose": "unknown",
+                "facial_expression": "unknown"
+            },
+            "environment": "natural",
+            "lighting": "ambient",
+            "composition": "landscape",
+            "art_quality": "high-detail",
+            "style_influences": [
+                "anime"
+            ],
+            "objects": [
+                "trees",
+                "water",
+                "hills",
+                "forest",
+                "rocks"
+            ],
+            "textures": [
+                "grass",
+                "wood",
+                "water",
+                "stone"
+            ],
+            "type": "nature",
+            "tags": [
+                "landscape",
+                "nature",
+                "autumn",
+                "trees",
+                "yellow-trees",
+                "red-trees",
+                "forest",
+                "lake",
+                "reflection",
+                "vibrant-colors",
+                "peaceful-scene",
+                "digital-art",
+                "nature-photography",
+                "scenic",
+                "outdoor",
+                "green-hills",
+                "water-reflection",
+                "fall-colors",
+                "serene-landscape",
+                "high-detail"
+            ]
+        }
+    },
+    {
+        "file_name": "falling-angel-fire",
+        "file_cache_name": "falling-angel-fire.webp",
+        "file_main_name": "falling-angel-fire.png",
+        "width": 2700,
+        "height": 4800,
+        "resolution": "4K",
+        "orientation": "Mobile",
+        "timestamp": "2025-12-03T06:15:42.628907+00:00",
+        "category": "#amoled",
+        "data": {
+            "character_names": [
+                "unknown"
+            ],
+            "series": "unknown",
+            "art_style": "digital-painting",
+            "primary_colors": [
+                "black",
+                "white",
+                "orange",
+                "gold",
+                "brown"
+            ],
+            "secondary_colors": [
+                "gray",
+                "red",
+                "tan"
+            ],
+            "color_palette": "high-contrast",
+            "mood": "dark",
+            "technique": "digital-painting",
+            "scene_description": "A figure with large, feathered wings, the tips of which are engulfed in flames, is falling through a starry night sky. The figure appears to be female, with long brown hair and a white garment. The background is a deep black filled with numerous white stars.",
+            "character_details": {
+                "hair_color": "brown",
+                "eye_color": "unknown",
+                "clothing_style": "unknown",
+                "pose": "falling",
+                "facial_expression": "unknown"
+            },
+            "environment": "space",
+            "lighting": "ambient",
+            "composition": "centered",
+            "art_quality": "high-detail",
+            "style_influences": [
+                "fantasy"
+            ],
+            "objects": [
+                "wings",
+                "fire",
+                "stars"
+            ],
+            "textures": [
+                "fabric",
+                "fire",
+                "feathers",
+                "skin"
+            ],
+            "type": "full-body-character",
+            "tags": [
+                "angel",
+                "falling-angel",
+                "wings-on-fire",
+                "space",
+                "stars",
+                "night-sky",
+                "fantasy-art",
+                "digital-painting",
+                "dark-mood",
+                "dramatic",
+                "high-contrast",
+                "fire-elements",
+                "celestial",
+                "mythological",
+                "falling",
+                "brown-hair",
+                "white-garment",
+                "epic-scene",
+                "cosmic"
+            ]
+        }
+    },
+    {
+        "file_name": "BQACAgUAAxkBAAIEmGkv1YhADkNeNAABa9xbro2s5IVklwACmB4AAlqKcVXbCBKTYggz_zYE",
+        "file_cache_name": "BQACAgUAAxkBAAIEmGkv1YhADkNeNAABa9xbro2s5IVklwACmB4AAlqKcVXbCBKTYggz_zYE.webp",
+        "file_main_name": "BQACAgUAAxkBAAIEmGkv1YhADkNeNAABa9xbro2s5IVklwACmB4AAlqKcVXbCBKTYggz_zYE.png",
+        "width": 2944,
+        "height": 6344,
+        "resolution": "4K",
+        "orientation": "Mobile",
+        "timestamp": "2025-12-03T06:16:13.061701+00:00",
+        "category": "#anime",
+        "data": {
+            "character_names": [
+                "Monkey D. Luffy",
+                "Chopper",
+                "Nami",
+                "Brook"
+            ],
+            "series": "One Piece",
+            "art_style": "anime",
+            "primary_colors": [
+                "blue",
+                "brown",
+                "yellow",
+                "red",
+                "tan"
+            ],
+            "secondary_colors": [
+                "white",
+                "green",
+                "black"
+            ],
+            "color_palette": "vibrant",
+            "mood": "calm",
+            "technique": "digital-painting",
+            "scene_description": "Several characters and two bears are floating on their backs in clear, shallow water. Sunlight filters through the water, creating dappled patterns on the surface and illuminating the scene from above. Monkey D. Luffy is in the foreground, wearing his signature red shirt and blue shorts. Other characters and bears are scattered around him.",
+            "character_details": {
+                "hair_color": "black",
+                "eye_color": "black",
+                "clothing_style": "casual",
+                "pose": "lying",
+                "facial_expression": "smiling"
+            },
+            "environment": "natural",
+            "lighting": "natural-daylight",
+            "composition": "vertical",
+            "art_quality": "polished",
+            "style_influences": [
+                "anime",
+                "kawaii"
+            ],
+            "objects": [
+                "water",
+                "straw hat",
+                "bears"
+            ],
+            "textures": [
+                "water",
+                "fabric",
+                "skin"
+            ],
+            "type": "multiple-characters",
+            "tags": [
+                "monkey-d-luffy",
+                "chopper",
+                "nami",
+                "brook",
+                "one-piece",
+                "anime",
+                "water",
+                "floating",
+                "summer",
+                "beach",
+                "calm",
+                "relaxed",
+                "straw-hat",
+                "red-shirt",
+                "blue-shorts",
+                "bears",
+                "sunlight",
+                "dappled-light",
+                "natural-light",
+                "vibrant-colors"
+            ]
+        }
+    },
+    {
+        "file_name": "BQACAgUAAxkBAAIEmmkv1Yigr6b0fS_E9jkMBYsWZAgeAAKaHgACWopxVdvj3_K7Xb2NNgQ",
+        "file_cache_name": "BQACAgUAAxkBAAIEmmkv1Yigr6b0fS_E9jkMBYsWZAgeAAKaHgACWopxVdvj3_K7Xb2NNgQ.webp",
+        "file_main_name": "BQACAgUAAxkBAAIEmmkv1Yigr6b0fS_E9jkMBYsWZAgeAAKaHgACWopxVdvj3_K7Xb2NNgQ.png",
+        "width": 2880,
+        "height": 5120,
+        "resolution": "4K",
+        "orientation": "Mobile",
+        "timestamp": "2025-12-03T06:16:12.276470+00:00",
+        "category": "#art",
+        "data": {
+            "character_names": [],
+            "series": "unknown",
+            "art_style": "digital-painting",
+            "primary_colors": [
+                "blue",
+                "green",
+                "yellow",
+                "red",
+                "white"
+            ],
+            "secondary_colors": [
+                "orange",
+                "purple",
+                "gray"
+            ],
+            "color_palette": "vibrant",
+            "mood": "dreamy",
+            "technique": "digital-painting",
+            "scene_description": "A clear plastic water bottle lies on its side, filled with water. Light refracts through the bottle and the water, creating a spectrum of vibrant colors. Green leaves are visible in the upper left, and a textured, possibly wooden or metallic surface is in the upper right. The background is dark and out of focus, with bokeh-like lights.",
+            "character_details": {
+                "hair_color": "unknown",
+                "eye_color": "unknown",
+                "clothing_style": "unknown",
+                "pose": "lying",
+                "facial_expression": "unknown"
+            },
+            "environment": "outdoor",
+            "lighting": "natural-daylight",
+            "composition": "rule-of-thirds",
+            "art_quality": "high-detail",
+            "style_influences": [
+                "anime"
+            ],
+            "objects": [
+                "water bottle",
+                "leaves",
+                "water"
+            ],
+            "textures": [
+                "glass",
+                "plastic",
+                "fabric",
+                "wood",
+                "water"
+            ],
+            "type": "still-life",
+            "tags": [
+                "water-bottle",
+                "refraction",
+                "light-spectrum",
+                "vibrant-colors",
+                "leaves",
+                "bokeh",
+                "dreamy-mood",
+                "digital-art",
+                "high-detail",
+                "outdoor-scene",
+                "natural-light",
+                "still-life",
+                "plastic-bottle",
+                "water",
+                "colorful-light",
+                "abstract-background",
+                "nature-elements",
+                "artistic-rendering"
+            ]
+        }
+    },
+    {
+        "file_name": "BQACAgUAAxkBAAIEmWkv1Yh4uyv2yn-Xzk8V5kg0iUKEAAKZHgACWopxVT6Ma62wwkR6NgQ",
+        "file_cache_name": "BQACAgUAAxkBAAIEmWkv1Yh4uyv2yn-Xzk8V5kg0iUKEAAKZHgACWopxVT6Ma62wwkR6NgQ.webp",
+        "file_main_name": "BQACAgUAAxkBAAIEmWkv1Yh4uyv2yn-Xzk8V5kg0iUKEAAKZHgACWopxVT6Ma62wwkR6NgQ.png",
+        "width": 2944,
+        "height": 6372,
+        "resolution": "4K",
+        "orientation": "Mobile",
+        "timestamp": "2025-12-03T06:16:11.517917+00:00",
+        "category": "#cars",
+        "data": {
+            "character_names": [
+                "Ayrton Senna"
+            ],
+            "series": "Formula 1",
+            "art_style": "digital-painting",
+            "primary_colors": [
+                "black",
+                "green",
+                "yellow",
+                "white"
+            ],
+            "secondary_colors": [
+                "gold",
+                "gray"
+            ],
+            "color_palette": "vibrant",
+            "mood": "intense",
+            "technique": "digital-painting",
+            "scene_description": "A close-up view of the rear wing and sidepod of a Formula 1 race car, predominantly black with striking green and yellow livery. The car features prominent sponsor logos such as 'DELL Technologies' and 'chrome'. A checkered flag pattern is visible on the rear wing. Above the car, a golden signature is displayed against a dark, speckled background.",
+            "character_details": {
+                "hair_color": "unknown",
+                "eye_color": "unknown",
+                "clothing_style": "unknown",
+                "pose": "unknown",
+                "facial_expression": "unknown"
+            },
+            "environment": "abstract-background",
+            "lighting": "spotlight",
+            "composition": "close-up",
+            "art_quality": "professional",
+            "style_influences": [
+                "realistic"
+            ],
+            "objects": [
+                "Formula 1 car",
+                "rear wing",
+                "sidepod",
+                "tire",
+                "signature",
+                "sponsor logos"
+            ],
+            "textures": [
+                "metallic",
+                "fabric",
+                "plastic"
+            ],
+            "type": "vehicle",
+            "tags": [
+                "ayrton-senna",
+                "formula-1",
+                "f1-car",
+                "race-car",
+                "senna",
+                "green-and-yellow",
+                "dell-technologies",
+                "chrome",
+                "signature",
+                "golden-signature",
+                "checkered-flag",
+                "motorsport",
+                "racing",
+                "automotive",
+                "digital-art",
+                "vibrant-colors",
+                "intense-mood",
+                "abstract-background",
+                "close-up-shot",
+                "professional-art"
+            ]
+        }
+    },
+    {
+        "file_name": "BQACAgUAAxkBAAIEnWkv1YhykPXSTw7l4IErCtdDyC5yAAKdHgACWopxVfQuCYe8yoCSNgQ",
+        "file_cache_name": "BQACAgUAAxkBAAIEnWkv1YhykPXSTw7l4IErCtdDyC5yAAKdHgACWopxVfQuCYe8yoCSNgQ.webp",
+        "file_main_name": "BQACAgUAAxkBAAIEnWkv1YhykPXSTw7l4IErCtdDyC5yAAKdHgACWopxVfQuCYe8yoCSNgQ.png",
+        "width": 2944,
+        "height": 6540,
+        "resolution": "4K",
+        "orientation": "Mobile",
+        "timestamp": "2025-12-03T06:16:29.819783+00:00",
+        "category": "#amoled",
+        "data": {
+            "character_names": [],
+            "series": "unknown",
+            "art_style": "digital-painting",
+            "primary_colors": [
+                "purple",
+                "pink",
+                "blue",
+                "white",
+                "black"
+            ],
+            "secondary_colors": [
+                "cyan",
+                "yellow"
+            ],
+            "color_palette": "vibrant",
+            "mood": "dreamy",
+            "technique": "digital-painting",
+            "scene_description": "A view of a celestial body, likely a planet or moon, against a black void. The body is illuminated from the side, creating a gradient of colors across its surface. The atmosphere or surface shows swirling patterns and is tinged with pink, purple, and white. A thin, bright blue and cyan halo surrounds the edge of the celestial body.",
+            "character_details": {
+                "hair_color": "unknown",
+                "eye_color": "unknown",
+                "clothing_style": "unknown",
+                "pose": "unknown",
+                "facial_expression": "unknown"
+            },
+            "environment": "space",
+            "lighting": "ambient",
+            "composition": "wide-shot",
+            "art_quality": "high-detail",
+            "style_influences": [
+                "space-art"
+            ],
+            "objects": [
+                "planet",
+                "moon",
+                "stars"
+            ],
+            "textures": [
+                "clouds",
+                "smooth"
+            ],
+            "type": "landscape",
+            "tags": [
+                "space-art",
+                "planet",
+                "moon",
+                "celestial-body",
+                "nebula",
+                "galaxy",
+                "purple-hues",
+                "pink-hues",
+                "blue-halo",
+                "dreamy-atmosphere",
+                "cosmic-landscape",
+                "digital-art",
+                "high-detail",
+                "space-view",
+                "astronomy",
+                "vibrant-colors",
+                "dark-background",
+                "swirling-patterns",
+                "ethereal"
+            ]
+        }
+    },
+    {
+        "file_name": "BQACAgUAAxkBAAIEo2kv1Yhl6wy9ZuT77_74NlZpr-hUAAKjHgACWopxVdUTsh0DRaEcNgQ",
+        "file_cache_name": "BQACAgUAAxkBAAIEo2kv1Yhl6wy9ZuT77_74NlZpr-hUAAKjHgACWopxVdUTsh0DRaEcNgQ.webp",
+        "file_main_name": "BQACAgUAAxkBAAIEo2kv1Yhl6wy9ZuT77_74NlZpr-hUAAKjHgACWopxVdUTsh0DRaEcNgQ.png",
+        "width": 2944,
+        "height": 4416,
+        "resolution": "4K",
+        "orientation": "Mobile",
+        "timestamp": "2025-12-03T06:16:47.163316+00:00",
+        "category": "#art",
+        "data": {
+            "character_names": [
+                "unknown"
+            ],
+            "series": "unknown",
+            "art_style": "anime",
+            "primary_colors": [
+                "blue",
+                "gray",
+                "white",
+                "black"
+            ],
+            "secondary_colors": [
+                "cyan",
+                "silver"
+            ],
+            "color_palette": "cool-tones",
+            "mood": "intense",
+            "technique": "digital-painting",
+            "scene_description": "A lone silhouetted figure with long hair and two swords stands in a bright, illuminated clearing, facing a vast, dark horde of smaller figures. The horde surrounds the clearing, appearing to advance from the shadows. The ground is a light blue, with long, dramatic shadows cast by the central figure and the horde.",
+            "character_details": {
+                "hair_color": "black",
+                "eye_color": "unknown",
+                "clothing_style": "unknown",
+                "pose": "standing",
+                "facial_expression": "unknown"
+            },
+            "environment": "abstract-background",
+            "lighting": "spotlight",
+            "composition": "centered",
+            "art_quality": "high-detail",
+            "style_influences": [
+                "anime"
+            ],
+            "objects": [
+                "swords",
+                "figures",
+                "shadows"
+            ],
+            "textures": [
+                "smooth",
+                "fabric"
+            ],
+            "type": "multiple-characters",
+            "tags": [
+                "lone-warrior",
+                "horde",
+                "swordsman",
+                "battle-scene",
+                "epic-battle",
+                "dark-vs-light",
+                "blue-tones",
+                "anime-style",
+                "digital-art",
+                "intense-mood",
+                "dramatic-lighting",
+                "shadows",
+                "silhouetted-character",
+                "crowd",
+                "fantasy-art",
+                "action-scene",
+                "high-contrast",
+                "cool-color-palette",
+                "unknown-character",
+                "unknown-series"
+            ]
+        }
+    },
+    {
+        "file_name": "BQACAgUAAxkBAAIEoWkv1YhoDw2_TSXXJpSBSQbLZm_3AAKhHgACWopxVRMinLq2NFiINgQ",
+        "file_cache_name": "BQACAgUAAxkBAAIEoWkv1YhoDw2_TSXXJpSBSQbLZm_3AAKhHgACWopxVRMinLq2NFiINgQ.webp",
+        "file_main_name": "BQACAgUAAxkBAAIEoWkv1YhoDw2_TSXXJpSBSQbLZm_3AAKhHgACWopxVRMinLq2NFiINgQ.png",
+        "width": 2944,
+        "height": 5520,
+        "resolution": "4K",
+        "orientation": "Mobile",
+        "timestamp": "2025-12-03T06:16:45.618361+00:00",
+        "category": "#art",
+        "data": {
+            "character_names": [
+                "Superman"
+            ],
+            "series": "DC Comics",
+            "art_style": "cel-shading",
+            "primary_colors": [
+                "blue",
+                "red",
+                "white",
+                "black"
+            ],
+            "secondary_colors": [
+                "cyan",
+                "crimson"
+            ],
+            "color_palette": "vibrant",
+            "mood": "energetic",
+            "technique": "3d-render",
+            "scene_description": "A low-angle shot of Superman flying at super-speed, with streaks of light emanating from him and stretching into the distance. His cape is flowing behind him, catching the light.",
+            "character_details": {
+                "hair_color": "black",
+                "eye_color": "unknown",
+                "clothing_style": "superhero",
+                "pose": "flying",
+                "facial_expression": "neutral"
+            },
+            "environment": "space",
+            "lighting": "backlit",
+            "composition": "vertical",
+            "art_quality": "polished",
+            "style_influences": [
+                "anime",
+                "comic-books"
+            ],
+            "objects": [
+                "cape",
+                "superhero costume"
+            ],
+            "textures": [
+                "fabric",
+                "smooth"
+            ],
+            "type": "full-body-character",
+            "tags": [
+                "superman",
+                "dc-comics",
+                "flying",
+                "super-speed",
+                "cape",
+                "red-cape",
+                "blue-suit",
+                "energetic",
+                "vibrant-colors",
+                "cel-shading",
+                "3d-render",
+                "space",
+                "light-streaks",
+                "superhero",
+                "action-scene",
+                "dynamic-pose",
+                "comic-art",
+                "heroic",
+                "powerful",
+                "cinematic"
+            ]
+        }
+    },
+    {
+        "file_name": "BQACAgUAAxkBAAIEpmkv1Yiv-NqPT_-B5932TSvKKkaRAAKmHgACWopxVVwLSo5ybzvuNgQ",
+        "file_cache_name": "BQACAgUAAxkBAAIEpmkv1Yiv-NqPT_-B5932TSvKKkaRAAKmHgACWopxVVwLSo5ybzvuNgQ.webp",
+        "file_main_name": "BQACAgUAAxkBAAIEpmkv1Yiv-NqPT_-B5932TSvKKkaRAAKmHgACWopxVVwLSo5ybzvuNgQ.png",
+        "width": 2884,
+        "height": 5120,
+        "resolution": "4K",
+        "orientation": "Mobile",
+        "timestamp": "2025-12-03T06:16:34.608414+00:00",
+        "category": "#art",
+        "data": {
+            "character_names": [
+                "Vishnu"
+            ],
+            "series": "Mahabharata",
+            "art_style": "anime",
+            "primary_colors": [
+                "gold",
+                "yellow",
+                "blue",
+                "brown",
+                "white"
+            ],
+            "secondary_colors": [
+                "pink",
+                "gray",
+                "black"
+            ],
+            "color_palette": "vibrant",
+            "mood": "dreamy",
+            "technique": "3d-render",
+            "scene_description": "A divine figure, identified as Vishnu, floats in a celestial realm, bathed in golden light. Above and to the left, a large, ornate golden wheel-like structure is visible, with a figure seemingly falling or suspended near it. The background transitions from a bright, light-filled sky to a dark, swirling abyss.",
+            "character_details": {
+                "hair_color": "unknown",
+                "eye_color": "unknown",
+                "clothing_style": "traditional",
+                "pose": "lying",
+                "facial_expression": "neutral"
+            },
+            "environment": "sky",
+            "lighting": "spotlight",
+            "composition": "vertical",
+            "art_quality": "professional",
+            "style_influences": [
+                "anime"
+            ],
+            "objects": [
+                "golden wheel",
+                "divine figure",
+                "celestial light"
+            ],
+            "textures": [
+                "metallic",
+                "fabric",
+                "clouds"
+            ],
+            "type": "full-body-character",
+            "tags": [
+                "vishnu",
+                "mahabharata",
+                "anime",
+                "3d-render",
+                "gold",
+                "yellow",
+                "blue",
+                "pink",
+                "divine-figure",
+                "celestial-realm",
+                "golden-wheel",
+                "light-rays",
+                "dreamy-mood",
+                "vibrant-colors",
+                "traditional-clothing",
+                "lying-pose",
+                "sky-environment",
+                "spotlight-lighting",
+                "vertical-composition",
+                "professional-art"
+            ]
+        }
+    },
+    {
+        "file_name": "BQACAgUAAxkBAAIEpWkv1YhgFtof11LMDm40RdYh4bbrAAKlHgACWopxVSi5AV53lpe9NgQ",
+        "file_cache_name": "BQACAgUAAxkBAAIEpWkv1YhgFtof11LMDm40RdYh4bbrAAKlHgACWopxVSi5AV53lpe9NgQ.webp",
+        "file_main_name": "BQACAgUAAxkBAAIEpWkv1YhgFtof11LMDm40RdYh4bbrAAKlHgACWopxVSi5AV53lpe9NgQ.png",
+        "width": 2916,
+        "height": 5120,
+        "resolution": "4K",
+        "orientation": "Mobile",
+        "timestamp": "2025-12-03T06:16:18.869477+00:00",
+        "category": "#art",
+        "data": {
+            "character_names": [],
+            "series": "unknown",
+            "art_style": "digital-painting",
+            "primary_colors": [
+                "black",
+                "white",
+                "blue",
+                "gray"
+            ],
+            "secondary_colors": [
+                "tan",
+                "cream"
+            ],
+            "color_palette": "low-contrast",
+            "mood": "mysterious",
+            "technique": "digital-painting",
+            "scene_description": "A surreal, abstract scene depicting a vast, dark expanse with a bright, ethereal light source emanating from the center, creating a horizon-like effect. Two crescent shapes, resembling stylized moons or abstract symbols, frame the central light. The background suggests a planetary or cosmic landscape with clouds and atmospheric effects.",
+            "character_details": {
+                "hair_color": "unknown",
+                "eye_color": "unknown",
+                "clothing_style": "unknown",
+                "pose": "unknown",
+                "facial_expression": "unknown"
+            },
+            "environment": "space",
+            "lighting": "ambient",
+            "composition": "vertical",
+            "art_quality": "professional",
+            "style_influences": [
+                "abstract"
+            ],
+            "objects": [
+                "crescent shapes",
+                "light beam",
+                "clouds"
+            ],
+            "textures": [
+                "smooth",
+                "metallic",
+                "clouds"
+            ],
+            "type": "abstract-art",
+            "tags": [
+                "abstract-art",
+                "space-scene",
+                "celestial",
+                "cosmic",
+                "mysterious",
+                "ethereal-light",
+                "crescent-shapes",
+                "dark-background",
+                "horizon-effect",
+                "surreal",
+                "digital-art",
+                "atmospheric",
+                "low-contrast",
+                "vertical-composition",
+                "professional-art",
+                "abstract-background",
+                "light-beam",
+                "clouds"
+            ]
+        }
+    },
+    {
+        "file_name": "BQACAgUAAxkBAAIEqWkv1Yhr55mkyyGivsqgmg1KLvg4AAKqHgACWopxVRKfj-PemWNBNgQ",
+        "file_cache_name": "BQACAgUAAxkBAAIEqWkv1Yhr55mkyyGivsqgmg1KLvg4AAKqHgACWopxVRKfj-PemWNBNgQ.webp",
+        "file_main_name": "BQACAgUAAxkBAAIEqWkv1Yhr55mkyyGivsqgmg1KLvg4AAKqHgACWopxVRKfj-PemWNBNgQ.png",
+        "width": 2944,
+        "height": 5884,
+        "resolution": "4K",
+        "orientation": "Mobile",
+        "timestamp": "2025-12-03T06:16:34.060849+00:00",
+        "category": "#amoled",
+        "data": {
+            "character_names": [
+                "Shiva"
+            ],
+            "series": "Hindu Mythology",
+            "art_style": "digital-painting",
+            "primary_colors": [
+                "blue",
+                "purple",
+                "black",
+                "white"
+            ],
+            "secondary_colors": [
+                "cyan",
+                "violet"
+            ],
+            "color_palette": "vibrant",
+            "mood": "calm",
+            "technique": "digital-painting",
+            "scene_description": "A depiction of the Hindu deity Shiva meditating in a cosmic setting. He is seated on a rocky outcrop that appears to be on the edge of a celestial body, overlooking a vast expanse of stars and nebulae. The background is filled with swirling blues and purples, suggesting a vibrant galaxy.",
+            "character_details": {
+                "hair_color": "black",
+                "eye_color": "unknown",
+                "clothing_style": "traditional",
+                "pose": "sitting",
+                "facial_expression": "neutral"
+            },
+            "environment": "space",
+            "lighting": "ambient",
+            "composition": "vertical",
+            "art_quality": "high-detail",
+            "style_influences": [
+                "anime",
+                "mythology"
+            ],
+            "objects": [
+                "rocky outcrop",
+                "stars",
+                "nebulae"
+            ],
+            "textures": [
+                "stone",
+                "clouds",
+                "smooth"
+            ],
+            "type": "full-body-character",
+            "tags": [
+                "shiva",
+                "hindu-mythology",
+                "meditation",
+                "cosmic",
+                "galaxy",
+                "space",
+                "nebula",
+                "stars",
+                "blue",
+                "purple",
+                "black",
+                "white",
+                "digital-art",
+                "fantasy",
+                "divine",
+                "serene",
+                "spiritual",
+                "night-sky",
+                "celestial"
+            ]
+        }
     }
 ]
