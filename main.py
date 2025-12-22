@@ -25,7 +25,7 @@ warnings.simplefilter('ignore', Image.DecompressionBombWarning)
 Image.MAX_IMAGE_PIXELS = None
 
 # Define directories
-source_dir = r"C:\Users\Ayan\Pictures\up\upscayl_png_ultrasharp-4x_3x"
+source_dir = r"C:\Users\Ayan\Pictures\up"
 destination_dir = r"D:\storage\cache"
 main_dir = r"D:\storage\main"
 output_file = r"D:\storage\index.json"
@@ -114,7 +114,7 @@ def generate_filename(image_path):
             image_bytes = buffer.getvalue()
         
         # Set up the Gemini model
-        model = genai.GenerativeModel('gemini-2.5-flash-lite-preview-06-17')
+        model = genai.GenerativeModel('gemini-3,0-flash-preview')
         
         # Create the prompt
         prompt = """
@@ -362,7 +362,7 @@ def identify_image(image_path):
             image_bytes = buffer.getvalue()
         
         # Set up the Gemini model
-        model = genai.GenerativeModel('gemini-2.5-flash-lite-preview-06-17')
+        model = genai.GenerativeModel('gemini-3,0-flash-preview')
         
         # Create the prompt
         prompt = f"""
@@ -489,7 +489,7 @@ def generate_image_data(image_path):
             image_bytes = buffer.getvalue()
         
         # Set up the Gemini model
-        model = genai.GenerativeModel('gemini-2.5-flash-lite-preview-06-17')
+        model = genai.GenerativeModel('gemini-3,0-flash-preview')
         
         # Create a highly specific prompt optimized for algorithmic processing
         prompt = """
