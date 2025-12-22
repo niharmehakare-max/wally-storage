@@ -31,10 +31,7 @@ RETRY_DELAY = 10  # seconds
 
 # Available Gemini models (in order of preference)
 GEMINI_MODELS = [
-    'gemini-2.5-flash-lite-preview-06-17',
-    'gemini-2.0-flash-lite',
-    'gemini-1.5-flash',
-    'gemini-1.5-pro'
+    'gemini-2.5-flash'
 ]
 
 # Current model index
@@ -209,8 +206,17 @@ def generate_image_data(image_path, retry_count=0):
             return generate_fallback_data(image_path)
         
         # Check if response text is available
-        if not hasattr(response, 'text') or not response.text or not response.text.strip():
-            print(f"  → Empty response text")
+        try:
+            response_text = response.text.strip()
+            if not response_text:
+                print(f"  → Empty response text")
+                if retry_count < MAX_RETRIES:
+                    print(f"  → Retrying in {RETRY_DELAY} seconds... (attempt {retry_count + 1}/{MAX_RETRIES + 1})")
+                    time.sleep(RETRY_DELAY)
+                    return generate_image_data(image_path, retry_count + 1)
+                return generate_fallback_data(image_path)
+        except (ValueError, AttributeError, Exception) as text_error:
+            print(f"  → Error accessing response text: {str(text_error)[:50]}")
             if retry_count < MAX_RETRIES:
                 print(f"  → Retrying in {RETRY_DELAY} seconds... (attempt {retry_count + 1}/{MAX_RETRIES + 1})")
                 time.sleep(RETRY_DELAY)
@@ -219,8 +225,6 @@ def generate_image_data(image_path, retry_count=0):
         
         # Parse JSON response with enhanced error handling
         try:
-            response_text = response.text.strip()
-            
             # Enhanced JSON cleaning
             response_text = clean_json_response(response_text)
             
@@ -236,7 +240,7 @@ def generate_image_data(image_path, retry_count=0):
             print(f"  → JSON parsing failed: {str(e)[:100]}...")
             # Try to extract and fix common JSON issues
             try:
-                fixed_json = fix_json_response(response.text)
+                fixed_json = fix_json_response(response_text)
                 if fixed_json:
                     data = json.loads(fixed_json)
                     cleaned_data = validate_and_clean_data(data)
@@ -458,36 +462,6 @@ def generate_fallback_data(image_path):
         "tags": fallback_tags
     }
 
-def check_model_availability():
-    """Check which Gemini models are available and working."""
-    global GEMINI_MODELS, current_model_index
-    
-    print("Checking model availability...")
-    working_models = []
-    
-    for i, model_name in enumerate(GEMINI_MODELS):
-        try:
-            model = genai.GenerativeModel(model_name)
-            # Try a simple test
-            response = model.generate_content("Test", generation_config={"max_output_tokens": 10})
-            if response.text:
-                working_models.append(model_name)
-                print(f"  ✓ {model_name} - Available")
-            else:
-                print(f"  ✗ {model_name} - No response")
-        except Exception as e:
-            print(f"  ✗ {model_name} - Error: {str(e)[:50]}...")
-    
-    if working_models:
-        print(f"Found {len(working_models)} working models out of {len(GEMINI_MODELS)}")
-        # Update the global model list to only include working models
-        GEMINI_MODELS = working_models
-        current_model_index = 0
-        return True
-    else:
-        print("No working models found!")
-        return False
-
 def get_file_without_extension(filename):
     return os.path.splitext(filename)[0]
 
@@ -496,11 +470,6 @@ def update_image_data():
     print("=" * 60)
     print("IMAGE DATA UPDATE SCRIPT")
     print("=" * 60)
-    
-    # Check model availability first
-    if not check_model_availability():
-        print("Cannot proceed without working models. Please check your API key and internet connection.")
-        return
     
     # Load existing index.json if it exists
     existing_data = []

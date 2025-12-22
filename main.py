@@ -25,7 +25,7 @@ warnings.simplefilter('ignore', Image.DecompressionBombWarning)
 Image.MAX_IMAGE_PIXELS = None
 
 # Define directories
-source_dir = r"C:\Users\Ayan\Pictures\up\upscayl_png_ultrasharp-4x_3x"
+source_dir = r"C:\Users\Ayan\Pictures\up"
 destination_dir = r"D:\storage\cache"
 main_dir = r"D:\storage\main"
 output_file = r"D:\storage\index.json"
@@ -44,8 +44,21 @@ if not GEMINI_API_KEY:
 genai.configure(api_key=GEMINI_API_KEY)
 
 # Rate limiting variables
-BATCH_SIZE = 15
+BATCH_SIZE = 9
 BATCH_WAIT_TIME = 60  # seconds
+
+# Predefined categories
+CATEGORIES = [
+    "#nature",
+    "#anime",
+    "#art",
+    "#abstract",
+    "#cars",
+    "#architecture",
+    "#minimal",
+    "#tech",
+    "#amoled"
+]
 
 def init_database():
     """Initialize SQLite database to track processed files."""
@@ -57,9 +70,15 @@ def init_database():
             original_name TEXT UNIQUE,
             new_name TEXT,
             processed_date TEXT,
-            process_type TEXT
+            process_type TEXT,
+            analysis_data TEXT
         )
     ''')
+    # Check if analysis_data column exists, if not add it
+    cursor.execute("PRAGMA table_info(processed_files)")
+    columns = [column[1] for column in cursor.fetchall()]
+    if 'analysis_data' not in columns:
+        cursor.execute('ALTER TABLE processed_files ADD COLUMN analysis_data TEXT')
     conn.commit()
     conn.close()
 
@@ -68,29 +87,30 @@ def is_file_processed(original_name, process_type):
     conn = sqlite3.connect(db_file)
     cursor = conn.cursor()
     cursor.execute(
-        'SELECT new_name FROM processed_files WHERE original_name = ? AND process_type = ?',
+        'SELECT new_name, analysis_data FROM processed_files WHERE original_name = ? AND process_type = ?',
         (original_name, process_type)
     )
     result = cursor.fetchone()
     conn.close()
-    return result[0] if result else None
+    if result:
+        return result[0], result[1]
+    return None, None
 
-def mark_file_processed(original_name, new_name, process_type):
+def mark_file_processed(original_name, new_name, process_type, analysis_data=None):
     """Mark a file as processed in the database."""
     conn = sqlite3.connect(db_file)
     cursor = conn.cursor()
     cursor.execute('''
         INSERT OR REPLACE INTO processed_files 
-        (original_name, new_name, processed_date, process_type) 
-        VALUES (?, ?, ?, ?)
-    ''', (original_name, new_name, datetime.now().isoformat(), process_type))
+        (original_name, new_name, processed_date, process_type, analysis_data) 
+        VALUES (?, ?, ?, ?, ?)
+    ''', (original_name, new_name, datetime.now().isoformat(), process_type, analysis_data))
     conn.commit()
     conn.close()
 
-def generate_filename(image_path):
-    """Generate a new filename using Gemini based on image content."""
+def prepare_image_for_gemini(image_path):
+    """Prepare image for Gemini API by resizing and converting to RGB."""
     try:
-        # Read the image file
         with Image.open(image_path) as img:
             # Resize image if too large to save bandwidth and processing time
             max_size = 800
@@ -111,64 +131,121 @@ def generate_filename(image_path):
             # Convert to bytes
             buffer = BytesIO()
             img.save(buffer, format="JPEG")
-            image_bytes = buffer.getvalue()
-        
+            return buffer.getvalue()
+    except Exception as e:
+        print(f"Error preparing image {image_path}: {e}")
+        return None
+
+def analyze_image_combined(image_path):
+    """Perform full image analysis and filename generation in a single Gemini call."""
+    image_bytes = prepare_image_for_gemini(image_path)
+    if not image_bytes:
+        return None
+
+    try:
         # Set up the Gemini model
-        model = genai.GenerativeModel('gemini-2.5-flash-lite-preview-06-17')
+        model = genai.GenerativeModel('gemini-2.5-flash-lite')
         
-        # Create the prompt
-        prompt = """
-       Analyze this image carefully and identify:
-
-        1. CHARACTER IDENTIFICATION:
-        - Character names (if recognizable from popular anime, games, or media)
-        - Character traits and appearance details
-        - Art style (official art, fan art, original character, etc.)
-
-        2. SOURCE IDENTIFICATION:
-        - Anime/game/series name if identifiable
-        - Franchise or universe
-        - Art style classification
-
-        3. VISUAL ELEMENTS:
-        - Color scheme and mood
-        - Art technique (digital painting, cel shading, realism, etc.)
-        - Image quality and resolution hints
-        - Scene description
-
-        4. CATEGORIZATION:
-        - Type: anime, game art, fan art, original art, etc.
-        - Genre or thematic elements
-        - Artistic style tags
-
-        Based on your analysis, generate a short, descriptive **filename** (without extension) that captures the essence of the image.
-
-        Requirements:
-        - Use lowercase letters, numbers, and hyphens
-        - Be descriptive but concise
-        - make sure the name is within 20 characters
-
-        Just respond with the filename only, no explanation or formatting.
+        # Create the combined prompt
+        prompt = f"""
+        ANALYZE THIS IMAGE WITH EXTREME PRECISION FOR ALGORITHMIC CLASSIFICATION AND FILENAMING.
+        
+        1. CATEGORIZATION:
+        Categorize the image into exactly one of these categories:
+        {', '.join(CATEGORIES)}
+        Note: #amoled is for images with pure black backgrounds and vibrant colors.
+        
+        2. FILENAME GENERATION:
+        Generate a short, descriptive filename (without extension).
+        - Use lowercase letters, numbers, and hyphens.
+        - Be descriptive but concise (max 20 characters).
+        
+        3. DETAILED ANALYSIS:
+        Return ONLY this JSON structure with SPECIFIC STANDARDIZED TERMS:
+        
+        {{
+          "suggested_filename": "the-generated-filename",
+          "category": "#category-name",
+          "character_names": ["exact character names from anime/manga/games"],
+          "series": "exact franchise name or unknown",
+          "art_style": "SELECT ONE: anime | realistic | cartoon | pixel-art | digital-painting | oil-painting | watercolor | sketch | vector-art | 3d-render | photography | cel-shading | line-art | minimalist | abstract | grunge | vintage",
+          "primary_colors": ["SELECT 3-5 FROM: red | crimson | scarlet | maroon | pink | rose | magenta | fuchsia | orange | coral | peach | yellow | gold | amber | green | emerald | lime | forest | cyan | teal | blue | azure | navy | purple | violet | lavender | brown | tan | beige | black | charcoal | gray | silver | white | cream"],
+          "secondary_colors": ["SELECT 2-4 FROM ABOVE COLOR LIST"],
+          "color_palette": "SELECT ONE: monochromatic | complementary | analogous | triadic | warm-tones | cool-tones | pastel | vibrant | muted | high-contrast | low-contrast | neon | earth-tones | jewel-tones",
+          "mood": "SELECT ONE: cheerful | melancholic | energetic | calm | mysterious | romantic | dramatic | peaceful | intense | playful | serious | nostalgic | dreamy | dark | bright",
+          "technique": "SELECT ONE: digital-painting | traditional-painting | photography | 3d-rendering | vector-graphics | pixel-art | mixed-media | pencil-drawing | ink-drawing | watercolor | oil-painting | acrylic-painting",
+          "scene_description": "detailed description of what is shown",
+          "character_details": {{
+            "hair_color": "SELECT FROM COLOR LIST or unknown",
+            "eye_color": "SELECT FROM COLOR LIST or unknown",
+            "clothing_style": "SELECT ONE: casual | formal | fantasy | modern | traditional | futuristic | gothic | cute | elegant | sporty | military | school-uniform or unknown",
+            "pose": "SELECT ONE: standing | sitting | lying | running | walking | dancing | fighting | flying | crouching | kneeling | portrait-pose or unknown",
+            "facial_expression": "SELECT ONE: happy | sad | angry | surprised | neutral | smiling | serious | cute | determined | shy | confident or unknown"
+          }},
+          "environment": "SELECT ONE: indoor | outdoor | fantasy-world | urban | natural | space | underwater | sky | abstract-background | studio | bedroom | kitchen | park | forest | beach | mountain | city | desert | winter | summer | spring | autumn",
+          "lighting": "SELECT ONE: natural-daylight | artificial-light | sunset | sunrise | golden-hour | blue-hour | night | neon | backlit | front-lit | side-lit | dramatic | soft | harsh | ambient | spotlight | candlelight",
+          "composition": "SELECT ONE: portrait | landscape | close-up | wide-shot | medium-shot | centered | rule-of-thirds | symmetrical | asymmetrical | diagonal | vertical | horizontal",
+          "art_quality": "SELECT ONE: professional | high-detail | medium-detail | sketch-quality | rough | polished | photorealistic | stylized | simple | complex",
+          "style_influences": ["SELECT FROM: anime | manga | western-animation | disney | pixar | ghibli | cyberpunk | steampunk | gothic | kawaii | chibi | realistic | impressionism | surrealism | pop-art | art-nouveau | minimalism"],
+          "objects": ["list prominent objects/items visible"],
+          "textures": ["SELECT FROM: smooth | rough | metallic | fabric | glass | wood | stone | plastic | fur | skin | water | fire | clouds | grass | concrete | brick | leather"],
+          "type": "SELECT ONE: character-portrait | full-body-character | multiple-characters | landscape | still-life | abstract-art | vehicle | animal | food | architecture | nature | technology | weapon | clothing | accessories",
+          "tags": ["15-20 SPECIFIC searchable tags covering: character-name, series-name, colors, art-style, mood, objects, environment, lighting, pose, clothing, hair-color, eye-color, technique, quality, composition"]
+        }}
+        
+        CRITICAL REQUIREMENTS:
+        - Use EXACT terms from the SELECT lists above.
+        - Return ONLY the JSON object, no explanations.
         """
         
         # Call the Gemini API
         response = model.generate_content([prompt, {"mime_type": "image/jpeg", "data": image_bytes}])
         
-        # Clean up response to get just the filename
-        filename = response.text.strip().lower()
+        # Parse JSON response
+        response_text = response.text.strip()
+        # Remove markdown formatting if present
+        if response_text.startswith('```json'):
+            response_text = response_text[7:]
+        if response_text.startswith('```'):
+            response_text = response_text[3:]
+        if response_text.endswith('```'):
+            response_text = response_text[:-3]
         
-        # Remove any invalid characters and ensure it meets requirements
-        import re
+        # Remove any text before the first {
+        json_start = response_text.find('{')
+        if json_start > 0:
+            response_text = response_text[json_start:]
+        
+        # Remove any text after the last }
+        json_end = response_text.rfind('}')
+        if json_end > 0:
+            response_text = response_text[:json_end + 1]
+        
+        data = json.loads(response_text)
+        
+        # Clean up filename
+        filename = data.get("suggested_filename", "image").lower()
         filename = re.sub(r'[^a-z0-9\-]', '', filename)
-        
         if not filename:
             filename = "image"
+        data["suggested_filename"] = filename
         
-        return filename
+        # Validate category
+        category = data.get("category", "#art")
+        if category not in CATEGORIES:
+            for valid_cat in CATEGORIES:
+                if valid_cat.lower() in category.lower():
+                    category = valid_cat
+                    break
+            else:
+                category = "#art"
+        data["category"] = category
+        
+        return data
 
     except Exception as e:
-        print(f"Error generating filename for {image_path}: {str(e)}")
-        return "image"
+        print(f"Error in combined analysis for {image_path}: {str(e)}")
+        return None
 
 def compress_image(filename, rename_files=True):
     """Compress and convert images to WebP format while copying originals to main directory."""
@@ -177,15 +254,22 @@ def compress_image(filename, rename_files=True):
         
         # Check if file was already processed for renaming
         if rename_files:
-            existing_new_name = is_file_processed(filename, "rename")
+            existing_new_name, existing_analysis = is_file_processed(filename, "rename")
             if existing_new_name:
                 print(f"File {filename} already renamed to {existing_new_name}, skipping...")
                 return existing_new_name
         
-        # Generate new filename if renaming is enabled
+        # Generate new filename and analysis if renaming is enabled
+        analysis_data = None
         if rename_files:
             try:
-                new_base_name = generate_filename(source_path)
+                analysis = analyze_image_combined(source_path)
+                if analysis:
+                    new_base_name = analysis.get("suggested_filename")
+                    analysis_data = json.dumps(analysis)
+                else:
+                    new_base_name = os.path.splitext(filename)[0]
+                
                 file_extension = os.path.splitext(filename)[1]
                 new_filename = f"{new_base_name}{file_extension}"
                 
@@ -217,8 +301,8 @@ def compress_image(filename, rename_files=True):
                     except Exception as e:
                         print(f"Error renaming cache file for {filename}: {e}")
                 
-                mark_file_processed(filename, new_filename, "rename")
-                print(f"Generated new name: {filename} -> {new_filename}")
+                mark_file_processed(filename, new_filename, "rename", analysis_data)
+                print(f"Generated new name and analysis: {filename} -> {new_filename}")
             except Exception as e:
                 print(f"Error generating filename for {filename}, using original: {e}")
                 new_filename = filename
@@ -259,7 +343,7 @@ def compress_image(filename, rename_files=True):
                             new_height = max_dimension
                             new_width = math.floor(width * (max_dimension / height))
                         
-                        img = img.resize((new_width, new_height), Image.LANCZOS)
+                        img = img.resize((new_width, new_height), Image.Resampling.LANCZOS)
                     
                     # Save with different settings based on file size
                     if original_size > 1000:  # For large files (>1MB)
@@ -321,82 +405,6 @@ def run_optimization(rename_files=True):
 # Function to get files without extension
 def get_file_without_extension(filename):
     return os.path.splitext(filename)[0]
-
-# Function to identify image content and categorize it
-def identify_image(image_path):
-    try:
-        # Define predefined categories
-        categories = [
-            "#nature",
-            "#anime",
-            "#art",
-            "#abstract",
-            "#cars",
-            "#architecture",
-            "#minimal",
-            "#tech",
-            "#amoled"
-        ]
-        
-        # Read the image file
-        with Image.open(image_path) as img:
-            # Resize image if too large to save bandwidth and processing time
-            max_size = 800
-            if img.width > max_size or img.height > max_size:
-                img.thumbnail((max_size, max_size), Image.Resampling.LANCZOS)
-            
-            # Convert RGBA to RGB if necessary (for JPEG compatibility)
-            if img.mode in ('RGBA', 'LA', 'P'):
-                # Create a white background
-                background = Image.new('RGB', img.size, (255, 255, 255))
-                if img.mode == 'P':
-                    img = img.convert('RGBA')
-                background.paste(img, mask=img.split()[-1] if img.mode in ('RGBA', 'LA') else None)
-                img = background
-            elif img.mode != 'RGB':
-                img = img.convert('RGB')
-            
-            # Convert to bytes
-            buffer = BytesIO()
-            img.save(buffer, format="JPEG")
-            image_bytes = buffer.getvalue()
-        
-        # Set up the Gemini model
-        model = genai.GenerativeModel('gemini-2.5-flash-lite-preview-06-17')
-        
-        # Create the prompt
-        prompt = f"""
-        Analyze this image and categorize it into exactly one of these categories:
-        {', '.join(categories)}
-        
-        Note: #amoled is for images with pure black backgrounds and vibrant colors, perfect for AMOLED displays.
-        
-        Just respond with the category name only, including the # symbol. No explanation.
-        """
-        
-        # Call the Gemini API
-        response = model.generate_content([prompt, {"mime_type": "image/jpeg", "data": image_bytes}])
-        
-        # Clean up response to get just the category
-        category = response.text.strip()
-        
-        # Validate the category is one of our predefined options
-        if category not in categories:
-            # If not a perfect match, try to match the closest one
-            for valid_category in categories:
-                if valid_category.lower() in category.lower():
-                    category = valid_category
-                    break
-            else:
-                # Default to #art if no match found
-                print(f"Warning: Unrecognized category '{category}' for {image_path}. Defaulting to #art.")
-                category = "#art"
-                
-        return category
-
-    except Exception as e:
-        print(f"Error identifying image {image_path}: {str(e)}")
-        return "#art"  # Default category on error
 
 # Function to determine resolution category and orientation
 def get_resolution_info(image_path):
@@ -461,254 +469,6 @@ def is_newer_timestamp(timestamp1, timestamp2):
     except Exception as e:
         print(f"Error comparing timestamps: {str(e)}")
         return False
-
-def generate_image_data(image_path):
-    """Generate detailed image analysis data using Gemini."""
-    try:
-        # Read the image file
-        with Image.open(image_path) as img:
-            # Resize image if too large to save bandwidth and processing time
-            max_size = 800
-            if img.width > max_size or img.height > max_size:
-                img.thumbnail((max_size, max_size), Image.Resampling.LANCZOS)
-            
-            # Convert RGBA to RGB if necessary (for JPEG compatibility)
-            if img.mode in ('RGBA', 'LA', 'P'):
-                # Create a white background
-                background = Image.new('RGB', img.size, (255, 255, 255))
-                if img.mode == 'P':
-                    img = img.convert('RGBA')
-                background.paste(img, mask=img.split()[-1] if img.mode in ('RGBA', 'LA') else None)
-                img = background
-            elif img.mode != 'RGB':
-                img = img.convert('RGB')
-            
-            # Convert to bytes
-            buffer = BytesIO()
-            img.save(buffer, format="JPEG")
-            image_bytes = buffer.getvalue()
-        
-        # Set up the Gemini model
-        model = genai.GenerativeModel('gemini-2.5-flash-lite-preview-06-17')
-        
-        # Create a highly specific prompt optimized for algorithmic processing
-        prompt = """
-        ANALYZE THIS IMAGE WITH EXTREME PRECISION FOR ALGORITHMIC CLASSIFICATION.
-        
-        Return ONLY this JSON structure with SPECIFIC STANDARDIZED TERMS:
-        
-        {
-          "character_names": ["exact character names from anime/manga/games"],
-          "series": "exact franchise name or unknown",
-          "art_style": "SELECT ONE: anime | realistic | cartoon | pixel-art | digital-painting | oil-painting | watercolor | sketch | vector-art | 3d-render | photography | cel-shading | line-art | minimalist | abstract | grunge | vintage",
-          "primary_colors": ["SELECT 3-5 FROM: red | crimson | scarlet | maroon | pink | rose | magenta | fuchsia | orange | coral | peach | yellow | gold | amber | green | emerald | lime | forest | cyan | teal | blue | azure | navy | purple | violet | lavender | brown | tan | beige | black | charcoal | gray | silver | white | cream"],
-          "secondary_colors": ["SELECT 2-4 FROM ABOVE COLOR LIST"],
-          "color_palette": "SELECT ONE: monochromatic | complementary | analogous | triadic | warm-tones | cool-tones | pastel | vibrant | muted | high-contrast | low-contrast | neon | earth-tones | jewel-tones",
-          "mood": "SELECT ONE: cheerful | melancholic | energetic | calm | mysterious | romantic | dramatic | peaceful | intense | playful | serious | nostalgic | dreamy | dark | bright",
-          "technique": "SELECT ONE: digital-painting | traditional-painting | photography | 3d-rendering | vector-graphics | pixel-art | mixed-media | pencil-drawing | ink-drawing | watercolor | oil-painting | acrylic-painting",
-          "scene_description": "detailed description of what is shown",
-          "character_details": {
-            "hair_color": "SELECT FROM COLOR LIST or unknown",
-            "eye_color": "SELECT FROM COLOR LIST or unknown",
-            "clothing_style": "SELECT ONE: casual | formal | fantasy | modern | traditional | futuristic | gothic | cute | elegant | sporty | military | school-uniform or unknown",
-            "pose": "SELECT ONE: standing | sitting | lying | running | walking | dancing | fighting | flying | crouching | kneeling | portrait-pose or unknown",
-            "facial_expression": "SELECT ONE: happy | sad | angry | surprised | neutral | smiling | serious | cute | determined | shy | confident or unknown"
-          },
-          "environment": "SELECT ONE: indoor | outdoor | fantasy-world | urban | natural | space | underwater | sky | abstract-background | studio | bedroom | kitchen | park | forest | beach | mountain | city | desert | winter | summer | spring | autumn",
-          "lighting": "SELECT ONE: natural-daylight | artificial-light | sunset | sunrise | golden-hour | blue-hour | night | neon | backlit | front-lit | side-lit | dramatic | soft | harsh | ambient | spotlight | candlelight",
-          "composition": "SELECT ONE: portrait | landscape | close-up | wide-shot | medium-shot | centered | rule-of-thirds | symmetrical | asymmetrical | diagonal | vertical | horizontal",
-          "art_quality": "SELECT ONE: professional | high-detail | medium-detail | sketch-quality | rough | polished | photorealistic | stylized | simple | complex",
-          "style_influences": ["SELECT FROM: anime | manga | western-animation | disney | pixar | ghibli | cyberpunk | steampunk | gothic | kawaii | chibi | realistic | impressionism | surrealism | pop-art | art-nouveau | minimalism"],
-          "objects": ["list prominent objects/items visible"],
-          "textures": ["SELECT FROM: smooth | rough | metallic | fabric | glass | wood | stone | plastic | fur | skin | water | fire | clouds | grass | concrete | brick | leather"],
-          "type": "SELECT ONE: character-portrait | full-body-character | multiple-characters | landscape | still-life | abstract-art | vehicle | animal | food | architecture | nature | technology | weapon | clothing | accessories",
-          "tags": ["15-20 SPECIFIC searchable tags covering: character-name, series-name, colors, art-style, mood, objects, environment, lighting, pose, clothing, hair-color, eye-color, technique, quality, composition"]
-        }
-        
-        CRITICAL REQUIREMENTS:
-        - Use EXACT terms from the SELECT lists above
-        - For colors: Use specific names like "crimson", "azure", "emerald" NOT generic terms
-        - Include character names if recognizable from popular media
-        - Include series/franchise names if identifiable  
-        - Tags must be hyphenated (e.g., "blue-hair", "night-scene", "fantasy-art")
-        - Provide 15-20 tags for maximum searchability
-        - Use "unknown" only when truly not applicable
-        
-        Return ONLY the JSON object, no explanations.
-        """
-        
-        # Call the Gemini API
-        response = model.generate_content([prompt, {"mime_type": "image/jpeg", "data": image_bytes}])
-        
-        # Parse JSON response
-        try:
-            response_text = response.text.strip()
-            # Remove any markdown formatting if present
-            if response_text.startswith('```json'):
-                response_text = response_text[7:]
-            if response_text.startswith('```'):
-                response_text = response_text[3:]
-            if response_text.endswith('```'):
-                response_text = response_text[:-3]
-            
-            # Remove any text before the first {
-            json_start = response_text.find('{')
-            if json_start > 0:
-                response_text = response_text[json_start:]
-            
-            # Remove any text after the last }
-            json_end = response_text.rfind('}')
-            if json_end > 0:
-                response_text = response_text[:json_end + 1]
-            
-            data = json.loads(response_text)
-            
-            # Validate and clean the data
-            cleaned_data = {
-                "character_names": data.get("character_names", []) if isinstance(data.get("character_names"), list) else [],
-                "series": str(data.get("series", "unknown")),
-                "art_style": str(data.get("art_style", "unknown")),
-                "primary_colors": data.get("primary_colors", []) if isinstance(data.get("primary_colors"), list) else [],
-                "secondary_colors": data.get("secondary_colors", []) if isinstance(data.get("secondary_colors"), list) else [],
-                "color_palette": str(data.get("color_palette", "unknown")),
-                "mood": str(data.get("mood", "unknown")),
-                "technique": str(data.get("technique", "unknown")),
-                "scene_description": str(data.get("scene_description", "unknown")),
-                "character_details": {
-                    "hair_color": str(data.get("character_details", {}).get("hair_color", "unknown")),
-                    "eye_color": str(data.get("character_details", {}).get("eye_color", "unknown")),
-                    "clothing_style": str(data.get("character_details", {}).get("clothing_style", "unknown")),
-                    "pose": str(data.get("character_details", {}).get("pose", "unknown")),
-                    "facial_expression": str(data.get("character_details", {}).get("facial_expression", "unknown"))
-                },
-                "environment": str(data.get("environment", "unknown")),
-                "lighting": str(data.get("lighting", "unknown")),
-                "composition": str(data.get("composition", "unknown")),
-                "art_quality": str(data.get("art_quality", "unknown")),
-                "style_influences": data.get("style_influences", []) if isinstance(data.get("style_influences"), list) else [],
-                "objects": data.get("objects", []) if isinstance(data.get("objects"), list) else [],
-                "textures": data.get("textures", []) if isinstance(data.get("textures"), list) else [],
-                "type": str(data.get("type", "unknown")),
-                "tags": data.get("tags", []) if isinstance(data.get("tags"), list) else []
-            }
-            
-            # Ensure all array fields contain only strings and remove empty values
-            for key in ["character_names", "primary_colors", "secondary_colors", "style_influences", "objects", "textures", "tags"]:
-                cleaned_data[key] = [str(item).strip() for item in cleaned_data[key] if item and str(item).strip()]
-            
-            # Ensure we have at least some tags
-            if not cleaned_data["tags"]:
-                # Generate some basic tags from other fields
-                basic_tags = []
-                if cleaned_data["type"] != "unknown":
-                    basic_tags.append(cleaned_data["type"])
-                if cleaned_data["primary_colors"]:
-                    basic_tags.extend(cleaned_data["primary_colors"][:3])
-                if cleaned_data["mood"] != "unknown":
-                    basic_tags.append(cleaned_data["mood"])
-                cleaned_data["tags"] = basic_tags
-            
-            return cleaned_data
-            
-        except json.JSONDecodeError as e:
-            print(f"Error parsing JSON response for {image_path}, using fallback data: {str(e)[:100]}")
-            # Try to fix common JSON formatting issues
-            try:
-                # Try to fix missing quotes around keys
-                fixed_text = re.sub(r'(\w+):', r'"\1":', response_text)
-                # Fix trailing commas
-                fixed_text = re.sub(r',(\s*[}\]])', r'\1', fixed_text)
-                if fixed_text.startswith('{') and fixed_text.endswith('}'):
-                    data = json.loads(fixed_text)
-                    cleaned_data = {
-                        "character_names": data.get("character_names", []) if isinstance(data.get("character_names"), list) else [],
-                        "series": str(data.get("series", "unknown")),
-                        "art_style": str(data.get("art_style", "unknown")),
-                        "primary_colors": data.get("primary_colors", []) if isinstance(data.get("primary_colors"), list) else [],
-                        "secondary_colors": data.get("secondary_colors", []) if isinstance(data.get("secondary_colors"), list) else [],
-                        "color_palette": str(data.get("color_palette", "unknown")),
-                        "mood": str(data.get("mood", "unknown")),
-                        "technique": str(data.get("technique", "unknown")),
-                        "scene_description": str(data.get("scene_description", "unknown")),
-                        "character_details": {
-                            "hair_color": str(data.get("character_details", {}).get("hair_color", "unknown")),
-                            "eye_color": str(data.get("character_details", {}).get("eye_color", "unknown")),
-                            "clothing_style": str(data.get("character_details", {}).get("clothing_style", "unknown")),
-                            "pose": str(data.get("character_details", {}).get("pose", "unknown")),
-                            "facial_expression": str(data.get("character_details", {}).get("facial_expression", "unknown"))
-                        },
-                        "environment": str(data.get("environment", "unknown")),
-                        "lighting": str(data.get("lighting", "unknown")),
-                        "composition": str(data.get("composition", "unknown")),
-                        "art_quality": str(data.get("art_quality", "unknown")),
-                        "style_influences": data.get("style_influences", []) if isinstance(data.get("style_influences"), list) else [],
-                        "objects": data.get("objects", []) if isinstance(data.get("objects"), list) else [],
-                        "textures": data.get("textures", []) if isinstance(data.get("textures"), list) else [],
-                        "type": str(data.get("type", "unknown")),
-                        "tags": data.get("tags", []) if isinstance(data.get("tags", [])) else []
-                    }
-                    return cleaned_data
-            except:
-                pass
-            
-            # If fixing failed, return fallback data
-            return {
-                "character_names": [],
-                "series": "unknown",
-                "art_style": "unknown",
-                "primary_colors": [],
-                "secondary_colors": [],
-                "color_palette": "unknown",
-                "mood": "unknown",
-                "technique": "unknown",
-                "scene_description": "unknown",
-                "character_details": {
-                    "hair_color": "unknown",
-                    "eye_color": "unknown",
-                    "clothing_style": "unknown",
-                    "pose": "unknown",
-                    "facial_expression": "unknown"
-                },
-                "environment": "unknown",
-                "lighting": "unknown",
-                "composition": "unknown",
-                "art_quality": "unknown",
-                "style_influences": [],
-                "objects": [],
-                "textures": [],
-                "type": "unknown",
-                "tags": []
-            }
-
-    except Exception as e:
-        print(f"Error generating image data for {image_path}: {str(e)}")
-        return {
-            "character_names": [],
-            "series": "unknown",
-            "art_style": "unknown",
-            "primary_colors": [],
-            "secondary_colors": [],
-            "color_palette": "unknown",
-            "mood": "unknown",
-            "technique": "unknown",
-            "scene_description": "unknown",
-            "character_details": {
-                "hair_color": "unknown",
-                "eye_color": "unknown",
-                "clothing_style": "unknown",
-                "pose": "unknown",
-                "facial_expression": "unknown"
-            },
-            "environment": "unknown",
-            "lighting": "unknown",
-            "composition": "unknown",
-            "art_quality": "unknown",
-            "style_influences": [],
-            "objects": [],
-            "textures": [],
-            "type": "unknown",
-            "tags": []
-        }
 
 def run_indexing():
     """Run the image indexing process with rate limiting and continuous file updates."""
@@ -869,15 +629,34 @@ def run_indexing():
         
         # Process each image in the current batch
         for j, (entry, image_path, base_name, entry_type) in enumerate(batch):
-            # Generate category if missing
-            if "category" not in entry:
-                category = identify_image(image_path)
-                entry["category"] = category
+            # Check if we have analysis data in the database
+            analysis = None
+            filename = os.path.basename(image_path)
             
-            # Generate data if missing
-            if "data" not in entry:
-                data = generate_image_data(image_path)
-                entry["data"] = data
+            try:
+                conn = sqlite3.connect(db_file)
+                cursor = conn.cursor()
+                # Check both original_name and new_name columns
+                cursor.execute('SELECT analysis_data FROM processed_files WHERE original_name = ? OR new_name = ?', (filename, filename))
+                db_result = cursor.fetchone()
+                conn.close()
+                
+                if db_result and db_result[0]:
+                    analysis = json.loads(db_result[0])
+                    print(f"  → Using stored analysis for {base_name}")
+            except Exception as e:
+                print(f"  → Error checking database for {base_name}: {e}")
+            
+            # If not in DB, analyze now
+            if not analysis:
+                analysis = analyze_image_combined(image_path)
+            
+            if analysis:
+                entry["category"] = analysis.get("category", "#art")
+                entry["data"] = analysis
+            else:
+                if "category" not in entry: entry["category"] = "#art"
+                if "data" not in entry: entry["data"] = {}
             
             result.append(entry)
             if entry_type == "new":
@@ -916,7 +695,7 @@ def rename_existing_files():
         for file in os.listdir(main_dir):
             if file.lower().endswith(('.png', '.jpg', '.jpeg')) and os.path.isfile(os.path.join(main_dir, file)):
                 # Check if already processed
-                if not is_file_processed(file, "rename"):
+                if not is_file_processed(file, "rename")[0]:
                     main_files.append(file)
     
     # Get existing files in cache directory  
@@ -929,7 +708,7 @@ def rename_existing_files():
                 # Look for original file extensions
                 for ext in ['.png', '.jpg', '.jpeg']:
                     original_name = base_name + ext
-                    if not is_file_processed(original_name, "rename"):
+                    if not is_file_processed(original_name, "rename")[0]:
                         cache_files.append((file, original_name))
                         break
     
@@ -968,10 +747,18 @@ def rename_existing_files():
         
         for file_type, current_name, original_name in batch:
             try:
+                analysis = None
+                analysis_data = None
+                
                 if file_type == 'main':
-                    # Generate new name using the main file
                     main_path = os.path.join(main_dir, current_name)
-                    new_base_name = generate_filename(main_path)
+                    analysis = analyze_image_combined(main_path)
+                    if analysis:
+                        new_base_name = analysis.get("suggested_filename")
+                        analysis_data = json.dumps(analysis)
+                    else:
+                        new_base_name = os.path.splitext(current_name)[0]
+                    
                     file_extension = os.path.splitext(current_name)[1]
                     new_filename = f"{new_base_name}{file_extension}"
                     
@@ -996,14 +783,14 @@ def rename_existing_files():
                             os.rename(old_cache_path, new_cache_path)
                             print(f"Renamed cache file: {old_cache_name} -> {new_cache_name}")
                         
-                        mark_file_processed(original_name, new_filename, "rename")
+                        mark_file_processed(original_name, new_filename, "rename", analysis_data)
                     else:
                         print(f"No rename needed for: {current_name}")
-                        mark_file_processed(original_name, current_name, "rename")
+                        mark_file_processed(original_name, current_name, "rename", analysis_data)
                 
                 elif file_type == 'cache':
                     # Check if we already renamed the main file in this batch
-                    if not is_file_processed(original_name, "rename"):
+                    if not is_file_processed(original_name, "rename")[0]:
                         # Try to find main file to generate name from
                         main_candidates = []
                         base_name = get_file_without_extension(current_name)
@@ -1016,11 +803,17 @@ def rename_existing_files():
                         if main_candidates:
                             # Use the first found main file
                             main_file, main_path = main_candidates[0]
-                            new_base_name = generate_filename(main_path)
+                            analysis = analyze_image_combined(main_path)
                         else:
-                            # Use cache file itself (convert to temp format first)
+                            # Use cache file itself
                             cache_path = os.path.join(destination_dir, current_name)
-                            new_base_name = generate_filename(cache_path)
+                            analysis = analyze_image_combined(cache_path)
+                        
+                        if analysis:
+                            new_base_name = analysis.get("suggested_filename")
+                            analysis_data = json.dumps(analysis)
+                        else:
+                            new_base_name = os.path.splitext(current_name)[0]
                         
                         new_cache_name = f"{new_base_name}.webp"
                         
@@ -1037,7 +830,7 @@ def rename_existing_files():
                             os.rename(cache_path, new_cache_path)
                             print(f"Renamed cache file: {current_name} -> {new_cache_name}")
                         
-                        mark_file_processed(original_name, new_cache_name if new_cache_name != current_name else current_name, "rename")
+                        mark_file_processed(original_name, new_cache_name if new_cache_name != current_name else current_name, "rename", analysis_data)
             
             except Exception as e:
                 print(f"Error renaming {current_name}: {e}")
