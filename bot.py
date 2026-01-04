@@ -27,18 +27,44 @@ load_dotenv()
 
 # Get API keys from environment
 BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 AUTHORIZED_USER_ID = int(os.getenv("AUTHORIZED_USER_ID", "0"))
 
 if not BOT_TOKEN:
     raise ValueError("TELEGRAM_BOT_TOKEN not found in .env file")
-if not GEMINI_API_KEY:
-    raise ValueError("GEMINI_API_KEY not found in .env file")
 if AUTHORIZED_USER_ID == 0:
     raise ValueError("AUTHORIZED_USER_ID not found in .env file")
 
-# Configure Gemini
-genai.configure(api_key=GEMINI_API_KEY)
+# Get Gemini API Keys from environment variables
+GEMINI_API_KEYS = os.getenv("GEMINI_API_KEYS", "").split(",")
+if not GEMINI_API_KEYS or not GEMINI_API_KEYS[0]:
+    # Fallback to single key if plural not found
+    single_key = os.getenv("GEMINI_API_KEY")
+    if single_key:
+        GEMINI_API_KEYS = [single_key]
+    else:
+        raise ValueError("GEMINI_API_KEY not found in environment variables. Please check your .env file.")
+
+current_key_index = 0
+images_processed_with_current_key = 0
+
+def rotate_api_key():
+    """Rotate to the next API key after 15 images."""
+    global current_key_index, images_processed_with_current_key
+    images_processed_with_current_key += 1
+    
+    if images_processed_with_current_key >= 15:
+        if len(GEMINI_API_KEYS) > 1:
+            current_key_index = (current_key_index + 1) % len(GEMINI_API_KEYS)
+            images_processed_with_current_key = 0
+            new_key = GEMINI_API_KEYS[current_key_index].strip()
+            genai.configure(api_key=new_key)
+            print(f"\n--- Switched to API Key {current_key_index + 1}/{len(GEMINI_API_KEYS)} ---")
+        else:
+            # Only one key, just reset counter to keep track but no switch possible
+            images_processed_with_current_key = 0
+
+# Initial configuration
+genai.configure(api_key=GEMINI_API_KEYS[0].strip())
 
 # Define directories
 temp_download_dir = r"D:\storage\temp_downloads"
@@ -145,6 +171,9 @@ def switch_to_next_model():
 
 def generate_filename(image_path, retry_count=0):
     """Generate a new filename using Gemini based on image content."""
+    # Rotate API key if needed
+    rotate_api_key()
+    
     try:
         with Image.open(image_path) as img:
             max_size = 800
@@ -224,6 +253,9 @@ def generate_filename(image_path, retry_count=0):
 
 def identify_image(image_path, retry_count=0):
     """Identify image content and categorize it."""
+    # Rotate API key if needed
+    rotate_api_key()
+    
     try:
         categories = [
             "#nature", "#anime", "#art", "#abstract", "#cars",
@@ -287,6 +319,9 @@ def identify_image(image_path, retry_count=0):
 
 def generate_image_data(image_path, retry_count=0):
     """Generate detailed image analysis data using Gemini with retry logic."""
+    # Rotate API key if needed
+    rotate_api_key()
+    
     try:
         with Image.open(image_path) as img:
             max_size = 800

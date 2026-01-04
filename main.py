@@ -35,13 +35,37 @@ db_file = r"D:\storage\processed_files.db"
 os.makedirs(destination_dir, exist_ok=True)
 os.makedirs(main_dir, exist_ok=True)
 
-# Get Gemini API Key from environment variables
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-if not GEMINI_API_KEY:
-    raise ValueError("GEMINI_API_KEY not found in environment variables. Please check your .env file.")
+# Get Gemini API Keys from environment variables
+GEMINI_API_KEYS = os.getenv("GEMINI_API_KEYS", "").split(",")
+if not GEMINI_API_KEYS or not GEMINI_API_KEYS[0]:
+    # Fallback to single key if plural not found
+    single_key = os.getenv("GEMINI_API_KEY")
+    if single_key:
+        GEMINI_API_KEYS = [single_key]
+    else:
+        raise ValueError("GEMINI_API_KEY not found in environment variables. Please check your .env file.")
 
-# Configure the Gemini API
-genai.configure(api_key=GEMINI_API_KEY)
+current_key_index = 0
+images_processed_with_current_key = 0
+
+def rotate_api_key():
+    """Rotate to the next API key after 15 images."""
+    global current_key_index, images_processed_with_current_key
+    images_processed_with_current_key += 1
+    
+    if images_processed_with_current_key >= 15:
+        if len(GEMINI_API_KEYS) > 1:
+            current_key_index = (current_key_index + 1) % len(GEMINI_API_KEYS)
+            images_processed_with_current_key = 0
+            new_key = GEMINI_API_KEYS[current_key_index].strip()
+            genai.configure(api_key=new_key)
+            print(f"\n--- Switched to API Key {current_key_index + 1}/{len(GEMINI_API_KEYS)} ---")
+        else:
+            # Only one key, just reset counter to keep track but no switch possible
+            images_processed_with_current_key = 0
+
+# Initial configuration
+genai.configure(api_key=GEMINI_API_KEYS[0].strip())
 
 # Rate limiting variables
 BATCH_SIZE = 9
@@ -138,6 +162,9 @@ def prepare_image_for_gemini(image_path):
 
 def analyze_image_combined(image_path):
     """Perform full image analysis and filename generation in a single Gemini call."""
+    # Rotate API key if needed
+    rotate_api_key()
+    
     image_bytes = prepare_image_for_gemini(image_path)
     if not image_bytes:
         return None
