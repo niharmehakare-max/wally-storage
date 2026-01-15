@@ -701,11 +701,8 @@ def run_indexing():
             except Exception as e:
                 print(f"  → Error updating index file: {e}")
         
-        # Wait if not the last batch
-        if i + BATCH_SIZE < len(entries_to_process):
-            print(f"Batch {batch_num} complete. Waiting {BATCH_WAIT_TIME} seconds...")
-            time.sleep(BATCH_WAIT_TIME)
-
+        # No waiting required during indexing as per user request
+    
     # Final write to ensure everything is saved
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(result, f, indent=4)

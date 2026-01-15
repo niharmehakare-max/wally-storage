@@ -55,7 +55,7 @@ RETRY_DELAY = 10  # seconds
 
 # Available Gemini models (in order of preference)
 GEMINI_MODELS = [
-    'gemini-2.5-flash'
+    'gemini-2.5-pro'
 ]
 
 # Current model index
