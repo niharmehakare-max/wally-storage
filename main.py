@@ -25,7 +25,7 @@ warnings.simplefilter('ignore', Image.DecompressionBombWarning)
 Image.MAX_IMAGE_PIXELS = None
 
 # Define directories
-source_dir = r"C:\Users\Ayan\Pictures\up"
+source_dir = r"E:\up\upscayl_png_ultrasharp-4x_3x"
 destination_dir = r"D:\storage\cache"
 main_dir = r"D:\storage\main"
 output_file = r"D:\storage\index.json"
