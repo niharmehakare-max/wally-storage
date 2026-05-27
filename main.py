@@ -25,12 +25,13 @@ warnings.simplefilter('ignore', Image.DecompressionBombWarning)
 Image.MAX_IMAGE_PIXELS = None
 
 # Define directories
-source_dir = r"E:\up\upscayl_png_ultrasharp-4x_3x"
-destination_dir = r"D:\storage\cache"
-main_dir = r"D:\storage\main"
-output_file = r"D:\storage\index.json"
-db_file = r"D:\storage\processed_files.db"
+from pathlib import Path
 
+source_dir = Path("~/new").expanduser()
+destination_dir = Path("~/storage/cache").expanduser()
+main_dir = Path("~/storage/main").expanduser()
+output_file = Path("~/storage/index.json").expanduser()
+db_file = Path("~/storage/processed_files.db").expanduser()
 # Ensure destination directories exist
 os.makedirs(destination_dir, exist_ok=True)
 os.makedirs(main_dir, exist_ok=True)
@@ -68,7 +69,7 @@ def rotate_api_key():
 genai.configure(api_key=GEMINI_API_KEYS[0].strip())
 
 # Rate limiting variables
-BATCH_SIZE = 9
+BATCH_SIZE = 13
 BATCH_WAIT_TIME = 60  # seconds
 
 # Predefined categories
@@ -171,7 +172,7 @@ def analyze_image_combined(image_path):
 
     try:
         # Set up the Gemini model
-        model = genai.GenerativeModel('gemini-2.5-flash-lite')
+        model = genai.GenerativeModel('gemini-3.1-flash-lite')
         
         # Create the combined prompt
         prompt = f"""
@@ -546,66 +547,10 @@ def run_indexing():
         if cache_file or main_file:  # Only include if at least one exists
             # Check if this file already exists in the index
             if base_name in existing_entries:
-                # Use existing entry but update if cache or main file has changed
-                entry = existing_entries[base_name]
-                changed = False
-                needs_category_update = False
-                needs_data_update = False
-                main_path = None
-                
-                if entry.get('file_cache_name', '') != cache_file:
-                    entry['file_cache_name'] = cache_file
-                    changed = True
-                    
-                if entry.get('file_main_name', '') != main_file:
-                    entry['file_main_name'] = main_file
-                    # Get resolution info if main file has changed
-                    if main_file:
-                        main_path = os.path.join(main_dir, main_file)
-                        if os.path.isfile(main_path):
-                            resolution_info = get_resolution_info(main_path)
-                            entry.update({
-                                "width": resolution_info["width"],
-                                "height": resolution_info["height"],
-                                "resolution": resolution_info["resolution"],
-                                "orientation": resolution_info["orientation"],
-                                "timestamp": get_file_timestamp(main_path)
-                            })
-                            needs_category_update = True
-                            needs_data_update = True
-                    changed = True
-                elif not "timestamp" in entry and main_file:  # Add timestamp if missing
-                    main_path = os.path.join(main_dir, main_file)
-                    if os.path.isfile(main_path):
-                        entry["timestamp"] = get_file_timestamp(main_path)
-                        changed = True
-                elif main_file:  # Update timestamp if file was modified
-                    main_path = os.path.join(main_dir, main_file)
-                    current_timestamp = get_file_timestamp(main_path)
-                    if is_newer_timestamp(current_timestamp, entry.get("timestamp", "")):
-                        entry["timestamp"] = current_timestamp
-                        needs_category_update = True
-                        needs_data_update = True
-                        changed = True
-                
-                # Check if data field is missing
-                if not "data" in entry:
-                    needs_data_update = True
-                
-                # Add category and data if missing or needs update
-                if main_file and (not "category" in entry or needs_category_update or needs_data_update):
-                    main_path = os.path.join(main_dir, main_file)
-                    if os.path.isfile(main_path):
-                        entries_to_process.append((entry, main_path, base_name, "update"))
-                
-                if changed and not (needs_category_update or needs_data_update):
-                    updated_entries += 1
-                    print(f"Updated metadata for: {base_name}")
-                
-                if not (needs_category_update or needs_data_update):
-                    result.append(entry)
+                # Entry already exists - keep it as-is, don't process or update it
+                result.append(existing_entries[base_name])
             else:
-                # Create a new entry
+                # Create a new entry (only process files NOT already in the index)
                 entry = {
                     "file_name": base_name,
                     "file_cache_name": cache_file,
@@ -692,14 +637,14 @@ def run_indexing():
             else:
                 updated_entries += 1
                 print(f"Updated ({i+j+1}/{len(entries_to_process)}): {base_name} - {entry.get('category', 'unknown')} - {len(entry.get('data', {}).get('tags', []))} tags")
-            
-            # Update the index file after each image is processed
-            try:
-                with open(output_file, 'w', encoding='utf-8') as f:
-                    json.dump(result, f, indent=4)
-                print(f"  → Index file updated ({len(result)} total entries)")
-            except Exception as e:
-                print(f"  → Error updating index file: {e}")
+        
+        # Write the index file once per batch (not after every image)
+        try:
+            with open(output_file, 'w', encoding='utf-8') as f:
+                json.dump(result, f, indent=4)
+            print(f"Batch {batch_num} saved - Index file updated ({len(result)} total entries)")
+        except Exception as e:
+            print(f"  → Error updating index file: {e}")
         
         # No waiting required during indexing as per user request
     
