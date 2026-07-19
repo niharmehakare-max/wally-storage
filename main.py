@@ -8,7 +8,6 @@ import math
 import json
 import time
 import re
-from pathlib import Path
 from datetime import datetime, timezone
 import google.generativeai as genai
 import base64
@@ -24,17 +23,18 @@ load_dotenv()
 warnings.simplefilter('ignore', Image.DecompressionBombWarning)
 Image.MAX_IMAGE_PIXELS = None
 
-# Define directories
-from pathlib import Path
+from paths import CACHE_DIR, INDEX_FILE, MAIN_DIR, PROCESSED_FILES_DB, SOURCE_DIR
 
-source_dir = Path("~/new").expanduser()
-destination_dir = Path("~/storage/cache").expanduser()
-main_dir = Path("~/storage/main").expanduser()
-output_file = Path("~/storage/index.json").expanduser()
-db_file = Path("~/storage/processed_files.db").expanduser()
+# Define directories. ``paths.py`` selects the hard-coded Windows or Linux
+# locations at runtime.
+source_dir = SOURCE_DIR
+destination_dir = CACHE_DIR
+main_dir = MAIN_DIR
+output_file = INDEX_FILE
+db_file = PROCESSED_FILES_DB
 # Ensure destination directories exist
-os.makedirs(destination_dir, exist_ok=True)
-os.makedirs(main_dir, exist_ok=True)
+destination_dir.mkdir(parents=True, exist_ok=True)
+main_dir.mkdir(parents=True, exist_ok=True)
 
 # Get Gemini API Keys from environment variables
 GEMINI_API_KEYS = os.getenv("GEMINI_API_KEYS", "").split(",")

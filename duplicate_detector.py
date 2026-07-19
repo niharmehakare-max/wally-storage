@@ -8,13 +8,14 @@ import hashlib
 import sys
 import webbrowser
 from PIL import Image
+from paths import CACHE_DIR, DUPLICATE_HASH_CACHE, INDEX_FILE, MAIN_DIR, PROJECT_DIR
 
 # Configuration
 PORT = 8000
-cache_dir = r"D:\storage\cache"
-main_dir = r"D:\storage\main"
-index_path = r"D:\storage\index.json"
-hash_cache_path = r"D:\storage\.duplicate_hash_cache.json"
+cache_dir = CACHE_DIR
+main_dir = MAIN_DIR
+index_path = INDEX_FILE
+hash_cache_path = DUPLICATE_HASH_CACHE
 
 def get_image_hash(filepath):
     """Compute combined dHash and aHash of the image for visual similarity comparison."""
@@ -1301,8 +1302,8 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 """
 
 def main():
-    # Make sure we are running inside the correct workspace
-    os.chdir(r"D:\storage")
+    # Keep relative resources anchored to this checkout on every platform.
+    os.chdir(PROJECT_DIR)
     
     # Initialize port binding
     class ThreadingHTTPServer(socketserver.ThreadingMixIn, http.server.HTTPServer):

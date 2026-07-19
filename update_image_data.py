@@ -6,14 +6,15 @@ from io import BytesIO
 import google.generativeai as genai
 from dotenv import load_dotenv
 import re
+from paths import CACHE_DIR, INDEX_FILE, MAIN_DIR
 
 # Load environment variables from .env file
 load_dotenv()
 
-# Define directories
-destination_dir = r"D:\storage\cache"
-main_dir = r"D:\storage\main"
-output_file = r"D:\storage\index.json"
+# Define directories. ``paths.py`` selects the hard-coded OS-specific paths.
+destination_dir = CACHE_DIR
+main_dir = MAIN_DIR
+output_file = INDEX_FILE
 
 # Get Gemini API Keys from environment variables
 GEMINI_API_KEYS = os.getenv("GEMINI_API_KEYS", "").split(",")
