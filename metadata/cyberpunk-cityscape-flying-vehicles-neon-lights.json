@@ -1,0 +1,73 @@
+{
+    "file_name": "cyberpunk-cityscape-flying-vehicles-neon-lights",
+    "file_cache_name": "cyberpunk-cityscape-flying-vehicles-neon-lights.webp",
+    "file_main_name": "cyberpunk-cityscape-flying-vehicles-neon-lights.png",
+    "width": 675,
+    "height": 1200,
+    "resolution": "SD",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-13T00:18:48.659426+00:00",
+    "category": "#cyberpunk",
+    "data": {
+        "suggested_filename": "cyberpunk-cityscape-flying-vehicles-neon-lights",
+        "category": "#cyberpunk",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "cyberpunk",
+        "primary_colors": [
+            "blue",
+            "purple"
+        ],
+        "secondary_colors": [
+            "pink",
+            "yellow"
+        ],
+        "color_palette": "neon",
+        "mood": "dark",
+        "technique": "3d-render",
+        "scene_description": "A futuristic cyberpunk city with towering skyscrapers, neon signs, and flying vehicles navigating between elevated walkways. The scene is bathed in the vibrant glow of artificial lights.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "unknown",
+            "pose": "unknown",
+            "facial_expression": "unknown"
+        },
+        "environment": "urban",
+        "lighting": "neon",
+        "composition": "wide-shot",
+        "art_quality": "masterpiece",
+        "style_influences": [
+            "blade-runner"
+        ],
+        "objects": [
+            "skyscraper",
+            "flying car",
+            "bridge",
+            "billboard",
+            "neon sign"
+        ],
+        "textures": [
+            "metallic",
+            "glass"
+        ],
+        "type": "scenery",
+        "tags": [
+            "cyberpunk",
+            "futuristic",
+            "city",
+            "night",
+            "neon",
+            "lights",
+            "flying cars",
+            "skyscrapers",
+            "urban",
+            "dystopian",
+            "technology",
+            "ai",
+            "hologram",
+            "digital art",
+            "wallpaper"
+        ]
+    }
+}

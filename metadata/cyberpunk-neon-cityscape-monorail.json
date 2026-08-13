@@ -1,0 +1,75 @@
+{
+    "file_name": "cyberpunk-neon-cityscape-monorail",
+    "file_cache_name": "cyberpunk-neon-cityscape-monorail.webp",
+    "file_main_name": "cyberpunk-neon-cityscape-monorail.png",
+    "width": 941,
+    "height": 1672,
+    "resolution": "HD",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-13T00:18:31.699385+00:00",
+    "category": "#cyberpunk",
+    "data": {
+        "suggested_filename": "cyberpunk-neon-cityscape-monorail",
+        "category": "#cyberpunk",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "cyberpunk",
+        "primary_colors": [
+            "dark-blue",
+            "neon-purple",
+            "cyan"
+        ],
+        "secondary_colors": [
+            "neon-pink",
+            "bright-yellow"
+        ],
+        "color_palette": "neon",
+        "mood": "energetic",
+        "technique": "digital-painting",
+        "scene_description": "A crowded futuristic city street at night, featuring towering skyscrapers, flying cars, and a winding monorail illuminated by neon signs.",
+        "character_details": {
+            "hair_color": "dark",
+            "eye_color": "unknown",
+            "clothing_style": "cyberpunk streetwear",
+            "pose": "standing, back-facing the viewer",
+            "facial_expression": "unknown"
+        },
+        "environment": "urban",
+        "lighting": "neon",
+        "composition": "portrait",
+        "art_quality": "high-detail",
+        "style_influences": [
+            "Blade Runner",
+            "Cyberpunk 2077"
+        ],
+        "objects": [
+            "flying cars",
+            "monorail",
+            "neon signs",
+            "billboards",
+            "backpack"
+        ],
+        "textures": [
+            "rain-slicked asphalt",
+            "metallic surfaces"
+        ],
+        "type": "scenery",
+        "tags": [
+            "cyberpunk",
+            "futuristic",
+            "cityscape",
+            "neon",
+            "monorail",
+            "flying-cars",
+            "crowd",
+            "night",
+            "metropolis",
+            "glowing-signs",
+            "sci-fi",
+            "anime-aesthetic",
+            "urban",
+            "wet-streets",
+            "dystopian"
+        ]
+    }
+}
