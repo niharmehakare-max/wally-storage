@@ -1,0 +1,75 @@
+{
+    "file_name": "gothic-throne-under-eclipse",
+    "file_cache_name": "gothic-throne-under-eclipse.webp",
+    "file_main_name": "gothic-throne-under-eclipse.png",
+    "width": 941,
+    "height": 1672,
+    "resolution": "HD",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-16T19:57:28.670821+00:00",
+    "category": "#fantasy",
+    "data": {
+        "suggested_filename": "gothic-throne-under-eclipse",
+        "category": "#fantasy",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "fantasy",
+        "primary_colors": [
+            "black",
+            "white"
+        ],
+        "secondary_colors": [
+            "gray",
+            "dark gray"
+        ],
+        "color_palette": "monochrome",
+        "mood": "dark",
+        "technique": "digital-painting",
+        "scene_description": "A dark and imposing gothic throne sits on a grand staircase leading to a desolate city under an eerie eclipse.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "unknown",
+            "pose": "unknown",
+            "facial_expression": "unknown"
+        },
+        "environment": "fantasy-world",
+        "lighting": "dark",
+        "composition": "centered",
+        "art_quality": "masterpiece",
+        "style_influences": [
+            "gothic-architecture",
+            "dark-fantasy"
+        ],
+        "objects": [
+            "throne",
+            "castle",
+            "banner",
+            "moon",
+            "steps"
+        ],
+        "textures": [
+            "stone",
+            "crumbling",
+            "fabric"
+        ],
+        "type": "scenery",
+        "tags": [
+            "gothic",
+            "dark fantasy",
+            "throne",
+            "castle",
+            "eclipse",
+            "eerie",
+            "desolate",
+            "ruins",
+            "epic",
+            "monochrome",
+            "dramatic",
+            "night",
+            "ominous",
+            "fantasy",
+            "rule"
+        ]
+    }
+}

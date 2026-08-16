@@ -1,0 +1,76 @@
+{
+    "file_name": "lush-mountain-valley-wildflowers",
+    "file_cache_name": "lush-mountain-valley-wildflowers.webp",
+    "file_main_name": "lush-mountain-valley-wildflowers.png",
+    "width": 978,
+    "height": 1739,
+    "resolution": "HD",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-14T05:29:26.912158+00:00",
+    "category": "#scenery",
+    "data": {
+        "suggested_filename": "lush-mountain-valley-wildflowers",
+        "category": "#scenery",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "illustration",
+        "primary_colors": [
+            "green",
+            "blue"
+        ],
+        "secondary_colors": [
+            "white",
+            "yellow"
+        ],
+        "color_palette": "vibrant",
+        "mood": "peaceful",
+        "technique": "digital-painting",
+        "scene_description": "A vibrant and lush green valley stretches towards distant snow-capped mountains under a bright blue sky with fluffy clouds. The foreground is filled with colorful wildflowers and tall green grass, leading the eye into the expansive landscape.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "unknown",
+            "pose": "unknown",
+            "facial_expression": "unknown"
+        },
+        "environment": "nature",
+        "lighting": "natural-daylight",
+        "composition": "landscape",
+        "art_quality": "high-detail",
+        "style_influences": [
+            "anime"
+        ],
+        "objects": [
+            "mountains",
+            "valley",
+            "wildflowers",
+            "grass",
+            "rocks",
+            "trees",
+            "clouds"
+        ],
+        "textures": [
+            "grassy",
+            "rocky",
+            "snowy"
+        ],
+        "type": "landscape",
+        "tags": [
+            "mountains",
+            "valley",
+            "green",
+            "nature",
+            "wildflowers",
+            "blue sky",
+            "clouds",
+            "landscape",
+            "peaceful",
+            "vibrant",
+            "lush",
+            "scenic",
+            "outdoors",
+            "spring",
+            "summer"
+        ]
+    }
+}

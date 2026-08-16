@@ -1,0 +1,73 @@
+{
+    "file_name": "chiikawa-riding-taiyaki",
+    "file_cache_name": "chiikawa-riding-taiyaki.webp",
+    "file_main_name": "chiikawa-riding-taiyaki.png",
+    "width": 736,
+    "height": 736,
+    "resolution": "HD",
+    "orientation": "Square",
+    "timestamp": "2026-08-16T19:44:33.795931+00:00",
+    "category": "#anime",
+    "data": {
+        "suggested_filename": "chiikawa-riding-taiyaki",
+        "category": "#anime",
+        "character_names": [
+            "Chiikawa"
+        ],
+        "series": "Chiikawa",
+        "art_style": "illustration",
+        "primary_colors": [
+            "white",
+            "gold",
+            "pink"
+        ],
+        "secondary_colors": [
+            "black",
+            "rose"
+        ],
+        "color_palette": "pastel",
+        "mood": "cheerful",
+        "technique": "vector",
+        "scene_description": "Chiikawa joyfully rides a flying taiyaki pastry against a soft pink background.",
+        "character_details": {
+            "hair_color": "white",
+            "eye_color": "black",
+            "clothing_style": "none",
+            "pose": "riding",
+            "facial_expression": "happy"
+        },
+        "environment": "abstract",
+        "lighting": "soft-glow",
+        "composition": "centered",
+        "art_quality": "clean-vector",
+        "style_influences": [
+            "nagano",
+            "kawaii"
+        ],
+        "objects": [
+            "taiyaki",
+            "pastry"
+        ],
+        "textures": [
+            "smooth"
+        ],
+        "type": "single-character",
+        "tags": [
+            "chiikawa",
+            "taiyaki",
+            "cute",
+            "kawaii",
+            "chibi",
+            "japanese",
+            "pastry",
+            "flying",
+            "pink-background",
+            "minimalist",
+            "illustration",
+            "sweet",
+            "whimsical",
+            "happy",
+            "cartoon"
+        ]
+    }
+}

@@ -1,0 +1,75 @@
+{
+    "file_name": "momonga-wet-on-clothesline",
+    "file_cache_name": "momonga-wet-on-clothesline.webp",
+    "file_main_name": "momonga-wet-on-clothesline.png",
+    "width": 1440,
+    "height": 1440,
+    "resolution": "2K",
+    "orientation": "Square",
+    "timestamp": "2026-08-16T19:33:42.759039+00:00",
+    "category": "#anime",
+    "data": {
+        "suggested_filename": "momonga-wet-on-clothesline",
+        "category": "#anime",
+        "character_names": [
+            "Momonga"
+        ],
+        "series": "Chiikawa",
+        "art_style": "illustration",
+        "primary_colors": [
+            "white",
+            "light-blue",
+            "sky-blue"
+        ],
+        "secondary_colors": [
+            "pink",
+            "light-green",
+            "black"
+        ],
+        "color_palette": "pastel",
+        "mood": "peaceful",
+        "technique": "vector",
+        "scene_description": "A cute white character hanging wet from a clothesline under a sunny sky.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "black",
+            "clothing_style": "none",
+            "pose": "hanging",
+            "facial_expression": "sad"
+        },
+        "environment": "nature",
+        "lighting": "natural-daylight",
+        "composition": "centered",
+        "art_quality": "clean-vector",
+        "style_influences": [
+            "Nagano",
+            "kawaii-culture"
+        ],
+        "objects": [
+            "clothesline",
+            "clothespin",
+            "water-droplet"
+        ],
+        "textures": [
+            "smooth"
+        ],
+        "type": "single-character",
+        "tags": [
+            "chiikawa",
+            "momonga",
+            "cute",
+            "kawaii",
+            "clothesline",
+            "hanging",
+            "wet",
+            "sad",
+            "blue-sky",
+            "minimalist",
+            "anime",
+            "cartoon",
+            "illustration",
+            "clothespin",
+            "dripping"
+        ]
+    }
+}

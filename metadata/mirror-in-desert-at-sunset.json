@@ -1,0 +1,65 @@
+{
+    "file_name": "mirror-in-desert-at-sunset",
+    "file_cache_name": "mirror-in-desert-at-sunset.webp",
+    "file_main_name": "mirror-in-desert-at-sunset.png",
+    "width": 576,
+    "height": 1024,
+    "resolution": "SD",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-14T05:31:53.575617+00:00",
+    "category": "#scenery",
+    "data": {
+        "suggested_filename": "mirror-in-desert-at-sunset",
+        "category": "#scenery",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "realistic",
+        "primary_colors": [
+            "sandy-brown",
+            "orange"
+        ],
+        "secondary_colors": [
+            "pale-blue",
+            "gray"
+        ],
+        "color_palette": "warm",
+        "mood": "serene",
+        "technique": "photography",
+        "scene_description": "A tall, rectangular mirror stands in the middle of a vast desert landscape, reflecting the sunset sky and distant dunes.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "unknown",
+            "pose": "unknown",
+            "facial_expression": "unknown"
+        },
+        "environment": "nature",
+        "lighting": "golden-hour",
+        "composition": "centered",
+        "art_quality": "high-detail",
+        "style_influences": [],
+        "objects": [
+            "mirror",
+            "dunes"
+        ],
+        "textures": [
+            "sand-ripples",
+            "smooth-glass"
+        ],
+        "type": "scenery",
+        "tags": [
+            "desert",
+            "mirror",
+            "sunset",
+            "sand dunes",
+            "reflection",
+            "minimalist",
+            "landscape",
+            "nature",
+            "serene",
+            "vast",
+            "outdoor",
+            "horizon"
+        ]
+    }
+}

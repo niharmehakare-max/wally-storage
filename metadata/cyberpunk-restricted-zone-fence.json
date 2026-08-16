@@ -1,0 +1,76 @@
+{
+    "file_name": "cyberpunk-restricted-zone-fence",
+    "file_cache_name": "cyberpunk-restricted-zone-fence.webp",
+    "file_main_name": "cyberpunk-restricted-zone-fence.png",
+    "width": 736,
+    "height": 1104,
+    "resolution": "HD",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-16T19:23:44.175269+00:00",
+    "category": "#cyberpunk",
+    "data": {
+        "suggested_filename": "cyberpunk-restricted-zone-fence",
+        "category": "#cyberpunk",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "cyberpunk",
+        "primary_colors": [
+            "black",
+            "red"
+        ],
+        "secondary_colors": [
+            "cyan",
+            "dark grey"
+        ],
+        "color_palette": "neon",
+        "mood": "mysterious",
+        "technique": "3d-render",
+        "scene_description": "A futuristic chain-link fence with security cameras and red glowing 'NO ENTRY' signs protects a hazy, industrial cyberpunk cityscape.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "unknown",
+            "pose": "unknown",
+            "facial_expression": "unknown"
+        },
+        "environment": "urban",
+        "lighting": "neon",
+        "composition": "portrait",
+        "art_quality": "high-detail",
+        "style_influences": [
+            "blade-runner",
+            "sci-fi"
+        ],
+        "objects": [
+            "fence",
+            "security camera",
+            "neon sign",
+            "barbed wire",
+            "puddle",
+            "industrial tower"
+        ],
+        "textures": [
+            "metal",
+            "wet pavement",
+            "wire"
+        ],
+        "type": "scenery",
+        "tags": [
+            "cyberpunk",
+            "futuristic",
+            "neon",
+            "security",
+            "fence",
+            "industrial",
+            "dystopian",
+            "sci-fi",
+            "wet pavement",
+            "reflections",
+            "no entry",
+            "red light",
+            "surveillance",
+            "urban",
+            "night"
+        ]
+    }
+}

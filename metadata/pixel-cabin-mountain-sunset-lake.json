@@ -1,0 +1,75 @@
+{
+    "file_name": "pixel-cabin-mountain-sunset-lake",
+    "file_cache_name": "pixel-cabin-mountain-sunset-lake.webp",
+    "file_main_name": "pixel-cabin-mountain-sunset-lake.png",
+    "width": 736,
+    "height": 1308,
+    "resolution": "HD",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-16T19:46:00.297617+00:00",
+    "category": "#scenery",
+    "data": {
+        "suggested_filename": "pixel-cabin-mountain-sunset-lake",
+        "category": "#scenery",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "pixel-art",
+        "primary_colors": [
+            "#e5989b",
+            "#6d6875",
+            "#ffcdb2"
+        ],
+        "secondary_colors": [
+            "#b5838d",
+            "#ffd166"
+        ],
+        "color_palette": "warm",
+        "mood": "peaceful",
+        "technique": "digital-painting",
+        "scene_description": "A cozy log cabin rests beside a misty lake, reflecting a warm pixel-art mountain sunset.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "unknown",
+            "pose": "unknown",
+            "facial_expression": "unknown"
+        },
+        "environment": "nature",
+        "lighting": "golden-hour",
+        "composition": "portrait",
+        "art_quality": "high-detail",
+        "style_influences": [
+            "retro-gaming",
+            "lo-fi-aesthetic"
+        ],
+        "objects": [
+            "cabin",
+            "lake",
+            "mountains",
+            "pine-trees",
+            "sun",
+            "smoke"
+        ],
+        "textures": [
+            "pixelated"
+        ],
+        "type": "scenery",
+        "tags": [
+            "pixel-art",
+            "scenery",
+            "cabin",
+            "lake",
+            "mountains",
+            "sunset",
+            "mist",
+            "forest",
+            "cozy",
+            "reflection",
+            "retro",
+            "nature",
+            "pink-sky",
+            "lo-fi",
+            "peaceful"
+        ]
+    }
+}

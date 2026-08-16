@@ -1,0 +1,78 @@
+{
+    "file_name": "cyberpunk-rainy-city-street-futuristic-car",
+    "file_cache_name": "cyberpunk-rainy-city-street-futuristic-car.webp",
+    "file_main_name": "cyberpunk-rainy-city-street-futuristic-car.png",
+    "width": 594,
+    "height": 812,
+    "resolution": "SD",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-14T05:20:47.971708+00:00",
+    "category": "#cyberpunk",
+    "data": {
+        "suggested_filename": "cyberpunk-rainy-city-street-futuristic-car",
+        "category": "#cyberpunk",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "cyberpunk",
+        "primary_colors": [
+            "neon-pink",
+            "purple",
+            "cyan"
+        ],
+        "secondary_colors": [
+            "dark-blue",
+            "black",
+            "yellow"
+        ],
+        "color_palette": "neon",
+        "mood": "mysterious",
+        "technique": "3d-render",
+        "scene_description": "A rainy cyberpunk city street filled with glowing neon signs, futuristic flying vehicles overhead, and a sports car parked beside walking pedestrians.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "futuristic streetwear",
+            "pose": "walking",
+            "facial_expression": "unknown"
+        },
+        "environment": "urban",
+        "lighting": "neon",
+        "composition": "portrait",
+        "art_quality": "high-detail",
+        "style_influences": [
+            "blade-runner",
+            "cyberpunk-2077"
+        ],
+        "objects": [
+            "futuristic car",
+            "flying vehicles",
+            "neon signs",
+            "skyscrapers",
+            "wet street"
+        ],
+        "textures": [
+            "wet asphalt",
+            "glowing neon",
+            "reflective glass",
+            "metal"
+        ],
+        "type": "scenery",
+        "tags": [
+            "cyberpunk",
+            "neon",
+            "rain",
+            "futuristic",
+            "cityscape",
+            "scifi",
+            "skyscraper",
+            "flying car",
+            "sports car",
+            "night",
+            "street",
+            "reflections",
+            "glowing",
+            "urban",
+            "dark"
+        ]
+    }
+}

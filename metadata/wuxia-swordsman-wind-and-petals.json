@@ -1,0 +1,74 @@
+{
+    "file_name": "wuxia-swordsman-wind-and-petals",
+    "file_cache_name": "wuxia-swordsman-wind-and-petals.webp",
+    "file_main_name": "wuxia-swordsman-wind-and-petals.png",
+    "width": 4096,
+    "height": 2150,
+    "resolution": "4K",
+    "orientation": "Desktop",
+    "timestamp": "2026-08-14T05:27:21.678089+00:00",
+    "category": "#anime",
+    "data": {
+        "suggested_filename": "wuxia-swordsman-wind-and-petals",
+        "category": "#anime",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "illustration",
+        "primary_colors": [
+            "white",
+            "black"
+        ],
+        "secondary_colors": [
+            "grey",
+            "beige"
+        ],
+        "color_palette": "muted",
+        "mood": "energetic",
+        "technique": "digital-painting",
+        "scene_description": "A long-haired swordsman in traditional robes grips a katana amidst blowing debris and petals.",
+        "character_details": {
+            "hair_color": "black",
+            "eye_color": "unknown",
+            "clothing_style": "traditional wuxia robes",
+            "pose": "action crouch holding katana",
+            "facial_expression": "focused"
+        },
+        "environment": "fantasy-world",
+        "lighting": "cinematic",
+        "composition": "centered",
+        "art_quality": "high-detail",
+        "style_influences": [
+            "wuxia",
+            "ink-wash-painting"
+        ],
+        "objects": [
+            "katana",
+            "sword",
+            "petals",
+            "robes"
+        ],
+        "textures": [
+            "cloth",
+            "stone",
+            "dust"
+        ],
+        "type": "single-character",
+        "tags": [
+            "swordsman",
+            "katana",
+            "wuxia",
+            "samurai",
+            "warrior",
+            "black hair",
+            "flowing robes",
+            "wind",
+            "petals",
+            "action",
+            "fantasy",
+            "digital painting",
+            "ink style",
+            "monochrome",
+            "dynamic"
+        ]
+    }
+}

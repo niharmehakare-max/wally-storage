@@ -1,0 +1,75 @@
+{
+    "file_name": "cyberpunk-rainy-neon-city-street",
+    "file_cache_name": "cyberpunk-rainy-neon-city-street.webp",
+    "file_main_name": "cyberpunk-rainy-neon-city-street.png",
+    "width": 688,
+    "height": 1223,
+    "resolution": "SD",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-14T05:20:23.530974+00:00",
+    "category": "#cyberpunk",
+    "data": {
+        "suggested_filename": "cyberpunk-rainy-neon-city-street",
+        "category": "#cyberpunk",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "cyberpunk",
+        "primary_colors": [
+            "cyan",
+            "teal"
+        ],
+        "secondary_colors": [
+            "orange",
+            "magenta"
+        ],
+        "color_palette": "neon",
+        "mood": "mysterious",
+        "technique": "digital-painting",
+        "scene_description": "Pedestrians holding umbrellas walk along a rainy, neon-lit futuristic street filled with holographic advertisements and flying vehicles.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "raincoats and modern streetwear",
+            "pose": "walking",
+            "facial_expression": "neutral"
+        },
+        "environment": "urban",
+        "lighting": "neon",
+        "composition": "wide-shot",
+        "art_quality": "high-detail",
+        "style_influences": [
+            "Blade Runner",
+            "Cyberpunk 2077"
+        ],
+        "objects": [
+            "umbrella",
+            "flying car",
+            "holographic display",
+            "sports car",
+            "elevated train"
+        ],
+        "textures": [
+            "wet asphalt",
+            "rain ripples",
+            "glowing glass"
+        ],
+        "type": "scenery",
+        "tags": [
+            "cyberpunk",
+            "sci-fi",
+            "rain",
+            "neon",
+            "future-city",
+            "hologram",
+            "night",
+            "wet-street",
+            "flying-car",
+            "urban",
+            "futuristic",
+            "cybernetics",
+            "reflections",
+            "dystopia",
+            "cityscape"
+        ]
+    }
+}

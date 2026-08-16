@@ -1,0 +1,77 @@
+{
+    "file_name": "mount-fuji-cherry-blossoms-torii-gate",
+    "file_cache_name": "mount-fuji-cherry-blossoms-torii-gate.webp",
+    "file_main_name": "mount-fuji-cherry-blossoms-torii-gate.png",
+    "width": 1920,
+    "height": 1080,
+    "resolution": "FHD",
+    "orientation": "Desktop",
+    "timestamp": "2026-08-14T05:24:50.220635+00:00",
+    "category": "#scenery",
+    "data": {
+        "suggested_filename": "mount-fuji-cherry-blossoms-torii-gate",
+        "category": "#scenery",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "anime",
+        "primary_colors": [
+            "pink",
+            "green",
+            "blue"
+        ],
+        "secondary_colors": [
+            "white",
+            "red",
+            "brown"
+        ],
+        "color_palette": "vibrant",
+        "mood": "serene",
+        "technique": "digital-painting",
+        "scene_description": "An anime-style Japanese landscape showing Mount Fuji, a red torii gate, and blooming cherry blossom trees in a grassy field.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "unknown",
+            "pose": "unknown",
+            "facial_expression": "unknown"
+        },
+        "environment": "nature",
+        "lighting": "natural-daylight",
+        "composition": "landscape",
+        "art_quality": "high-detail",
+        "style_influences": [
+            "Studio Ghibli",
+            "Makoto Shinkai"
+        ],
+        "objects": [
+            "Mount Fuji",
+            "torii gate",
+            "cherry blossom tree",
+            "clouds",
+            "grass"
+        ],
+        "textures": [
+            "foliage",
+            "bark",
+            "clouds"
+        ],
+        "type": "scenery",
+        "tags": [
+            "mount fuji",
+            "cherry blossom",
+            "sakura",
+            "torii gate",
+            "japan",
+            "anime landscape",
+            "scenery",
+            "nature",
+            "spring",
+            "blue sky",
+            "vibrant",
+            "peaceful",
+            "serene",
+            "clouds",
+            "wallpaper"
+        ]
+    }
+}

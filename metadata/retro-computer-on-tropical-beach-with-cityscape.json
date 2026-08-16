@@ -1,0 +1,75 @@
+{
+    "file_name": "retro-computer-on-tropical-beach-with-cityscape",
+    "file_cache_name": "retro-computer-on-tropical-beach-with-cityscape.webp",
+    "file_main_name": "retro-computer-on-tropical-beach-with-cityscape.png",
+    "width": 1440,
+    "height": 1793,
+    "resolution": "2K",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-16T20:01:26.657603+00:00",
+    "category": "#scenery",
+    "data": {
+        "suggested_filename": "retro-computer-on-tropical-beach-with-cityscape",
+        "category": "#scenery",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "digital-art",
+        "primary_colors": [
+            "blue",
+            "green"
+        ],
+        "secondary_colors": [
+            "white",
+            "brown"
+        ],
+        "color_palette": "vibrant",
+        "mood": "nostalgic",
+        "technique": "digital-painting",
+        "scene_description": "A retro computer and keyboard are placed in the foreground with palm trees on either side, overlooking a vibrant blue ocean with a distant city skyline under a partly cloudy sky.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "unknown",
+            "pose": "unknown",
+            "facial_expression": "unknown"
+        },
+        "environment": "nature",
+        "lighting": "natural-daylight",
+        "composition": "landscape",
+        "art_quality": "high-detail",
+        "style_influences": [
+            "vaporwave"
+        ],
+        "objects": [
+            "computer",
+            "keyboard",
+            "palm tree",
+            "ocean",
+            "cityscape",
+            "clouds"
+        ],
+        "textures": [
+            "rough bark",
+            "smooth plastic",
+            "water"
+        ],
+        "type": "scenery",
+        "tags": [
+            "retro",
+            "vintage",
+            "computer",
+            "keyboard",
+            "tropical",
+            "beach",
+            "palm trees",
+            "ocean",
+            "city",
+            "skyline",
+            "nostalgia",
+            "vaporwave",
+            "technology",
+            "80s",
+            "90s"
+        ]
+    }
+}

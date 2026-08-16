@@ -1,0 +1,73 @@
+{
+    "file_name": "chiikawa-incoming-video-call",
+    "file_cache_name": "chiikawa-incoming-video-call.webp",
+    "file_main_name": "chiikawa-incoming-video-call.png",
+    "width": 324,
+    "height": 386,
+    "resolution": "SD",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-16T19:39:49.653460+00:00",
+    "category": "#anime",
+    "data": {
+        "suggested_filename": "chiikawa-incoming-video-call",
+        "category": "#anime",
+        "character_names": [
+            "Chiikawa"
+        ],
+        "series": "Chiikawa",
+        "art_style": "illustration",
+        "primary_colors": [
+            "white",
+            "grey"
+        ],
+        "secondary_colors": [
+            "green",
+            "red",
+            "black"
+        ],
+        "color_palette": "muted",
+        "mood": "cheerful",
+        "technique": "digital-painting",
+        "scene_description": "A minimalist digital illustration mimicking an incoming smartphone call screen from the character Chiikawa.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "black",
+            "clothing_style": "unknown",
+            "pose": "facing forward",
+            "facial_expression": "shy and blushing"
+        },
+        "environment": "indoor",
+        "lighting": "soft-glow",
+        "composition": "centered",
+        "art_quality": "smooth",
+        "style_influences": [
+            "nagano",
+            "kawaii-culture"
+        ],
+        "objects": [
+            "call buttons",
+            "phone interface"
+        ],
+        "textures": [
+            "smooth"
+        ],
+        "type": "single-character",
+        "tags": [
+            "chiikawa",
+            "incoming call",
+            "meme",
+            "cute",
+            "kawaii",
+            "anime",
+            "phone screen",
+            "illustration",
+            "white character",
+            "shy",
+            "blushing",
+            "minimalist",
+            "ui mockup",
+            "green button",
+            "red button"
+        ]
+    }
+}

@@ -1,0 +1,75 @@
+{
+    "file_name": "anime-japanese-street-vending-machine",
+    "file_cache_name": "anime-japanese-street-vending-machine.webp",
+    "file_main_name": "anime-japanese-street-vending-machine.png",
+    "width": 1344,
+    "height": 2392,
+    "resolution": "FHD",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-16T19:26:49.307591+00:00",
+    "category": "#scenery",
+    "data": {
+        "suggested_filename": "anime-japanese-street-vending-machine",
+        "category": "#scenery",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "anime",
+        "primary_colors": [
+            "green",
+            "blue"
+        ],
+        "secondary_colors": [
+            "red",
+            "brown"
+        ],
+        "color_palette": "vibrant",
+        "mood": "peaceful",
+        "technique": "digital-painting",
+        "scene_description": "A sunlit Japanese village street framed by dense green foliage, featuring traditional wooden storefronts and bright red vending machines.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "unknown",
+            "pose": "unknown",
+            "facial_expression": "unknown"
+        },
+        "environment": "urban",
+        "lighting": "natural-daylight",
+        "composition": "portrait",
+        "art_quality": "masterpiece",
+        "style_influences": [
+            "Studio Ghibli",
+            "Makoto Shinkai"
+        ],
+        "objects": [
+            "vending machine",
+            "utility pole",
+            "potted plants",
+            "signboard",
+            "wooden house"
+        ],
+        "textures": [
+            "wood",
+            "foliage",
+            "stone"
+        ],
+        "type": "scenery",
+        "tags": [
+            "anime",
+            "scenery",
+            "japan",
+            "street",
+            "vending machine",
+            "summer",
+            "ghibli",
+            "peaceful",
+            "nature",
+            "town",
+            "blue sky",
+            "trees",
+            "nostalgic",
+            "cozy",
+            "landscape"
+        ]
+    }
+}

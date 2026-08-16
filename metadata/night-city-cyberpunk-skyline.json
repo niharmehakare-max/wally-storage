@@ -1,0 +1,75 @@
+{
+    "file_name": "night-city-cyberpunk-skyline",
+    "file_cache_name": "night-city-cyberpunk-skyline.webp",
+    "file_main_name": "night-city-cyberpunk-skyline.png",
+    "width": 3840,
+    "height": 2059,
+    "resolution": "4K",
+    "orientation": "Desktop",
+    "timestamp": "2026-08-14T05:19:14.150410+00:00",
+    "category": "#cyberpunk",
+    "data": {
+        "suggested_filename": "night-city-cyberpunk-skyline",
+        "category": "#cyberpunk",
+        "character_names": [],
+        "series": "Cyberpunk 2077",
+        "art_style": "cyberpunk",
+        "primary_colors": [
+            "black",
+            "dark blue"
+        ],
+        "secondary_colors": [
+            "cyan",
+            "magenta"
+        ],
+        "color_palette": "neon",
+        "mood": "dark",
+        "technique": "3d-render",
+        "scene_description": "Futuristic cyberpunk megacity skyline at night featuring towering illuminated skyscrapers, holographic advertisements, and a bridge over water.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "unknown",
+            "pose": "unknown",
+            "facial_expression": "unknown"
+        },
+        "environment": "urban",
+        "lighting": "neon",
+        "composition": "wide-shot",
+        "art_quality": "high-detail",
+        "style_influences": [
+            "Cyberpunk 2077",
+            "Blade Runner"
+        ],
+        "objects": [
+            "skyscrapers",
+            "holograms",
+            "bridge",
+            "neon signs",
+            "water"
+        ],
+        "textures": [
+            "metallic",
+            "glass",
+            "glow"
+        ],
+        "type": "scenery",
+        "tags": [
+            "cyberpunk",
+            "night city",
+            "cyberpunk 2077",
+            "futuristic",
+            "cityscape",
+            "skyline",
+            "neon",
+            "hologram",
+            "arasaka",
+            "skyscrapers",
+            "urban",
+            "night",
+            "sci-fi",
+            "bridge",
+            "glowing"
+        ]
+    }
+}

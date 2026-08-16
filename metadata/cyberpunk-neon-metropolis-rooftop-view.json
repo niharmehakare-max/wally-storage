@@ -1,0 +1,73 @@
+{
+    "file_name": "cyberpunk-neon-metropolis-rooftop-view",
+    "file_cache_name": "cyberpunk-neon-metropolis-rooftop-view.webp",
+    "file_main_name": "cyberpunk-neon-metropolis-rooftop-view.png",
+    "width": 3840,
+    "height": 2160,
+    "resolution": "4K",
+    "orientation": "Desktop",
+    "timestamp": "2026-08-14T05:23:02.922219+00:00",
+    "category": "#cyberpunk",
+    "data": {
+        "suggested_filename": "cyberpunk-neon-metropolis-rooftop-view",
+        "category": "#cyberpunk",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "cyberpunk",
+        "primary_colors": [
+            "cyan",
+            "magenta"
+        ],
+        "secondary_colors": [
+            "purple",
+            "black"
+        ],
+        "color_palette": "neon",
+        "mood": "mysterious",
+        "technique": "digital-painting",
+        "scene_description": "A lone figure stands on a high rooftop, gazing out at a sprawling futuristic metropolis illuminated by vibrant neon signs and towering holographic billboards.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "futuristic jacket",
+            "pose": "standing back-to-camera",
+            "facial_expression": "unknown"
+        },
+        "environment": "urban",
+        "lighting": "neon",
+        "composition": "landscape",
+        "art_quality": "high-detail",
+        "style_influences": [
+            "Blade Runner",
+            "Ghost in the Shell"
+        ],
+        "objects": [
+            "skyscrapers",
+            "holographic billboards",
+            "neon signs",
+            "flying vehicles"
+        ],
+        "textures": [
+            "haze",
+            "glass"
+        ],
+        "type": "scenery",
+        "tags": [
+            "cyberpunk",
+            "futuristic",
+            "metropolis",
+            "neon",
+            "hologram",
+            "rooftop",
+            "sci-fi",
+            "scenery",
+            "night-city",
+            "dystopian",
+            "digital-art",
+            "skyscrapers",
+            "glowing",
+            "urban",
+            "synthwave"
+        ]
+    }
+}

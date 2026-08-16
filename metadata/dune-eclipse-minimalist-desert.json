@@ -1,0 +1,74 @@
+{
+    "file_name": "dune-eclipse-minimalist-desert",
+    "file_cache_name": "dune-eclipse-minimalist-desert.webp",
+    "file_main_name": "dune-eclipse-minimalist-desert.png",
+    "width": 297,
+    "height": 528,
+    "resolution": "SD",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-16T19:29:01.389573+00:00",
+    "category": "#scenery",
+    "data": {
+        "suggested_filename": "dune-eclipse-minimalist-desert",
+        "category": "#scenery",
+        "character_names": [
+            "unknown"
+        ],
+        "series": "Dune",
+        "art_style": "minimalist",
+        "primary_colors": [
+            "#2c201c",
+            "#d9c5ab"
+        ],
+        "secondary_colors": [
+            "#a68c74"
+        ],
+        "color_palette": "muted",
+        "mood": "mysterious",
+        "technique": "digital-painting",
+        "scene_description": "A tiny silhouette of a traveler stands on a desert ridge beneath a massive solar eclipse and a distant moon.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "cloaked outfit",
+            "pose": "standing still",
+            "facial_expression": "unknown"
+        },
+        "environment": "fantasy-world",
+        "lighting": "cinematic",
+        "composition": "centered",
+        "art_quality": "high-detail",
+        "style_influences": [
+            "retro sci-fi art",
+            "pointillism"
+        ],
+        "objects": [
+            "eclipse",
+            "moon",
+            "sand dunes",
+            "silhouette"
+        ],
+        "textures": [
+            "grainy",
+            "stippled"
+        ],
+        "type": "scenery",
+        "tags": [
+            "dune",
+            "eclipse",
+            "desert",
+            "minimalist",
+            "retro-sci-fi",
+            "grainy",
+            "stippling",
+            "silhouette",
+            "moon",
+            "solitude",
+            "sand-dunes",
+            "sepia",
+            "sci-fi",
+            "astronomy",
+            "lonely"
+        ]
+    }
+}

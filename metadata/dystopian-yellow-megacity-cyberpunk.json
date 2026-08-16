@@ -1,0 +1,74 @@
+{
+    "file_name": "dystopian-yellow-megacity-cyberpunk",
+    "file_cache_name": "dystopian-yellow-megacity-cyberpunk.webp",
+    "file_main_name": "dystopian-yellow-megacity-cyberpunk.png",
+    "width": 800,
+    "height": 1705,
+    "resolution": "HD",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-14T05:22:37.359838+00:00",
+    "category": "#cyberpunk",
+    "data": {
+        "suggested_filename": "dystopian-yellow-megacity-cyberpunk",
+        "category": "#cyberpunk",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "cyberpunk",
+        "primary_colors": [
+            "amber",
+            "dark-brown"
+        ],
+        "secondary_colors": [
+            "neon-red",
+            "neon-green",
+            "grey"
+        ],
+        "color_palette": "warm",
+        "mood": "mysterious",
+        "technique": "digital-painting",
+        "scene_description": "A towering dystopian metropolis shrouded in a thick golden-amber smog, with massive numbered towers rising above a multi-layered urban slum filled with glowing neon signs.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "unknown",
+            "pose": "unknown",
+            "facial_expression": "unknown"
+        },
+        "environment": "urban",
+        "lighting": "neon",
+        "composition": "portrait",
+        "art_quality": "high-detail",
+        "style_influences": [
+            "blade-runner",
+            "futurism"
+        ],
+        "objects": [
+            "neon signs",
+            "airships",
+            "megastructures",
+            "cables"
+        ],
+        "textures": [
+            "grimy-walls",
+            "glowing-neon"
+        ],
+        "type": "scenery",
+        "tags": [
+            "cyberpunk",
+            "dystopian",
+            "futuristic-city",
+            "smog",
+            "megacity",
+            "urban-decay",
+            "neon-signs",
+            "airships",
+            "blimp",
+            "sci-fi",
+            "vertical-city",
+            "tower-886",
+            "industrial",
+            "yellow-sky",
+            "metropolis"
+        ]
+    }
+}

@@ -1,0 +1,76 @@
+{
+    "file_name": "tokyo-neon-rainy-street-cyberpunk",
+    "file_cache_name": "tokyo-neon-rainy-street-cyberpunk.webp",
+    "file_main_name": "tokyo-neon-rainy-street-cyberpunk.png",
+    "width": 735,
+    "height": 1307,
+    "resolution": "HD",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-16T19:25:11.605342+00:00",
+    "category": "#cyberpunk",
+    "data": {
+        "suggested_filename": "tokyo-neon-rainy-street-cyberpunk",
+        "category": "#cyberpunk",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "cyberpunk",
+        "primary_colors": [
+            "cyan",
+            "magenta",
+            "dark-blue"
+        ],
+        "secondary_colors": [
+            "red",
+            "yellow",
+            "black"
+        ],
+        "color_palette": "neon",
+        "mood": "mysterious",
+        "technique": "digital-painting",
+        "scene_description": "A wet Japanese city street at night lit by glowing neon signboards reflecting off rain-soaked asphalt.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "unknown",
+            "pose": "unknown",
+            "facial_expression": "unknown"
+        },
+        "environment": "urban",
+        "lighting": "neon",
+        "composition": "centered",
+        "art_quality": "high-detail",
+        "style_influences": [
+            "cyberpunk",
+            "tokyo-nightlife"
+        ],
+        "objects": [
+            "neon-signs",
+            "street",
+            "power-lines",
+            "buildings"
+        ],
+        "textures": [
+            "wet-asphalt",
+            "reflections",
+            "metal"
+        ],
+        "type": "scenery",
+        "tags": [
+            "cyberpunk",
+            "tokyo",
+            "rain",
+            "neon",
+            "street",
+            "night",
+            "reflections",
+            "japan",
+            "cityscape",
+            "urban",
+            "glowing",
+            "kanji",
+            "wet-street",
+            "moody",
+            "scenery"
+        ]
+    }
+}

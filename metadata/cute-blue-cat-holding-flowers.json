@@ -1,0 +1,72 @@
+{
+    "file_name": "cute-blue-cat-holding-flowers",
+    "file_cache_name": "cute-blue-cat-holding-flowers.webp",
+    "file_main_name": "cute-blue-cat-holding-flowers.png",
+    "width": 736,
+    "height": 942,
+    "resolution": "HD",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-14T06:14:31.107148+00:00",
+    "category": "#illustration",
+    "data": {
+        "suggested_filename": "cute-blue-cat-holding-flowers",
+        "category": "#illustration",
+        "character_names": [
+            "Chiikawa"
+        ],
+        "series": "Chiikawa",
+        "art_style": "anime",
+        "primary_colors": [
+            "white",
+            "green"
+        ],
+        "secondary_colors": [
+            "blue",
+            "pink"
+        ],
+        "color_palette": "pastel",
+        "mood": "cheerful",
+        "technique": "digital-painting",
+        "scene_description": "A cute, round, white and blue cat character sits in a grassy field, holding a small bouquet of pink flowers. The background is a soft green with hints of grass and scattered flower petals.",
+        "character_details": {
+            "hair_color": "blue",
+            "eye_color": "black",
+            "clothing_style": "unknown",
+            "pose": "sitting",
+            "facial_expression": "happy"
+        },
+        "environment": "nature",
+        "lighting": "natural-daylight",
+        "composition": "centered",
+        "art_quality": "smooth",
+        "style_influences": [
+            "chibi"
+        ],
+        "objects": [
+            "flowers",
+            "grass"
+        ],
+        "textures": [
+            "soft",
+            "smooth"
+        ],
+        "type": "single-character",
+        "tags": [
+            "chiikawa",
+            "cute",
+            "cat",
+            "anime",
+            "chibi",
+            "kawaii",
+            "flowers",
+            "bouquet",
+            "grass",
+            "field",
+            "pastel",
+            "illustration",
+            "character",
+            "blue",
+            "white"
+        ]
+    }
+}

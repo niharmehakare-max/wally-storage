@@ -1,0 +1,74 @@
+{
+    "file_name": "dune-desert-walker-minimalist",
+    "file_cache_name": "dune-desert-walker-minimalist.webp",
+    "file_main_name": "dune-desert-walker-minimalist.png",
+    "width": 1403,
+    "height": 2513,
+    "resolution": "FHD",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-16T19:31:09.418998+00:00",
+    "category": "#minimal",
+    "data": {
+        "suggested_filename": "dune-desert-walker-minimalist",
+        "category": "#minimal",
+        "character_names": [
+            "unknown"
+        ],
+        "series": "Dune",
+        "art_style": "minimalist",
+        "primary_colors": [
+            "orange",
+            "red"
+        ],
+        "secondary_colors": [
+            "black",
+            "white"
+        ],
+        "color_palette": "warm",
+        "mood": "mysterious",
+        "technique": "vector",
+        "scene_description": "A figure in a white cloak walks across stylized orange desert dunes under a black starry sky with two yellow moons.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "white hooded cloak",
+            "pose": "walking away",
+            "facial_expression": "unknown"
+        },
+        "environment": "fantasy-world",
+        "lighting": "dark",
+        "composition": "portrait",
+        "art_quality": "clean-vector",
+        "style_influences": [
+            "Dune",
+            "flat design"
+        ],
+        "objects": [
+            "dunes",
+            "footprints",
+            "moons",
+            "stars"
+        ],
+        "textures": [
+            "grainy"
+        ],
+        "type": "scenery",
+        "tags": [
+            "dune",
+            "desert",
+            "scifi",
+            "minimalist",
+            "arrakis",
+            "cloak",
+            "footprints",
+            "stars",
+            "moons",
+            "warm-colors",
+            "grainy-texture",
+            "solitary",
+            "journey",
+            "space",
+            "landscape"
+        ]
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "file_name": "egyptian-pyramids-desert-landscape",
+    "file_cache_name": "egyptian-pyramids-desert-landscape.webp",
+    "file_main_name": "egyptian-pyramids-desert-landscape.png",
+    "width": 976,
+    "height": 2048,
+    "resolution": "FHD",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-14T06:00:13.404792+00:00",
+    "category": "#scenery",
+    "data": {
+        "suggested_filename": "egyptian-pyramids-desert-landscape",
+        "category": "#scenery",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "realistic",
+        "primary_colors": [
+            "sandy-brown",
+            "deep-blue"
+        ],
+        "secondary_colors": [
+            "light-blue",
+            "tan"
+        ],
+        "color_palette": "warm",
+        "mood": "serene",
+        "technique": "realistic",
+        "scene_description": "A vast desert landscape featuring undulating sand dunes, ancient Egyptian pyramids in the mid-ground, and distant mountains under a deep blue sky.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "unknown",
+            "pose": "unknown",
+            "facial_expression": "unknown"
+        },
+        "environment": "nature",
+        "lighting": "natural-daylight",
+        "composition": "landscape",
+        "art_quality": "masterpiece",
+        "style_influences": [],
+        "objects": [
+            "pyramid",
+            "mountain",
+            "sand dune"
+        ],
+        "textures": [
+            "sand",
+            "stone"
+        ],
+        "type": "landscape",
+        "tags": [
+            "desert",
+            "egypt",
+            "pyramids",
+            "ancient",
+            "ruins",
+            "sand dunes",
+            "mountains",
+            "sky",
+            "landscape",
+            "nature",
+            "historical",
+            "travel"
+        ]
+    }
+}

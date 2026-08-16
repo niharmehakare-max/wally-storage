@@ -1,0 +1,73 @@
+{
+    "file_name": "monochrome-starry-night-gothic-castle",
+    "file_cache_name": "monochrome-starry-night-gothic-castle.webp",
+    "file_main_name": "monochrome-starry-night-gothic-castle.png",
+    "width": 1595,
+    "height": 736,
+    "resolution": "HD",
+    "orientation": "Desktop",
+    "timestamp": "2026-08-16T19:21:28.396692+00:00",
+    "category": "#art",
+    "data": {
+        "suggested_filename": "monochrome-starry-night-gothic-castle",
+        "category": "#art",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "illustration",
+        "primary_colors": [
+            "black",
+            "white"
+        ],
+        "secondary_colors": [
+            "dark gray",
+            "gray"
+        ],
+        "color_palette": "monochrome",
+        "mood": "mysterious",
+        "technique": "digital-painting",
+        "scene_description": "A monochrome rendering of a gothic castle beneath a swirling night sky inspired by Van Gogh's Starry Night.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "unknown",
+            "pose": "unknown",
+            "facial_expression": "unknown"
+        },
+        "environment": "fantasy-world",
+        "lighting": "dark",
+        "composition": "wide-shot",
+        "art_quality": "high-detail",
+        "style_influences": [
+            "Vincent van Gogh",
+            "Gothic art"
+        ],
+        "objects": [
+            "castle",
+            "spires",
+            "stars",
+            "moon"
+        ],
+        "textures": [
+            "swirls",
+            "brushstrokes"
+        ],
+        "type": "scenery",
+        "tags": [
+            "monochrome",
+            "starry night",
+            "gothic castle",
+            "black and white",
+            "van gogh",
+            "swirling sky",
+            "dark fantasy",
+            "spires",
+            "night sky",
+            "digital art",
+            "illustration",
+            "mysterious",
+            "surreal",
+            "landscape",
+            "swirls"
+        ]
+    }
+}

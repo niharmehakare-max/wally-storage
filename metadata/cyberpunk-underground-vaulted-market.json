@@ -1,0 +1,75 @@
+{
+    "file_name": "cyberpunk-underground-vaulted-market",
+    "file_cache_name": "cyberpunk-underground-vaulted-market.webp",
+    "file_main_name": "cyberpunk-underground-vaulted-market.png",
+    "width": 1080,
+    "height": 1920,
+    "resolution": "FHD",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-14T05:21:47.056069+00:00",
+    "category": "#cyberpunk",
+    "data": {
+        "suggested_filename": "cyberpunk-underground-vaulted-market",
+        "category": "#cyberpunk",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "cyberpunk",
+        "primary_colors": [
+            "grey",
+            "black"
+        ],
+        "secondary_colors": [
+            "cyan",
+            "magenta"
+        ],
+        "color_palette": "dark",
+        "mood": "mysterious",
+        "technique": "3d-render",
+        "scene_description": "A dark underground market nestled inside massive concrete arches with glowing neon signs and wet reflective pavement.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "heavy outerwear",
+            "pose": "walking",
+            "facial_expression": "unknown"
+        },
+        "environment": "urban",
+        "lighting": "neon",
+        "composition": "centered",
+        "art_quality": "high-detail",
+        "style_influences": [
+            "Blade Runner",
+            "dystopian sci-fi"
+        ],
+        "objects": [
+            "neon signs",
+            "stairs",
+            "market stalls",
+            "puddles",
+            "arches"
+        ],
+        "textures": [
+            "concrete",
+            "wet pavement",
+            "rust"
+        ],
+        "type": "scenery",
+        "tags": [
+            "cyberpunk",
+            "underground",
+            "market",
+            "neon",
+            "dystopian",
+            "sci-fi",
+            "rain",
+            "arch",
+            "reflection",
+            "slum",
+            "cityscape",
+            "futuristic",
+            "dark",
+            "puddle",
+            "alley"
+        ]
+    }
+}

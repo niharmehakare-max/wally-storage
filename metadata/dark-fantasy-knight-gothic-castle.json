@@ -1,0 +1,75 @@
+{
+    "file_name": "dark-fantasy-knight-gothic-castle",
+    "file_cache_name": "dark-fantasy-knight-gothic-castle.webp",
+    "file_main_name": "dark-fantasy-knight-gothic-castle.png",
+    "width": 1023,
+    "height": 1537,
+    "resolution": "HD",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-16T19:58:04.493113+00:00",
+    "category": "#fantasy",
+    "data": {
+        "suggested_filename": "dark-fantasy-knight-gothic-castle",
+        "category": "#fantasy",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "fantasy",
+        "primary_colors": [
+            "black",
+            "dark-gray"
+        ],
+        "secondary_colors": [
+            "light-gray",
+            "charcoal"
+        ],
+        "color_palette": "monochrome",
+        "mood": "dark",
+        "technique": "digital-painting",
+        "scene_description": "A solitary hooded knight holding a sword stands on barren ground facing a colossal, spired gothic fortress.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "tattered cape and plate armor",
+            "pose": "standing back facing camera",
+            "facial_expression": "unknown"
+        },
+        "environment": "fantasy-world",
+        "lighting": "dark",
+        "composition": "centered",
+        "art_quality": "masterpiece",
+        "style_influences": [
+            "Gustave Dor\u00e9",
+            "Dark Souls",
+            "Kentaro Miura"
+        ],
+        "objects": [
+            "sword",
+            "castle",
+            "cape",
+            "mountains"
+        ],
+        "textures": [
+            "crosshatching",
+            "rough-stone",
+            "etching"
+        ],
+        "type": "scenery",
+        "tags": [
+            "dark-fantasy",
+            "knight",
+            "castle",
+            "gothic",
+            "monochrome",
+            "sword",
+            "fortress",
+            "armor",
+            "spires",
+            "stormy",
+            "black-and-white",
+            "atmospheric",
+            "ominous",
+            "warrior",
+            "engraving"
+        ]
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "file_name": "cute-bear-cake-illustration",
+    "file_cache_name": "cute-bear-cake-illustration.webp",
+    "file_main_name": "cute-bear-cake-illustration.png",
+    "width": 1440,
+    "height": 1440,
+    "resolution": "2K",
+    "orientation": "Square",
+    "timestamp": "2026-08-14T06:12:46.461699+00:00",
+    "category": "#illustration",
+    "data": {
+        "suggested_filename": "cute-bear-cake-illustration",
+        "category": "#illustration",
+        "character_names": [
+            "Unknown Bear"
+        ],
+        "series": "unknown",
+        "art_style": "illustration",
+        "primary_colors": [
+            "pink",
+            "white"
+        ],
+        "secondary_colors": [
+            "brown",
+            "yellow"
+        ],
+        "color_palette": "pastel",
+        "mood": "cheerful",
+        "technique": "digital-painting",
+        "scene_description": "A charming illustration of a cute white bear character, dressed as a cake with a pink bow and strawberry topping, against a soft pink background with subtle heart accents.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "black",
+            "clothing_style": "cake costume",
+            "pose": "standing",
+            "facial_expression": "happy"
+        },
+        "environment": "abstract",
+        "lighting": "soft-glow",
+        "composition": "centered",
+        "art_quality": "clean-vector",
+        "style_influences": [
+            "kawaii"
+        ],
+        "objects": [
+            "cake",
+            "strawberry",
+            "bow"
+        ],
+        "textures": [
+            "smooth",
+            "watercolor"
+        ],
+        "type": "single-character",
+        "tags": [
+            "cute",
+            "bear",
+            "cake",
+            "kawaii",
+            "illustration",
+            "pink",
+            "sweet",
+            "food",
+            "character",
+            "adorable",
+            "dessert",
+            "cartoon",
+            "chibi",
+            "whimsical",
+            "happy"
+        ]
+    }
+}

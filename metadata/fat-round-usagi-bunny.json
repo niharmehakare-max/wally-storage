@@ -1,0 +1,67 @@
+{
+    "file_name": "fat-round-usagi-bunny",
+    "file_cache_name": "fat-round-usagi-bunny.webp",
+    "file_main_name": "fat-round-usagi-bunny.png",
+    "width": 2051,
+    "height": 2048,
+    "resolution": "2K",
+    "orientation": "Square",
+    "timestamp": "2026-08-16T19:39:24.007072+00:00",
+    "category": "#minimalist",
+    "data": {
+        "suggested_filename": "fat-round-usagi-bunny",
+        "category": "#minimalist",
+        "character_names": [
+            "Usagi"
+        ],
+        "series": "Chiikawa",
+        "art_style": "minimalist",
+        "primary_colors": [
+            "cream",
+            "white"
+        ],
+        "secondary_colors": [
+            "pink",
+            "black"
+        ],
+        "color_palette": "pastel",
+        "mood": "cheerful",
+        "technique": "sketch",
+        "scene_description": "An extremely round, cream-colored cartoon rabbit with a cheerful expression stands centered on a white background.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "black",
+            "clothing_style": "none",
+            "pose": "standing, front view",
+            "facial_expression": "happy, smiling"
+        },
+        "environment": "abstract",
+        "lighting": "flat",
+        "composition": "centered",
+        "art_quality": "clean-vector",
+        "style_influences": [
+            "kawaii",
+            "sanrio"
+        ],
+        "objects": [],
+        "textures": [],
+        "type": "single-character",
+        "tags": [
+            "bunny",
+            "rabbit",
+            "cute",
+            "round",
+            "fat",
+            "cream-colored",
+            "minimalist",
+            "simple",
+            "adorable",
+            "cartoon",
+            "usagi",
+            "chiikawa",
+            "illustration",
+            "line-art",
+            "white-background"
+        ]
+    }
+}

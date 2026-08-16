@@ -1,0 +1,71 @@
+{
+    "file_name": "skeleton-in-field-with-cloudy-sky",
+    "file_cache_name": "skeleton-in-field-with-cloudy-sky.webp",
+    "file_main_name": "skeleton-in-field-with-cloudy-sky.png",
+    "width": 650,
+    "height": 1159,
+    "resolution": "SD",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-16T19:58:25.713340+00:00",
+    "category": "#fantasy",
+    "data": {
+        "suggested_filename": "skeleton-in-field-with-cloudy-sky",
+        "category": "#fantasy",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "illustration",
+        "primary_colors": [
+            "green",
+            "black"
+        ],
+        "secondary_colors": [
+            "gray",
+            "yellow"
+        ],
+        "color_palette": "dark",
+        "mood": "dark",
+        "technique": "digital-painting",
+        "scene_description": "A skeletal figure stands in a field of tall grass, with its arms outstretched and head tilted back towards a turbulent, green-hued sky.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "unknown",
+            "pose": "standing with arms outstretched and head tilted back",
+            "facial_expression": "unknown"
+        },
+        "environment": "nature",
+        "lighting": "dark",
+        "composition": "centered",
+        "art_quality": "masterpiece",
+        "style_influences": [
+            "dark-fantasy"
+        ],
+        "objects": [
+            "skeleton",
+            "grass",
+            "clouds"
+        ],
+        "textures": [
+            "grainy",
+            "rough"
+        ],
+        "type": "single-character",
+        "tags": [
+            "skeleton",
+            "death",
+            "fantasy",
+            "macabre",
+            "dark",
+            "spooky",
+            "horror",
+            "grass",
+            "field",
+            "sky",
+            "clouds",
+            "illustration",
+            "digital art",
+            "creepy",
+            "grim"
+        ]
+    }
+}

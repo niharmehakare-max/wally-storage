@@ -1,0 +1,71 @@
+{
+    "file_name": "dark-fantasy-citadel-cosmic-entity",
+    "file_cache_name": "dark-fantasy-citadel-cosmic-entity.webp",
+    "file_main_name": "dark-fantasy-citadel-cosmic-entity.png",
+    "width": 1080,
+    "height": 1920,
+    "resolution": "FHD",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-16T19:59:06.611801+00:00",
+    "category": "#fantasy",
+    "data": {
+        "suggested_filename": "dark-fantasy-citadel-cosmic-entity",
+        "category": "#fantasy",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "digital-art",
+        "primary_colors": [
+            "black",
+            "white"
+        ],
+        "secondary_colors": [
+            "grey"
+        ],
+        "color_palette": "monochrome",
+        "mood": "dark",
+        "technique": "digital-painting",
+        "scene_description": "A colossal, demonic entity looms over a dark, gothic cityscape, with a swirling cosmic structure in the sky above. Ethereal light illuminates the desolate urban landscape.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "unknown",
+            "pose": "standing",
+            "facial_expression": "unknown"
+        },
+        "environment": "fantasy-world",
+        "lighting": "dark",
+        "composition": "wide-shot",
+        "art_quality": "masterpiece",
+        "style_influences": [
+            "dark fantasy",
+            "gothic"
+        ],
+        "objects": [
+            "cityscape",
+            "cosmic structure",
+            "moon"
+        ],
+        "textures": [
+            "rocky",
+            "cloudy"
+        ],
+        "type": "single-character",
+        "tags": [
+            "dark fantasy",
+            "gothic",
+            "demon",
+            "entity",
+            "cityscape",
+            "cosmic",
+            "swirling",
+            "ominous",
+            "monochrome",
+            "epic",
+            "horror",
+            "hellscape",
+            "ruins",
+            "nightmare",
+            "otherworldly"
+        ]
+    }
+}

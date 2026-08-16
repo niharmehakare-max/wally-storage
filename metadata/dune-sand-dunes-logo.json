@@ -1,0 +1,66 @@
+{
+    "file_name": "dune-sand-dunes-logo",
+    "file_cache_name": "dune-sand-dunes-logo.webp",
+    "file_main_name": "dune-sand-dunes-logo.png",
+    "width": 1179,
+    "height": 1551,
+    "resolution": "FHD",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-14T05:52:48.868788+00:00",
+    "category": "#scenery",
+    "data": {
+        "suggested_filename": "dune-sand-dunes-logo",
+        "category": "#scenery",
+        "character_names": [],
+        "series": "Dune",
+        "art_style": "realistic",
+        "primary_colors": [
+            "orange",
+            "brown"
+        ],
+        "secondary_colors": [
+            "black",
+            "dark brown"
+        ],
+        "color_palette": "warm",
+        "mood": "mysterious",
+        "technique": "3d-render",
+        "scene_description": "An aerial view of vast desert sand dunes with scattered rocks, transitioning into a dark, ominous foreground. The 'DUNE' logo is displayed in minimalist white lettering at the bottom.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "unknown",
+            "pose": "unknown",
+            "facial_expression": "unknown"
+        },
+        "environment": "nature",
+        "lighting": "natural-daylight",
+        "composition": "landscape",
+        "art_quality": "high-detail",
+        "style_influences": [],
+        "objects": [
+            "logo"
+        ],
+        "textures": [
+            "sand",
+            "rock"
+        ],
+        "type": "scenery",
+        "tags": [
+            "dune",
+            "desert",
+            "sand dunes",
+            "arid",
+            "landscape",
+            "nature",
+            "cinematic",
+            "movie",
+            "logo",
+            "minimalist",
+            "orange",
+            "brown",
+            "dark",
+            "epic"
+        ]
+    }
+}

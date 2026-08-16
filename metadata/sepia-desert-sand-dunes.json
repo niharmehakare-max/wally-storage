@@ -1,0 +1,74 @@
+{
+    "file_name": "sepia-desert-sand-dunes",
+    "file_cache_name": "sepia-desert-sand-dunes.webp",
+    "file_main_name": "sepia-desert-sand-dunes.png",
+    "width": 720,
+    "height": 1280,
+    "resolution": "HD",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-16T19:28:36.546908+00:00",
+    "category": "#nature",
+    "data": {
+        "suggested_filename": "sepia-desert-sand-dunes",
+        "category": "#nature",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "realistic",
+        "primary_colors": [
+            "terracotta",
+            "sand-brown"
+        ],
+        "secondary_colors": [
+            "beige",
+            "tan"
+        ],
+        "color_palette": "warm",
+        "mood": "serene",
+        "technique": "photography",
+        "scene_description": "Layered desert sand dunes stretch under a textured, haze-filled sepia sky.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "unknown",
+            "pose": "unknown",
+            "facial_expression": "unknown"
+        },
+        "environment": "nature",
+        "lighting": "natural-daylight",
+        "composition": "wide-shot",
+        "art_quality": "high-detail",
+        "style_influences": [
+            "minimalism",
+            "film-photography"
+        ],
+        "objects": [
+            "sand dunes",
+            "clouds",
+            "sky",
+            "desert"
+        ],
+        "textures": [
+            "sand",
+            "grain",
+            "dust"
+        ],
+        "type": "landscape",
+        "tags": [
+            "desert",
+            "sand dunes",
+            "sepia",
+            "minimalist",
+            "nature",
+            "landscape",
+            "warm tones",
+            "earthy",
+            "grainy",
+            "sahara",
+            "scenic",
+            "horizon",
+            "aesthetic",
+            "dunes",
+            "peaceful"
+        ]
+    }
+}

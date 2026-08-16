@@ -1,0 +1,73 @@
+{
+    "file_name": "rainy-cyberpunk-city-neon-street",
+    "file_cache_name": "rainy-cyberpunk-city-neon-street.webp",
+    "file_main_name": "rainy-cyberpunk-city-neon-street.png",
+    "width": 1024,
+    "height": 1536,
+    "resolution": "HD",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-14T05:22:22.922985+00:00",
+    "category": "#cyberpunk",
+    "data": {
+        "suggested_filename": "rainy-cyberpunk-city-neon-street",
+        "category": "#cyberpunk",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "cyberpunk",
+        "primary_colors": [
+            "purple",
+            "magenta"
+        ],
+        "secondary_colors": [
+            "cyan",
+            "blue"
+        ],
+        "color_palette": "neon",
+        "mood": "mysterious",
+        "technique": "3d-render",
+        "scene_description": "A futuristic metropolis in heavy rain with glowing purple neon signs reflecting on wet streets.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "unknown",
+            "pose": "unknown",
+            "facial_expression": "unknown"
+        },
+        "environment": "urban",
+        "lighting": "neon",
+        "composition": "centered",
+        "art_quality": "high-detail",
+        "style_influences": [
+            "blade-runner",
+            "synthwave"
+        ],
+        "objects": [
+            "skyscrapers",
+            "neon-signs",
+            "street",
+            "rain"
+        ],
+        "textures": [
+            "reflective",
+            "wet"
+        ],
+        "type": "scenery",
+        "tags": [
+            "cyberpunk",
+            "cityscape",
+            "neon",
+            "rain",
+            "futuristic",
+            "skyscrapers",
+            "night",
+            "reflections",
+            "street",
+            "synthwave",
+            "purple",
+            "magenta",
+            "urban",
+            "architecture",
+            "dystopian"
+        ]
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "file_name": "dune-minimalist-desert-poster",
+    "file_cache_name": "dune-minimalist-desert-poster.webp",
+    "file_main_name": "dune-minimalist-desert-poster.png",
+    "width": 1200,
+    "height": 1696,
+    "resolution": "FHD",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-16T19:28:04.878082+00:00",
+    "category": "#minimal",
+    "data": {
+        "suggested_filename": "dune-minimalist-desert-poster",
+        "category": "#minimal",
+        "character_names": [
+            "Paul Atreides"
+        ],
+        "series": "Dune",
+        "art_style": "minimalist",
+        "primary_colors": [
+            "brown",
+            "beige"
+        ],
+        "secondary_colors": [
+            "black",
+            "tan"
+        ],
+        "color_palette": "muted",
+        "mood": "mysterious",
+        "technique": "vector",
+        "scene_description": "Minimalist Dune poster featuring a solitary silhouette atop sand dunes beneath a massive eclipsed sun.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "silhouetted suit",
+            "pose": "standing",
+            "facial_expression": "unknown"
+        },
+        "environment": "fantasy-world",
+        "lighting": "cinematic",
+        "composition": "centered",
+        "art_quality": "clean-vector",
+        "style_influences": [
+            "retro-poster",
+            "minimalism"
+        ],
+        "objects": [
+            "sun",
+            "sand dune",
+            "logo"
+        ],
+        "textures": [
+            "grainy",
+            "paper"
+        ],
+        "type": "scenery",
+        "tags": [
+            "dune",
+            "poster",
+            "minimalist",
+            "desert",
+            "sand",
+            "eclipse",
+            "sun",
+            "silhouette",
+            "sci-fi",
+            "paul-atreides",
+            "sepia",
+            "grain",
+            "retro",
+            "arrakis",
+            "movie"
+        ]
+    }
+}

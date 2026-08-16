@@ -1,0 +1,74 @@
+{
+    "file_name": "cyberpunk-alleyway-neon-tower",
+    "file_cache_name": "cyberpunk-alleyway-neon-tower.webp",
+    "file_main_name": "cyberpunk-alleyway-neon-tower.png",
+    "width": 736,
+    "height": 1308,
+    "resolution": "HD",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-14T05:21:30.264187+00:00",
+    "category": "#cyberpunk",
+    "data": {
+        "suggested_filename": "cyberpunk-alleyway-neon-tower",
+        "category": "#cyberpunk",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "cyberpunk",
+        "primary_colors": [
+            "cyan",
+            "magenta"
+        ],
+        "secondary_colors": [
+            "dark-blue",
+            "green"
+        ],
+        "color_palette": "neon",
+        "mood": "mysterious",
+        "technique": "digital-painting",
+        "scene_description": "Narrow futuristic alleyway lined with glowing neon signs leading toward a giant illuminated cyan tower.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "unknown",
+            "pose": "unknown",
+            "facial_expression": "unknown"
+        },
+        "environment": "urban",
+        "lighting": "neon",
+        "composition": "centered",
+        "art_quality": "high-detail",
+        "style_influences": [
+            "cyberpunk",
+            "anime"
+        ],
+        "objects": [
+            "neon signs",
+            "tower",
+            "puddles",
+            "buildings",
+            "wires"
+        ],
+        "textures": [
+            "wet",
+            "asphalt"
+        ],
+        "type": "scenery",
+        "tags": [
+            "cyberpunk",
+            "alleyway",
+            "neon",
+            "futuristic",
+            "cityscape",
+            "night",
+            "scenery",
+            "tower",
+            "wet-street",
+            "reflection",
+            "sci-fi",
+            "urban",
+            "anime",
+            "wallpaper",
+            "glowing"
+        ]
+    }
+}

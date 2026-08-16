@@ -1,0 +1,74 @@
+{
+    "file_name": "rainy-anime-bus-stop-reflection",
+    "file_cache_name": "rainy-anime-bus-stop-reflection.webp",
+    "file_main_name": "rainy-anime-bus-stop-reflection.png",
+    "width": 1308,
+    "height": 736,
+    "resolution": "HD",
+    "orientation": "Desktop",
+    "timestamp": "2026-08-14T05:25:19.707670+00:00",
+    "category": "#scenery",
+    "data": {
+        "suggested_filename": "rainy-anime-bus-stop-reflection",
+        "category": "#scenery",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "anime",
+        "primary_colors": [
+            "#4a7c59",
+            "#cddc39"
+        ],
+        "secondary_colors": [
+            "#2e3d30",
+            "#ffffff"
+        ],
+        "color_palette": "vibrant",
+        "mood": "serene",
+        "technique": "digital-painting",
+        "scene_description": "A wet street after rain showing a yellow bus and a lone figure with an umbrella by a shelter, framed by lush green trees.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "casual",
+            "pose": "standing",
+            "facial_expression": "serene"
+        },
+        "environment": "urban",
+        "lighting": "natural-daylight",
+        "composition": "wide-shot",
+        "art_quality": "high-detail",
+        "style_influences": [
+            "Makoto Shinkai",
+            "Studio Ghibli"
+        ],
+        "objects": [
+            "bus",
+            "umbrella",
+            "bus stop",
+            "puddle",
+            "trees"
+        ],
+        "textures": [
+            "wet-reflection",
+            "leafy"
+        ],
+        "type": "scenery",
+        "tags": [
+            "rainy-day",
+            "bus-stop",
+            "anime-scenery",
+            "lush-greenery",
+            "reflection",
+            "puddle",
+            "umbrella",
+            "scenic",
+            "peaceful-vibe",
+            "cozy-rain",
+            "glistening-streets",
+            "summer-rain",
+            "nature-in-city",
+            "aesthetic-green",
+            "transit"
+        ]
+    }
+}

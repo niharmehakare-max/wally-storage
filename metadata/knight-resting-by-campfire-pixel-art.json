@@ -1,0 +1,75 @@
+{
+    "file_name": "knight-resting-by-campfire-pixel-art",
+    "file_cache_name": "knight-resting-by-campfire-pixel-art.webp",
+    "file_main_name": "knight-resting-by-campfire-pixel-art.png",
+    "width": 1200,
+    "height": 675,
+    "resolution": "SD",
+    "orientation": "Desktop",
+    "timestamp": "2026-08-16T19:53:05.239898+00:00",
+    "category": "#fantasy",
+    "data": {
+        "suggested_filename": "knight-resting-by-campfire-pixel-art",
+        "category": "#fantasy",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "pixel-art",
+        "primary_colors": [
+            "#1b0c24",
+            "#d64f3c"
+        ],
+        "secondary_colors": [
+            "#213d2a",
+            "#fcca3f"
+        ],
+        "color_palette": "dark",
+        "mood": "peaceful",
+        "technique": "digital-painting",
+        "scene_description": "A pixel art knight rests against a stone wall next to a warm campfire under a starry night sky with a distant castle.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "full medieval plate armor",
+            "pose": "sitting on the ground resting",
+            "facial_expression": "hidden by helmet"
+        },
+        "environment": "fantasy-world",
+        "lighting": "soft-glow",
+        "composition": "landscape",
+        "art_quality": "high-detail",
+        "style_influences": [
+            "Dark Souls",
+            "retro rpg"
+        ],
+        "objects": [
+            "shield",
+            "helmet",
+            "campfire",
+            "castle",
+            "stone wall"
+        ],
+        "textures": [
+            "pixelated",
+            "stone",
+            "grass"
+        ],
+        "type": "scenery",
+        "tags": [
+            "knight",
+            "campfire",
+            "pixel-art",
+            "castle",
+            "fantasy",
+            "armor",
+            "shield",
+            "night",
+            "stars",
+            "stone-wall",
+            "resting",
+            "cozy",
+            "retro",
+            "rpg",
+            "adventure"
+        ]
+    }
+}

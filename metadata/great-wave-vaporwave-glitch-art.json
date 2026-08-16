@@ -1,0 +1,77 @@
+{
+    "file_name": "great-wave-vaporwave-glitch-art",
+    "file_cache_name": "great-wave-vaporwave-glitch-art.webp",
+    "file_main_name": "great-wave-vaporwave-glitch-art.png",
+    "width": 626,
+    "height": 960,
+    "resolution": "SD",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-16T20:01:08.711469+00:00",
+    "category": "#vaporwave",
+    "data": {
+        "suggested_filename": "great-wave-vaporwave-glitch-art",
+        "category": "#vaporwave",
+        "character_names": [],
+        "series": "Thirty-Six Views of Mount Fuji",
+        "art_style": "digital-art",
+        "primary_colors": [
+            "cyan",
+            "magenta"
+        ],
+        "secondary_colors": [
+            "black",
+            "green"
+        ],
+        "color_palette": "neon",
+        "mood": "nostalgic",
+        "technique": "vector",
+        "scene_description": "A neon glitch-art rendition of Hokusai's The Great Wave off Kanagawa with Mount Fuji in the distance against scanline textures.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "unknown",
+            "pose": "unknown",
+            "facial_expression": "unknown"
+        },
+        "environment": "nature",
+        "lighting": "neon",
+        "composition": "rule-of-thirds",
+        "art_quality": "clean-vector",
+        "style_influences": [
+            "Ukiyo-e",
+            "Vaporwave",
+            "Glitch Art",
+            "Cyberpunk"
+        ],
+        "objects": [
+            "wave",
+            "mountain",
+            "barcode",
+            "label",
+            "text"
+        ],
+        "textures": [
+            "scanlines",
+            "halftone",
+            "glitch"
+        ],
+        "type": "scenery",
+        "tags": [
+            "great-wave",
+            "hokusai",
+            "vaporwave",
+            "synthwave",
+            "glitch-art",
+            "neon",
+            "cyan",
+            "magenta",
+            "mount-fuji",
+            "ocean",
+            "japanese-art",
+            "retro",
+            "aesthetic",
+            "cyberpunk",
+            "abstract"
+        ]
+    }
+}

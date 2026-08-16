@@ -1,0 +1,70 @@
+{
+    "file_name": "wiizer-cute-characters-blue-background",
+    "file_cache_name": "wiizer-cute-characters-blue-background.webp",
+    "file_main_name": "wiizer-cute-characters-blue-background.png",
+    "width": 1440,
+    "height": 1440,
+    "resolution": "2K",
+    "orientation": "Square",
+    "timestamp": "2026-08-14T06:12:06.104527+00:00",
+    "category": "#illustration",
+    "data": {
+        "suggested_filename": "wiizer-cute-characters-blue-background",
+        "category": "#illustration",
+        "character_names": [
+            "Chikawa Characters"
+        ],
+        "series": "unknown",
+        "art_style": "illustration",
+        "primary_colors": [
+            "blue",
+            "white"
+        ],
+        "secondary_colors": [
+            "yellow",
+            "black"
+        ],
+        "color_palette": "cool",
+        "mood": "cheerful",
+        "technique": "vector",
+        "scene_description": "Four adorable cartoon characters, a bear, a cat, a rabbit, and a squirrel, stand in a row against a solid blue background with the word \"wiizer\" in the top right corner.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "black",
+            "clothing_style": "unknown",
+            "pose": "standing",
+            "facial_expression": "happy"
+        },
+        "environment": "abstract",
+        "lighting": "soft-glow",
+        "composition": "centered",
+        "art_quality": "clean-vector",
+        "style_influences": [
+            "kawaii"
+        ],
+        "objects": [
+            "text"
+        ],
+        "textures": [
+            "smooth"
+        ],
+        "type": "multiple-characters",
+        "tags": [
+            "cute",
+            "kawaii",
+            "animal",
+            "characters",
+            "illustration",
+            "cartoon",
+            "chibi",
+            "blue",
+            "white",
+            "yellow",
+            "bear",
+            "cat",
+            "rabbit",
+            "squirrel",
+            "wiizer"
+        ]
+    }
+}

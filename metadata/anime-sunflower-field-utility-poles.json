@@ -1,0 +1,72 @@
+{
+    "file_name": "anime-sunflower-field-utility-poles",
+    "file_cache_name": "anime-sunflower-field-utility-poles.webp",
+    "file_main_name": "anime-sunflower-field-utility-poles.png",
+    "width": 1920,
+    "height": 1080,
+    "resolution": "FHD",
+    "orientation": "Desktop",
+    "timestamp": "2026-08-14T05:25:36.016461+00:00",
+    "category": "#scenery",
+    "data": {
+        "suggested_filename": "anime-sunflower-field-utility-poles",
+        "category": "#scenery",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "anime",
+        "primary_colors": [
+            "blue",
+            "yellow"
+        ],
+        "secondary_colors": [
+            "green",
+            "white"
+        ],
+        "color_palette": "vibrant",
+        "mood": "serene",
+        "technique": "digital-painting",
+        "scene_description": "Vibrant anime-style summer landscape featuring sunflowers on a green hill beneath a bright blue sky with power pylons.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "unknown",
+            "pose": "unknown",
+            "facial_expression": "unknown"
+        },
+        "environment": "nature",
+        "lighting": "natural-daylight",
+        "composition": "wide-shot",
+        "art_quality": "high-detail",
+        "style_influences": [
+            "Ghibli",
+            "CoMix Wave"
+        ],
+        "objects": [
+            "sunflowers",
+            "utility poles",
+            "clouds"
+        ],
+        "textures": [
+            "painted",
+            "clouds"
+        ],
+        "type": "scenery",
+        "tags": [
+            "anime",
+            "scenery",
+            "sunflowers",
+            "summer",
+            "blue sky",
+            "clouds",
+            "utility poles",
+            "pylons",
+            "grassland",
+            "nature",
+            "nostalgic",
+            "bright",
+            "field",
+            "scenic",
+            "landscape"
+        ]
+    }
+}

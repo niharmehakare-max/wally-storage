@@ -1,0 +1,73 @@
+{
+    "file_name": "sleeping-baby-panda-meadow",
+    "file_cache_name": "sleeping-baby-panda-meadow.webp",
+    "file_main_name": "sleeping-baby-panda-meadow.png",
+    "width": 816,
+    "height": 1350,
+    "resolution": "HD",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-14T05:16:30.372096+00:00",
+    "category": "#nature",
+    "data": {
+        "suggested_filename": "sleeping-baby-panda-meadow",
+        "category": "#nature",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "illustration",
+        "primary_colors": [
+            "green",
+            "white"
+        ],
+        "secondary_colors": [
+            "yellow",
+            "black"
+        ],
+        "color_palette": "pastel",
+        "mood": "peaceful",
+        "technique": "digital-painting",
+        "scene_description": "A cute panda rests on its back in a sunlit green meadow with yellow flowers near a bamboo fence.",
+        "character_details": {
+            "hair_color": "black and white",
+            "eye_color": "black",
+            "clothing_style": "none",
+            "pose": "lying on back",
+            "facial_expression": "peaceful"
+        },
+        "environment": "nature",
+        "lighting": "natural-daylight",
+        "composition": "centered",
+        "art_quality": "smooth",
+        "style_influences": [
+            "studio ghibli",
+            "anime"
+        ],
+        "objects": [
+            "panda",
+            "bamboo fence",
+            "flowers",
+            "grass"
+        ],
+        "textures": [
+            "fur",
+            "grass"
+        ],
+        "type": "single-character",
+        "tags": [
+            "panda",
+            "cute",
+            "sleeping",
+            "meadow",
+            "grass",
+            "flowers",
+            "bamboo",
+            "nature",
+            "peaceful",
+            "relaxing",
+            "sunny",
+            "greenery",
+            "illustration",
+            "whimsical",
+            "serene"
+        ]
+    }
+}

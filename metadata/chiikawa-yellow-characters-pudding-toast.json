@@ -1,0 +1,76 @@
+{
+    "file_name": "chiikawa-yellow-characters-pudding-toast",
+    "file_cache_name": "chiikawa-yellow-characters-pudding-toast.webp",
+    "file_main_name": "chiikawa-yellow-characters-pudding-toast.png",
+    "width": 1080,
+    "height": 1920,
+    "resolution": "FHD",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-14T06:07:10.369479+00:00",
+    "category": "#illustration",
+    "data": {
+        "suggested_filename": "chiikawa-yellow-characters-pudding-toast",
+        "category": "#illustration",
+        "character_names": [
+            "Chiikawa",
+            "Hachiware",
+            "Usagi"
+        ],
+        "series": "Chiikawa",
+        "art_style": "illustration",
+        "primary_colors": [
+            "yellow",
+            "white"
+        ],
+        "secondary_colors": [
+            "brown",
+            "pink"
+        ],
+        "color_palette": "pastel",
+        "mood": "cheerful",
+        "technique": "digital-art",
+        "scene_description": "A collection of cute yellow cartoon characters, including bunnies and cat-like creatures, are depicted in various poses, surrounded by food items like pudding and toast.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "black",
+            "clothing_style": "casual",
+            "pose": "standing, sitting, holding items",
+            "facial_expression": "happy, smiling"
+        },
+        "environment": "abstract",
+        "lighting": "soft-glow",
+        "composition": "collage",
+        "art_quality": "clean-vector",
+        "style_influences": [
+            "kawaii"
+        ],
+        "objects": [
+            "pudding",
+            "toast",
+            "pencil",
+            "clock",
+            "bag"
+        ],
+        "textures": [
+            "grid",
+            "smooth"
+        ],
+        "type": "multiple-characters",
+        "tags": [
+            "chiikawa",
+            "hachiware",
+            "usagi",
+            "bunny",
+            "cute",
+            "kawaii",
+            "yellow",
+            "pastel",
+            "food",
+            "pudding",
+            "toast",
+            "illustration",
+            "anime",
+            "cheerful"
+        ]
+    }
+}

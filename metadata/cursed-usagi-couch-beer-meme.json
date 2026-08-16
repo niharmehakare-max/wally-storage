@@ -1,0 +1,75 @@
+{
+    "file_name": "cursed-usagi-couch-beer-meme",
+    "file_cache_name": "cursed-usagi-couch-beer-meme.webp",
+    "file_main_name": "cursed-usagi-couch-beer-meme.png",
+    "width": 1179,
+    "height": 1114,
+    "resolution": "FHD",
+    "orientation": "Square",
+    "timestamp": "2026-08-16T19:40:45.570836+00:00",
+    "category": "#meme",
+    "data": {
+        "suggested_filename": "cursed-usagi-couch-beer-meme",
+        "category": "#meme",
+        "character_names": [
+            "Usagi",
+            "Chiikawa"
+        ],
+        "series": "Chiikawa",
+        "art_style": "illustration",
+        "primary_colors": [
+            "cream",
+            "brown"
+        ],
+        "secondary_colors": [
+            "maroon",
+            "black"
+        ],
+        "color_palette": "muted",
+        "mood": "dark",
+        "technique": "sketch",
+        "scene_description": "A humorous, cursed parody sketch of Usagi relaxing on a couch with a remote and a drink.",
+        "character_details": {
+            "hair_color": "cream",
+            "eye_color": "black",
+            "clothing_style": "shirtless",
+            "pose": "lounging on a couch",
+            "facial_expression": "smug"
+        },
+        "environment": "indoor",
+        "lighting": "dark",
+        "composition": "centered",
+        "art_quality": "smooth",
+        "style_influences": [
+            "Chiikawa",
+            "meme art"
+        ],
+        "objects": [
+            "couch",
+            "remote control",
+            "bottle"
+        ],
+        "textures": [
+            "flat",
+            "grainy"
+        ],
+        "type": "multiple-characters",
+        "tags": [
+            "usagi",
+            "chiikawa",
+            "meme",
+            "cursed",
+            "couch potato",
+            "humor",
+            "parody",
+            "doodle",
+            "rabbit",
+            "beer bottle",
+            "tv remote",
+            "sofa",
+            "funny",
+            "sketch",
+            "indoor"
+        ]
+    }
+}

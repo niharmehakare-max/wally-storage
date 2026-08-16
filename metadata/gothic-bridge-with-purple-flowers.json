@@ -1,0 +1,74 @@
+{
+    "file_name": "gothic-bridge-with-purple-flowers",
+    "file_cache_name": "gothic-bridge-with-purple-flowers.webp",
+    "file_main_name": "gothic-bridge-with-purple-flowers.png",
+    "width": 1200,
+    "height": 2133,
+    "resolution": "FHD",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-16T20:00:15.355065+00:00",
+    "category": "#fantasy",
+    "data": {
+        "suggested_filename": "gothic-bridge-with-purple-flowers",
+        "category": "#fantasy",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "digital-art",
+        "primary_colors": [
+            "black",
+            "purple"
+        ],
+        "secondary_colors": [
+            "gray",
+            "white"
+        ],
+        "color_palette": "dark",
+        "mood": "mysterious",
+        "technique": "digital-painting",
+        "scene_description": "A dramatic gothic bridge and structure are illuminated by moonlight, with a hillside covered in vibrant purple flowers in the foreground.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "unknown",
+            "pose": "unknown",
+            "facial_expression": "unknown"
+        },
+        "environment": "fantasy-world",
+        "lighting": "dark",
+        "composition": "landscape",
+        "art_quality": "high-detail",
+        "style_influences": [
+            "gothic-architecture"
+        ],
+        "objects": [
+            "bridge",
+            "building",
+            "flowers",
+            "trees",
+            "clouds"
+        ],
+        "textures": [
+            "stone",
+            "foliage",
+            "clouds"
+        ],
+        "type": "scenery",
+        "tags": [
+            "gothic",
+            "bridge",
+            "architecture",
+            "fantasy",
+            "purple flowers",
+            "dark",
+            "mysterious",
+            "night",
+            "castle",
+            "haunting",
+            "landscape",
+            "scenery",
+            "stone",
+            "clouds",
+            "moonlight"
+        ]
+    }
+}

@@ -1,0 +1,75 @@
+{
+    "file_name": "dune-brutalist-desert-architecture",
+    "file_cache_name": "dune-brutalist-desert-architecture.webp",
+    "file_main_name": "dune-brutalist-desert-architecture.png",
+    "width": 904,
+    "height": 1201,
+    "resolution": "HD",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-14T05:42:02.635734+00:00",
+    "category": "#minimalist",
+    "data": {
+        "suggested_filename": "dune-brutalist-desert-architecture",
+        "category": "#minimalist",
+        "character_names": [],
+        "series": "Dune",
+        "art_style": "minimalist",
+        "primary_colors": [
+            "beige",
+            "sand",
+            "dark brown"
+        ],
+        "secondary_colors": [
+            "warm grey",
+            "cream"
+        ],
+        "color_palette": "warm",
+        "mood": "mysterious",
+        "technique": "3d-render",
+        "scene_description": "A lone silhouette stands on a sandy floor between towering minimalist stone pillars under dramatic geometric light.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "silhouette suit",
+            "pose": "standing",
+            "facial_expression": "serene"
+        },
+        "environment": "abstract",
+        "lighting": "cinematic",
+        "composition": "wide-shot",
+        "art_quality": "high-detail",
+        "style_influences": [
+            "brutalism",
+            "sci-fi minimalism"
+        ],
+        "objects": [
+            "monumental pillars",
+            "sand",
+            "typography",
+            "light beam"
+        ],
+        "textures": [
+            "sand",
+            "concrete",
+            "stone"
+        ],
+        "type": "scenery",
+        "tags": [
+            "dune",
+            "brutalist",
+            "architecture",
+            "minimalism",
+            "sand",
+            "desert",
+            "silhouette",
+            "cinematic",
+            "sci-fi",
+            "monumental",
+            "warm-tones",
+            "light-beam",
+            "geometry",
+            "poster",
+            "shadows"
+        ]
+    }
+}

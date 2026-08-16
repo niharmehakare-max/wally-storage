@@ -1,0 +1,67 @@
+{
+    "file_name": "dune-desert-silhouette",
+    "file_cache_name": "dune-desert-silhouette.webp",
+    "file_main_name": "dune-desert-silhouette.png",
+    "width": 671,
+    "height": 1191,
+    "resolution": "SD",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-14T05:56:02.805123+00:00",
+    "category": "#scenery",
+    "data": {
+        "suggested_filename": "dune-desert-silhouette",
+        "category": "#scenery",
+        "character_names": [],
+        "series": "Dune",
+        "art_style": "minimalist",
+        "primary_colors": [
+            "orange",
+            "dark orange"
+        ],
+        "secondary_colors": [
+            "yellow",
+            "black"
+        ],
+        "color_palette": "warm",
+        "mood": "mysterious",
+        "technique": "illustration",
+        "scene_description": "A lone figure stands on a sand dune under a large, warm sun, with the title 'DUNE' in minimalist font at the bottom.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "unknown",
+            "pose": "standing",
+            "facial_expression": "serene"
+        },
+        "environment": "nature",
+        "lighting": "natural-daylight",
+        "composition": "centered",
+        "art_quality": "clean-vector",
+        "style_influences": [
+            "minimalism"
+        ],
+        "objects": [
+            "dune",
+            "sun",
+            "figure"
+        ],
+        "textures": [
+            "sand"
+        ],
+        "type": "scenery",
+        "tags": [
+            "dune",
+            "desert",
+            "silhouette",
+            "minimalist",
+            "sci-fi",
+            "movie",
+            "poster",
+            "orange",
+            "warm",
+            "sun",
+            "sand",
+            "figure"
+        ]
+    }
+}

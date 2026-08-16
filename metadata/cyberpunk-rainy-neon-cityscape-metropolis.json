@@ -1,0 +1,76 @@
+{
+    "file_name": "cyberpunk-rainy-neon-cityscape-metropolis",
+    "file_cache_name": "cyberpunk-rainy-neon-cityscape-metropolis.webp",
+    "file_main_name": "cyberpunk-rainy-neon-cityscape-metropolis.png",
+    "width": 640,
+    "height": 1136,
+    "resolution": "SD",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-14T05:23:39.355195+00:00",
+    "category": "#cyberpunk",
+    "data": {
+        "suggested_filename": "cyberpunk-rainy-neon-cityscape-metropolis",
+        "category": "#cyberpunk",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "cyberpunk",
+        "primary_colors": [
+            "dark-blue",
+            "black"
+        ],
+        "secondary_colors": [
+            "neon-pink",
+            "cyan",
+            "orange"
+        ],
+        "color_palette": "neon",
+        "mood": "mysterious",
+        "technique": "3d-render",
+        "scene_description": "A rainy futuristic cyberpunk city at night with towering neon-lit skyscrapers, flying cars, and pedestrians on wet streets.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "unknown",
+            "pose": "unknown",
+            "facial_expression": "unknown"
+        },
+        "environment": "urban",
+        "lighting": "neon",
+        "composition": "portrait",
+        "art_quality": "high-detail",
+        "style_influences": [
+            "Blade Runner",
+            "Cyberpunk 2077"
+        ],
+        "objects": [
+            "flying-car",
+            "umbrella",
+            "neon-sign",
+            "skyscraper",
+            "wet-road"
+        ],
+        "textures": [
+            "wet-asphalt",
+            "glass",
+            "metal"
+        ],
+        "type": "scenery",
+        "tags": [
+            "cyberpunk",
+            "futuristic-city",
+            "rainy-night",
+            "neon-lights",
+            "metropolis",
+            "flying-cars",
+            "skyscrapers",
+            "wet-streets",
+            "sci-fi",
+            "dystopian",
+            "urban-landscape",
+            "vertical-city",
+            "digital-art",
+            "neon-arcade",
+            "ramen-shop"
+        ]
+    }
+}

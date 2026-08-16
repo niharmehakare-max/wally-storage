@@ -1,0 +1,74 @@
+{
+    "file_name": "cute-cat-in-flower-field",
+    "file_cache_name": "cute-cat-in-flower-field.webp",
+    "file_main_name": "cute-cat-in-flower-field.png",
+    "width": 1000,
+    "height": 1000,
+    "resolution": "HD",
+    "orientation": "Square",
+    "timestamp": "2026-08-14T06:11:51.587777+00:00",
+    "category": "#scenery",
+    "data": {
+        "suggested_filename": "cute-cat-in-flower-field",
+        "category": "#scenery",
+        "character_names": [
+            "Chiikawa Cat"
+        ],
+        "series": "unknown",
+        "art_style": "illustration",
+        "primary_colors": [
+            "green",
+            "blue"
+        ],
+        "secondary_colors": [
+            "white",
+            "yellow"
+        ],
+        "color_palette": "pastel",
+        "mood": "cheerful",
+        "technique": "digital-painting",
+        "scene_description": "A cute, cartoonish white cat with blue accents sits in a vibrant meadow filled with colorful wildflowers under a cloudy blue sky.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "black",
+            "clothing_style": "unknown",
+            "pose": "sitting",
+            "facial_expression": "happy"
+        },
+        "environment": "nature",
+        "lighting": "natural-daylight",
+        "composition": "landscape",
+        "art_quality": "clean-vector",
+        "style_influences": [
+            "anime",
+            "kawaii"
+        ],
+        "objects": [
+            "cat",
+            "flowers",
+            "clouds",
+            "hill"
+        ],
+        "textures": [
+            "grass",
+            "fluffy-clouds"
+        ],
+        "type": "single-character",
+        "tags": [
+            "cute",
+            "cat",
+            "kitten",
+            "kawaii",
+            "chibi",
+            "flower field",
+            "meadow",
+            "nature",
+            "spring",
+            "summer",
+            "clouds",
+            "sky",
+            "illustration",
+            "pastel"
+        ]
+    }
+}

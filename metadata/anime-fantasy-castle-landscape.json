@@ -1,0 +1,73 @@
+{
+    "file_name": "anime-fantasy-castle-landscape",
+    "file_cache_name": "anime-fantasy-castle-landscape.webp",
+    "file_main_name": "anime-fantasy-castle-landscape.png",
+    "width": 2160,
+    "height": 997,
+    "resolution": "FHD",
+    "orientation": "Desktop",
+    "timestamp": "2026-08-14T05:24:33.707707+00:00",
+    "category": "#scenery",
+    "data": {
+        "suggested_filename": "anime-fantasy-castle-landscape",
+        "category": "#scenery",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "anime",
+        "primary_colors": [
+            "blue",
+            "green"
+        ],
+        "secondary_colors": [
+            "white",
+            "yellow",
+            "brown"
+        ],
+        "color_palette": "vibrant",
+        "mood": "serene",
+        "technique": "digital-painting",
+        "scene_description": "A vibrant anime-style fantasy landscape showing a majestic castle by a lake under a bright, cloudy sky.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "unknown",
+            "pose": "unknown",
+            "facial_expression": "unknown"
+        },
+        "environment": "fantasy-world",
+        "lighting": "natural-daylight",
+        "composition": "wide-shot",
+        "art_quality": "masterpiece",
+        "style_influences": [
+            "Studio Ghibli"
+        ],
+        "objects": [
+            "castle",
+            "clouds",
+            "mountains",
+            "water",
+            "trees"
+        ],
+        "textures": [
+            "painterly"
+        ],
+        "type": "scenery",
+        "tags": [
+            "anime-scenery",
+            "ghibli-inspired",
+            "fantasy-landscape",
+            "castle",
+            "clouds",
+            "blue-sky",
+            "meadow",
+            "mountains",
+            "lake",
+            "vibrant-colors",
+            "peaceful",
+            "scenic",
+            "digital-art",
+            "nature",
+            "hills"
+        ]
+    }
+}

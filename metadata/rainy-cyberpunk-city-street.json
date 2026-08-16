@@ -1,0 +1,75 @@
+{
+    "file_name": "rainy-cyberpunk-city-street",
+    "file_cache_name": "rainy-cyberpunk-city-street.webp",
+    "file_main_name": "rainy-cyberpunk-city-street.png",
+    "width": 1149,
+    "height": 2048,
+    "resolution": "FHD",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-16T19:25:49.429332+00:00",
+    "category": "#cyberpunk",
+    "data": {
+        "suggested_filename": "rainy-cyberpunk-city-street",
+        "category": "#cyberpunk",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "cyberpunk",
+        "primary_colors": [
+            "black",
+            "purple"
+        ],
+        "secondary_colors": [
+            "magenta",
+            "yellow"
+        ],
+        "color_palette": "neon",
+        "mood": "dark",
+        "technique": "digital-painting",
+        "scene_description": "A rainy futuristic city street at night with glowing neon billboards, wet reflections, and flying vehicles overhead.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "unknown",
+            "pose": "unknown",
+            "facial_expression": "unknown"
+        },
+        "environment": "urban",
+        "lighting": "neon",
+        "composition": "portrait",
+        "art_quality": "high-detail",
+        "style_influences": [
+            "Blade Runner",
+            "Sci-Fi"
+        ],
+        "objects": [
+            "cars",
+            "flying vehicles",
+            "skyscrapers",
+            "neon signs",
+            "rain"
+        ],
+        "textures": [
+            "wet",
+            "reflective",
+            "smooth"
+        ],
+        "type": "scenery",
+        "tags": [
+            "cyberpunk",
+            "futuristic",
+            "cityscape",
+            "rain",
+            "neon",
+            "night",
+            "street",
+            "cars",
+            "flying-car",
+            "sci-fi",
+            "urban",
+            "reflections",
+            "dystopian",
+            "dark",
+            "wallpaper"
+        ]
+    }
+}

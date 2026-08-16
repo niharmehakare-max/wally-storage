@@ -1,0 +1,76 @@
+{
+    "file_name": "cyberpunk-overgrown-city-canal",
+    "file_cache_name": "cyberpunk-overgrown-city-canal.webp",
+    "file_main_name": "cyberpunk-overgrown-city-canal.png",
+    "width": 1440,
+    "height": 1800,
+    "resolution": "2K",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-16T19:25:36.225522+00:00",
+    "category": "#cyberpunk",
+    "data": {
+        "suggested_filename": "cyberpunk-overgrown-city-canal",
+        "category": "#cyberpunk",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "cyberpunk",
+        "primary_colors": [
+            "green",
+            "teal"
+        ],
+        "secondary_colors": [
+            "yellow",
+            "rust brown"
+        ],
+        "color_palette": "cool",
+        "mood": "mysterious",
+        "technique": "digital-painting",
+        "scene_description": "A futuristic city canal draped in lush greenery with Japanese neon signage and industrial structures.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "dark coat",
+            "pose": "standing on bridge looking away",
+            "facial_expression": "unknown"
+        },
+        "environment": "urban",
+        "lighting": "neon",
+        "composition": "portrait",
+        "art_quality": "high-detail",
+        "style_influences": [
+            "solarpunk",
+            "cyberpunk"
+        ],
+        "objects": [
+            "bridge",
+            "kanji signs",
+            "foliage",
+            "pipes",
+            "water",
+            "buildings"
+        ],
+        "textures": [
+            "overgrown vegetation",
+            "rusty metal",
+            "water reflection"
+        ],
+        "type": "scenery",
+        "tags": [
+            "cyberpunk",
+            "solarpunk",
+            "overgrown",
+            "urban",
+            "cityscape",
+            "neon",
+            "greenery",
+            "canal",
+            "japan",
+            "kanji",
+            "futuristic",
+            "bridge",
+            "industrial",
+            "scenery",
+            "dystopian"
+        ]
+    }
+}

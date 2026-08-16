@@ -1,0 +1,70 @@
+{
+    "file_name": "nomad-desert-dune-monochrome",
+    "file_cache_name": "nomad-desert-dune-monochrome.webp",
+    "file_main_name": "nomad-desert-dune-monochrome.png",
+    "width": 832,
+    "height": 1248,
+    "resolution": "HD",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-16T19:29:42.151572+00:00",
+    "category": "#minimalist",
+    "data": {
+        "suggested_filename": "nomad-desert-dune-monochrome",
+        "category": "#minimalist",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "realistic",
+        "primary_colors": [
+            "white",
+            "black"
+        ],
+        "secondary_colors": [
+            "gray"
+        ],
+        "color_palette": "monochrome",
+        "mood": "mysterious",
+        "technique": "photography",
+        "scene_description": "A monochrome photograph of a robed figure standing atop a ribbed sand dune, casting a long diagonal shadow.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "traditional nomadic robes",
+            "pose": "standing",
+            "facial_expression": "obscured"
+        },
+        "environment": "nature",
+        "lighting": "natural-daylight",
+        "composition": "centered",
+        "art_quality": "masterpiece",
+        "style_influences": [
+            "minimalism",
+            "fine-art-photography"
+        ],
+        "objects": [
+            "robe",
+            "headwrap"
+        ],
+        "textures": [
+            "sand ripples",
+            "fabric"
+        ],
+        "type": "single-character",
+        "tags": [
+            "monochrome",
+            "desert",
+            "sand-dune",
+            "nomad",
+            "shadow",
+            "black-and-white",
+            "minimalist",
+            "loneliness",
+            "serene",
+            "fine-art",
+            "journey",
+            "ripple-patterns",
+            "horizon",
+            "solitude",
+            "mysterious"
+        ]
+    }
+}

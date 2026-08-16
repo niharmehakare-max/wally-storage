@@ -1,0 +1,73 @@
+{
+    "file_name": "sunset-lake-village-roadside",
+    "file_cache_name": "sunset-lake-village-roadside.webp",
+    "file_main_name": "sunset-lake-village-roadside.png",
+    "width": 3840,
+    "height": 2160,
+    "resolution": "4K",
+    "orientation": "Desktop",
+    "timestamp": "2026-08-16T19:51:46.166689+00:00",
+    "category": "#scenery",
+    "data": {
+        "suggested_filename": "sunset-lake-village-roadside",
+        "category": "#scenery",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "anime",
+        "primary_colors": [
+            "purple",
+            "pink"
+        ],
+        "secondary_colors": [
+            "blue",
+            "orange"
+        ],
+        "color_palette": "vibrant",
+        "mood": "peaceful",
+        "technique": "digital-painting",
+        "scene_description": "A vibrant anime-style sunset illuminates a peaceful landscape with a serene lake, a small village nestled on a hillside, and a winding road leading through a grassy field.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "unknown",
+            "pose": "unknown",
+            "facial_expression": "serene"
+        },
+        "environment": "nature",
+        "lighting": "golden-hour",
+        "composition": "landscape",
+        "art_quality": "masterpiece",
+        "style_influences": [
+            "ghibli"
+        ],
+        "objects": [
+            "lake",
+            "mountain",
+            "village",
+            "road",
+            "power lines",
+            "birds"
+        ],
+        "textures": [
+            "smooth",
+            "painterly"
+        ],
+        "type": "scenery",
+        "tags": [
+            "sunset",
+            "lake",
+            "village",
+            "road",
+            "nature",
+            "anime",
+            "landscape",
+            "peaceful",
+            "serene",
+            "evening",
+            "mountains",
+            "clouds",
+            "reflection",
+            "vibrant"
+        ]
+    }
+}

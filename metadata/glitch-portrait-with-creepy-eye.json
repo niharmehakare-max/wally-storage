@@ -1,0 +1,70 @@
+{
+    "file_name": "glitch-portrait-with-creepy-eye",
+    "file_cache_name": "glitch-portrait-with-creepy-eye.webp",
+    "file_main_name": "glitch-portrait-with-creepy-eye.png",
+    "width": 1440,
+    "height": 1800,
+    "resolution": "2K",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-16T19:54:20.518693+00:00",
+    "category": "#dark-art",
+    "data": {
+        "suggested_filename": "glitch-portrait-with-creepy-eye",
+        "category": "#dark-art",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "digital-art",
+        "primary_colors": [
+            "black",
+            "white"
+        ],
+        "secondary_colors": [
+            "gray"
+        ],
+        "color_palette": "monochrome",
+        "mood": "dark",
+        "technique": "digital-painting",
+        "scene_description": "A distorted monochrome portrait of a person with a glitch effect, revealing a creepy eye and a desolate landscape in the background.",
+        "character_details": {
+            "hair_color": "black",
+            "eye_color": "white",
+            "clothing_style": "high-collared garment",
+            "pose": "facing forward",
+            "facial_expression": "neutral"
+        },
+        "environment": "abstract",
+        "lighting": "dark",
+        "composition": "portrait",
+        "art_quality": "high-detail",
+        "style_influences": [
+            "glitch-art"
+        ],
+        "objects": [
+            "eye",
+            "tree",
+            "picture frame"
+        ],
+        "textures": [
+            "grainy",
+            "distorted"
+        ],
+        "type": "single-character",
+        "tags": [
+            "glitch",
+            "horror",
+            "creepy",
+            "monochrome",
+            "distorted",
+            "portrait",
+            "dark",
+            "surreal",
+            "abstract",
+            "vintage",
+            "ghostly",
+            "eerie",
+            "nightmare",
+            "haunting",
+            "bizarre"
+        ]
+    }
+}

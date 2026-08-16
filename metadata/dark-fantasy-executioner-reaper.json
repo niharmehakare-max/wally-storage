@@ -1,0 +1,75 @@
+{
+    "file_name": "dark-fantasy-executioner-reaper",
+    "file_cache_name": "dark-fantasy-executioner-reaper.webp",
+    "file_main_name": "dark-fantasy-executioner-reaper.png",
+    "width": 1200,
+    "height": 2342,
+    "resolution": "FHD",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-16T19:54:05.864612+00:00",
+    "category": "#fantasy",
+    "data": {
+        "suggested_filename": "dark-fantasy-executioner-reaper",
+        "category": "#fantasy",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "fantasy",
+        "primary_colors": [
+            "#111111",
+            "#a26f32"
+        ],
+        "secondary_colors": [
+            "#2f505b",
+            "#5a4126"
+        ],
+        "color_palette": "dark",
+        "mood": "dark",
+        "technique": "oil-painting",
+        "scene_description": "A sinister, cloaked figure with a pierced skull-like head holds a massive executioner's axe against a textured, stormy gold and teal sky.",
+        "character_details": {
+            "hair_color": "none",
+            "eye_color": "unknown",
+            "clothing_style": "tattered dark robes with metallic cowl",
+            "pose": "standing upright holding an axe",
+            "facial_expression": "grim skull-like mask"
+        },
+        "environment": "abstract",
+        "lighting": "dark",
+        "composition": "centered",
+        "art_quality": "masterpiece",
+        "style_influences": [
+            "Zdzis\u0142aw Beksi\u0144ski",
+            "dark fantasy"
+        ],
+        "objects": [
+            "axe",
+            "cloak",
+            "metal needle",
+            "chain"
+        ],
+        "textures": [
+            "grunge",
+            "oil paint",
+            "canvas texture",
+            "rusty metal"
+        ],
+        "type": "single-character",
+        "tags": [
+            "dark fantasy",
+            "grim reaper",
+            "executioner",
+            "skull",
+            "axe",
+            "horror",
+            "macabre",
+            "gothic",
+            "fine art",
+            "oil painting",
+            "textured",
+            "creepy",
+            "atmospheric",
+            "gloomy",
+            "warrior"
+        ]
+    }
+}

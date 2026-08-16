@@ -1,0 +1,62 @@
+{
+    "file_name": "flowing-sand-dunes-warm-light",
+    "file_cache_name": "flowing-sand-dunes-warm-light.webp",
+    "file_main_name": "flowing-sand-dunes-warm-light.png",
+    "width": 896,
+    "height": 1344,
+    "resolution": "HD",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-14T05:58:12.550398+00:00",
+    "category": "#nature",
+    "data": {
+        "suggested_filename": "flowing-sand-dunes-warm-light",
+        "category": "#nature",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "realistic",
+        "primary_colors": [
+            "tan",
+            "beige"
+        ],
+        "secondary_colors": [
+            "cream",
+            "brown"
+        ],
+        "color_palette": "warm",
+        "mood": "peaceful",
+        "technique": "3d-render",
+        "scene_description": "Gentle, undulating sand dunes are illuminated by warm, soft light, creating a serene and vast desert landscape.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "unknown",
+            "pose": "unknown",
+            "facial_expression": "serene"
+        },
+        "environment": "nature",
+        "lighting": "natural-daylight",
+        "composition": "landscape",
+        "art_quality": "high-detail",
+        "style_influences": [],
+        "objects": [],
+        "textures": [
+            "sand",
+            "ripples"
+        ],
+        "type": "landscape",
+        "tags": [
+            "sand dunes",
+            "desert",
+            "nature",
+            "landscape",
+            "warm light",
+            "serene",
+            "peaceful",
+            "beige",
+            "tan",
+            "ripples",
+            "abstract",
+            "pattern"
+        ]
+    }
+}

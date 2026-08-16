@@ -1,0 +1,75 @@
+{
+    "file_name": "ghibli-style-alpine-meadow-lake",
+    "file_cache_name": "ghibli-style-alpine-meadow-lake.webp",
+    "file_main_name": "ghibli-style-alpine-meadow-lake.png",
+    "width": 1920,
+    "height": 1080,
+    "resolution": "FHD",
+    "orientation": "Desktop",
+    "timestamp": "2026-08-16T19:47:29.160108+00:00",
+    "category": "#scenery",
+    "data": {
+        "suggested_filename": "ghibli-style-alpine-meadow-lake",
+        "category": "#scenery",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "anime",
+        "primary_colors": [
+            "green",
+            "blue",
+            "white"
+        ],
+        "secondary_colors": [
+            "turquoise",
+            "brown"
+        ],
+        "color_palette": "vibrant",
+        "mood": "peaceful",
+        "technique": "digital-painting",
+        "scene_description": "A picturesque Ghibli-inspired landscape showcasing a lush green hillside overlooking a vibrant turquoise lake nestled between mountains.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "unknown",
+            "pose": "unknown",
+            "facial_expression": "unknown"
+        },
+        "environment": "nature",
+        "lighting": "natural-daylight",
+        "composition": "landscape",
+        "art_quality": "masterpiece",
+        "style_influences": [
+            "Studio Ghibli",
+            "Hayao Miyazaki"
+        ],
+        "objects": [
+            "lake",
+            "house",
+            "trees",
+            "clouds",
+            "mountains"
+        ],
+        "textures": [
+            "grassy",
+            "clouds"
+        ],
+        "type": "scenery",
+        "tags": [
+            "ghibli-style",
+            "anime-landscape",
+            "nature",
+            "mountain-valley",
+            "turquoise-lake",
+            "green-hills",
+            "cumulus-clouds",
+            "scenic",
+            "cottage",
+            "summer",
+            "peaceful",
+            "serene",
+            "blue-sky",
+            "path",
+            "high-detail"
+        ]
+    }
+}

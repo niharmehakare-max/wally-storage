@@ -1,0 +1,70 @@
+{
+    "file_name": "chiikawa-plushies-tv-show",
+    "file_cache_name": "chiikawa-plushies-tv-show.webp",
+    "file_main_name": "chiikawa-plushies-tv-show.png",
+    "width": 1075,
+    "height": 744,
+    "resolution": "HD",
+    "orientation": "Desktop",
+    "timestamp": "2026-08-14T06:03:50.693094+00:00",
+    "category": "#anime",
+    "data": {
+        "suggested_filename": "chiikawa-plushies-tv-show",
+        "category": "#anime",
+        "character_names": [
+            "Chiikawa",
+            "Hachiware"
+        ],
+        "series": "Chiikawa",
+        "art_style": "anime",
+        "primary_colors": [
+            "blue",
+            "yellow"
+        ],
+        "secondary_colors": [
+            "white",
+            "purple"
+        ],
+        "color_palette": "warm",
+        "mood": "cheerful",
+        "technique": "illustration",
+        "scene_description": "Two Chiikawa plush toys are held up in front of a TV screen displaying a scene from the anime. The text 'EVERYONE SHUT UP MY SHOW IS ON' is overlaid on the image.",
+        "character_details": {
+            "hair_color": "blue",
+            "eye_color": "black",
+            "clothing_style": "bee costume",
+            "pose": "held up",
+            "facial_expression": "neutral"
+        },
+        "environment": "indoor",
+        "lighting": "soft-glow",
+        "composition": "centered",
+        "art_quality": "high-detail",
+        "style_influences": [
+            "anime"
+        ],
+        "objects": [
+            "plush toy",
+            "television"
+        ],
+        "textures": [
+            "plush",
+            "screen"
+        ],
+        "type": "multiple-characters",
+        "tags": [
+            "chiikawa",
+            "hachiware",
+            "plush",
+            "anime",
+            "tv",
+            "show",
+            "cute",
+            "funny",
+            "meme",
+            "japan",
+            "kawaii",
+            "character"
+        ]
+    }
+}

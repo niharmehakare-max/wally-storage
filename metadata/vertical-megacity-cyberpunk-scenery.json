@@ -1,0 +1,77 @@
+{
+    "file_name": "vertical-megacity-cyberpunk-scenery",
+    "file_cache_name": "vertical-megacity-cyberpunk-scenery.webp",
+    "file_main_name": "vertical-megacity-cyberpunk-scenery.png",
+    "width": 564,
+    "height": 1362,
+    "resolution": "HD",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-14T05:23:13.110538+00:00",
+    "category": "#cyberpunk",
+    "data": {
+        "suggested_filename": "vertical-megacity-cyberpunk-scenery",
+        "category": "#cyberpunk",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "cyberpunk",
+        "primary_colors": [
+            "grey",
+            "beige",
+            "charcoal"
+        ],
+        "secondary_colors": [
+            "orange",
+            "blue",
+            "white"
+        ],
+        "color_palette": "muted",
+        "mood": "mysterious",
+        "technique": "digital-painting",
+        "scene_description": "A towering vertical megacity with layered metallic structures, flying vehicles, and a prominent central ring suspended in a hazy, industrial atmosphere.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "unknown",
+            "pose": "unknown",
+            "facial_expression": "unknown"
+        },
+        "environment": "urban",
+        "lighting": "cinematic",
+        "composition": "portrait",
+        "art_quality": "high-detail",
+        "style_influences": [
+            "Blade Runner",
+            "Tsutomu Nihei"
+        ],
+        "objects": [
+            "flying vehicles",
+            "bridges",
+            "pipes",
+            "skyscrapers",
+            "ring structure",
+            "neon signs"
+        ],
+        "textures": [
+            "metal",
+            "concrete"
+        ],
+        "type": "scenery",
+        "tags": [
+            "megacity",
+            "cyberpunk",
+            "sci-fi",
+            "futuristic",
+            "vertical-city",
+            "dystopian",
+            "industrial",
+            "flying-cars",
+            "concept-art",
+            "digital-painting",
+            "architecture",
+            "megastructure",
+            "hazy",
+            "smog",
+            "urban-decay"
+        ]
+    }
+}

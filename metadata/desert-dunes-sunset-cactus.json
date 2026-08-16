@@ -1,0 +1,70 @@
+{
+    "file_name": "desert-dunes-sunset-cactus",
+    "file_cache_name": "desert-dunes-sunset-cactus.webp",
+    "file_main_name": "desert-dunes-sunset-cactus.png",
+    "width": 1024,
+    "height": 1820,
+    "resolution": "HD",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-14T06:01:23.891139+00:00",
+    "category": "#scenery",
+    "data": {
+        "suggested_filename": "desert-dunes-sunset-cactus",
+        "category": "#scenery",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "realistic",
+        "primary_colors": [
+            "beige",
+            "white"
+        ],
+        "secondary_colors": [
+            "blue",
+            "gold"
+        ],
+        "color_palette": "warm",
+        "mood": "peaceful",
+        "technique": "realistic",
+        "scene_description": "Golden hour light illuminates vast desert dunes, casting long shadows. A saguaro cactus stands tall in the foreground amidst sparse desert vegetation.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "unknown",
+            "pose": "unknown",
+            "facial_expression": "serene"
+        },
+        "environment": "nature",
+        "lighting": "golden-hour",
+        "composition": "landscape",
+        "art_quality": "masterpiece",
+        "style_influences": [],
+        "objects": [
+            "dunes",
+            "cactus",
+            "clouds",
+            "mountains",
+            "bushes"
+        ],
+        "textures": [
+            "sand",
+            "ripples"
+        ],
+        "type": "landscape",
+        "tags": [
+            "desert",
+            "dunes",
+            "sand",
+            "cactus",
+            "saguaro",
+            "sunset",
+            "golden hour",
+            "nature",
+            "landscape",
+            "sky",
+            "clouds",
+            "serene",
+            "peaceful",
+            "barren"
+        ]
+    }
+}

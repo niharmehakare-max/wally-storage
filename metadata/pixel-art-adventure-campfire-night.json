@@ -1,0 +1,77 @@
+{
+    "file_name": "pixel-art-adventure-campfire-night",
+    "file_cache_name": "pixel-art-adventure-campfire-night.webp",
+    "file_main_name": "pixel-art-adventure-campfire-night.png",
+    "width": 2560,
+    "height": 1440,
+    "resolution": "2K",
+    "orientation": "Desktop",
+    "timestamp": "2026-08-16T19:50:40.239550+00:00",
+    "category": "#fantasy",
+    "data": {
+        "suggested_filename": "pixel-art-adventure-campfire-night",
+        "category": "#fantasy",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "pixel-art",
+        "primary_colors": [
+            "dark-blue",
+            "orange",
+            "grey"
+        ],
+        "secondary_colors": [
+            "green",
+            "brown",
+            "white"
+        ],
+        "color_palette": "cool",
+        "mood": "serene",
+        "technique": "digital-painting",
+        "scene_description": "Four adventurers rest around a glowing campfire next to an ancient stone archway under a luminous full moon.",
+        "character_details": {
+            "hair_color": "brown",
+            "eye_color": "unknown",
+            "clothing_style": "medieval armor and tunics",
+            "pose": "sitting and kneeling around a campfire",
+            "facial_expression": "serene"
+        },
+        "environment": "fantasy-world",
+        "lighting": "cinematic",
+        "composition": "wide-shot",
+        "art_quality": "high-detail",
+        "style_influences": [
+            "retro JRPGs",
+            "classic pixel art"
+        ],
+        "objects": [
+            "campfire",
+            "sword",
+            "backpack",
+            "stone portal",
+            "moon"
+        ],
+        "textures": [
+            "pixelated",
+            "stone",
+            "foliage"
+        ],
+        "type": "multiple-characters",
+        "tags": [
+            "pixel-art",
+            "campfire",
+            "adventurers",
+            "fantasy-rpg",
+            "night-sky",
+            "full-moon",
+            "ruins",
+            "cozy",
+            "retro-gaming",
+            "mountain-landscape",
+            "knights",
+            "dungeon-entrance",
+            "forest",
+            "camping",
+            "scenery"
+        ]
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "file_name": "golden-hour-sand-dunes",
+    "file_cache_name": "golden-hour-sand-dunes.webp",
+    "file_main_name": "golden-hour-sand-dunes.png",
+    "width": 887,
+    "height": 1775,
+    "resolution": "HD",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-16T19:32:24.938241+00:00",
+    "category": "#nature",
+    "data": {
+        "suggested_filename": "golden-hour-sand-dunes",
+        "category": "#nature",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "realistic",
+        "primary_colors": [
+            "orange",
+            "black"
+        ],
+        "secondary_colors": [
+            "dark-blue",
+            "copper"
+        ],
+        "color_palette": "warm",
+        "mood": "serene",
+        "technique": "3d-render",
+        "scene_description": "Wind-swept sand dunes highlighted by golden-hour sunlight against deep, dark shadows.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "unknown",
+            "pose": "unknown",
+            "facial_expression": "unknown"
+        },
+        "environment": "nature",
+        "lighting": "golden-hour",
+        "composition": "portrait",
+        "art_quality": "high-detail",
+        "style_influences": [
+            "minimalism",
+            "landscape-photography"
+        ],
+        "objects": [
+            "sand dunes"
+        ],
+        "textures": [
+            "sand ripples",
+            "smooth shadow"
+        ],
+        "type": "landscape",
+        "tags": [
+            "sand",
+            "dunes",
+            "desert",
+            "golden-hour",
+            "shadows",
+            "minimalist",
+            "warm",
+            "dark",
+            "nature",
+            "scenery",
+            "mobile-wallpaper",
+            "aerial",
+            "ripples",
+            "curves",
+            "contrast"
+        ]
+    }
+}

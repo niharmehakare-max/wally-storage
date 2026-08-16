@@ -1,0 +1,75 @@
+{
+    "file_name": "cyberpunk-rainy-city-neon-street",
+    "file_cache_name": "cyberpunk-rainy-city-neon-street.webp",
+    "file_main_name": "cyberpunk-rainy-city-neon-street.png",
+    "width": 640,
+    "height": 640,
+    "resolution": "SD",
+    "orientation": "Square",
+    "timestamp": "2026-08-14T05:21:18.171165+00:00",
+    "category": "#cyberpunk",
+    "data": {
+        "suggested_filename": "cyberpunk-rainy-city-neon-street",
+        "category": "#cyberpunk",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "cyberpunk",
+        "primary_colors": [
+            "magenta",
+            "cyan"
+        ],
+        "secondary_colors": [
+            "black",
+            "purple"
+        ],
+        "color_palette": "neon",
+        "mood": "mysterious",
+        "technique": "3d-render",
+        "scene_description": "A futuristic city street at night featuring wet asphalt reflecting vibrant cyan and magenta neon light trails.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "unknown",
+            "pose": "none",
+            "facial_expression": "none"
+        },
+        "environment": "urban",
+        "lighting": "neon",
+        "composition": "wide-shot",
+        "art_quality": "high-detail",
+        "style_influences": [
+            "Blade Runner",
+            "Futurism"
+        ],
+        "objects": [
+            "buildings",
+            "neon signs",
+            "flying car",
+            "puddles",
+            "light stream"
+        ],
+        "textures": [
+            "wet",
+            "reflective",
+            "glowing"
+        ],
+        "type": "scenery",
+        "tags": [
+            "cyberpunk",
+            "neon",
+            "city",
+            "rain",
+            "futuristic",
+            "scenery",
+            "night",
+            "street",
+            "reflections",
+            "cyan",
+            "magenta",
+            "architecture",
+            "urban",
+            "flying car",
+            "digital art"
+        ]
+    }
+}

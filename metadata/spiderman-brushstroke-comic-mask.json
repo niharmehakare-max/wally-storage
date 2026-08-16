@@ -1,0 +1,73 @@
+{
+    "file_name": "spiderman-brushstroke-comic-mask",
+    "file_cache_name": "spiderman-brushstroke-comic-mask.webp",
+    "file_main_name": "spiderman-brushstroke-comic-mask.png",
+    "width": 848,
+    "height": 476,
+    "resolution": "SD",
+    "orientation": "Desktop",
+    "timestamp": "2026-08-14T05:18:45.331739+00:00",
+    "category": "#comics",
+    "data": {
+        "suggested_filename": "spiderman-brushstroke-comic-mask",
+        "category": "#comics",
+        "character_names": [
+            "Spider-Man"
+        ],
+        "series": "Spider-Man",
+        "art_style": "illustration",
+        "primary_colors": [
+            "red",
+            "blue"
+        ],
+        "secondary_colors": [
+            "black",
+            "white"
+        ],
+        "color_palette": "vibrant",
+        "mood": "energetic",
+        "technique": "digital-painting",
+        "scene_description": "Close-up painterly illustration of Spider-Man's mask with stylized text graphics.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "white",
+            "clothing_style": "superhero suit",
+            "pose": "head tilt close-up",
+            "facial_expression": "intense"
+        },
+        "environment": "abstract",
+        "lighting": "cinematic",
+        "composition": "close-up",
+        "art_quality": "high-detail",
+        "style_influences": [
+            "comic-book",
+            "expressionism"
+        ],
+        "objects": [
+            "mask",
+            "typography"
+        ],
+        "textures": [
+            "paint-strokes",
+            "canvas"
+        ],
+        "type": "single-character",
+        "tags": [
+            "spiderman",
+            "marvel",
+            "superhero",
+            "comic-book",
+            "mask",
+            "red",
+            "blue",
+            "digital-painting",
+            "painterly",
+            "illustration",
+            "peter-parker",
+            "artwork",
+            "poster",
+            "hero",
+            "wallwidgy"
+        ]
+    }
+}

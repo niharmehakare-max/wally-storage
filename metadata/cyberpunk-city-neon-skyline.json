@@ -1,0 +1,74 @@
+{
+    "file_name": "cyberpunk-city-neon-skyline",
+    "file_cache_name": "cyberpunk-city-neon-skyline.webp",
+    "file_main_name": "cyberpunk-city-neon-skyline.png",
+    "width": 1080,
+    "height": 1920,
+    "resolution": "FHD",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-16T19:24:00.274610+00:00",
+    "category": "#cyberpunk",
+    "data": {
+        "suggested_filename": "cyberpunk-city-neon-skyline",
+        "category": "#cyberpunk",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "cyberpunk",
+        "primary_colors": [
+            "purple",
+            "magenta"
+        ],
+        "secondary_colors": [
+            "cyan",
+            "blue"
+        ],
+        "color_palette": "neon",
+        "mood": "energetic",
+        "technique": "3d-render",
+        "scene_description": "High-angle view of a futuristic cyberpunk cityscape bathed in neon lights.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "unknown",
+            "pose": "unknown",
+            "facial_expression": "unknown"
+        },
+        "environment": "urban",
+        "lighting": "neon",
+        "composition": "wide-shot",
+        "art_quality": "high-detail",
+        "style_influences": [
+            "Cyberpunk 2077",
+            "Blade Runner"
+        ],
+        "objects": [
+            "skyscrapers",
+            "neon signs",
+            "city streets",
+            "buildings"
+        ],
+        "textures": [
+            "glass",
+            "metal",
+            "glow"
+        ],
+        "type": "scenery",
+        "tags": [
+            "cyberpunk",
+            "neon",
+            "cityscape",
+            "futuristic",
+            "skyscrapers",
+            "aerial view",
+            "night",
+            "purple",
+            "magenta",
+            "cyan",
+            "metropolis",
+            "sci-fi",
+            "urban",
+            "glowing",
+            "architecture"
+        ]
+    }
+}

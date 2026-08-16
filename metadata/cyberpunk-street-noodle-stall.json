@@ -1,0 +1,75 @@
+{
+    "file_name": "cyberpunk-street-noodle-stall",
+    "file_cache_name": "cyberpunk-street-noodle-stall.webp",
+    "file_main_name": "cyberpunk-street-noodle-stall.png",
+    "width": 848,
+    "height": 1264,
+    "resolution": "HD",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-14T05:21:04.720865+00:00",
+    "category": "#cyberpunk",
+    "data": {
+        "suggested_filename": "cyberpunk-street-noodle-stall",
+        "category": "#cyberpunk",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "cyberpunk",
+        "primary_colors": [
+            "purple",
+            "cyan"
+        ],
+        "secondary_colors": [
+            "yellow",
+            "black"
+        ],
+        "color_palette": "neon",
+        "mood": "mysterious",
+        "technique": "3d-render",
+        "scene_description": "A person eats at a street kiosk within a rainy, neon-drenched futuristic metropolis.",
+        "character_details": {
+            "hair_color": "black",
+            "eye_color": "unknown",
+            "clothing_style": "dark patterned jacket",
+            "pose": "sitting and eating noodles",
+            "facial_expression": "focused"
+        },
+        "environment": "urban",
+        "lighting": "neon",
+        "composition": "rule-of-thirds",
+        "art_quality": "high-detail",
+        "style_influences": [
+            "Blade Runner",
+            "Cyberpunk 2077"
+        ],
+        "objects": [
+            "food stall",
+            "neon signs",
+            "monorail",
+            "ramen bowl",
+            "skyscrapers"
+        ],
+        "textures": [
+            "wet asphalt",
+            "metal",
+            "glowing glass"
+        ],
+        "type": "scenery",
+        "tags": [
+            "cyberpunk",
+            "futuristic",
+            "neon",
+            "cityscape",
+            "rain",
+            "noodle stall",
+            "ramen",
+            "scifi",
+            "night",
+            "urban",
+            "monorail",
+            "dystopian",
+            "glow",
+            "street",
+            "architecture"
+        ]
+    }
+}

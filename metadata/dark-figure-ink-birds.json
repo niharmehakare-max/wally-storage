@@ -1,0 +1,70 @@
+{
+    "file_name": "dark-figure-ink-birds",
+    "file_cache_name": "dark-figure-ink-birds.webp",
+    "file_main_name": "dark-figure-ink-birds.png",
+    "width": 720,
+    "height": 1284,
+    "resolution": "HD",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-16T19:59:37.905997+00:00",
+    "category": "#fantasy",
+    "data": {
+        "suggested_filename": "dark-figure-ink-birds",
+        "category": "#fantasy",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "illustration",
+        "primary_colors": [
+            "black",
+            "white"
+        ],
+        "secondary_colors": [
+            "gray",
+            "red"
+        ],
+        "color_palette": "dark",
+        "mood": "dark",
+        "technique": "watercolor",
+        "scene_description": "A stylized, dark ink illustration depicts a figure shrouded in swirling black ink and crows, with hints of red.",
+        "character_details": {
+            "hair_color": "black",
+            "eye_color": "unknown",
+            "clothing_style": "suit-like",
+            "pose": "standing",
+            "facial_expression": "obscured"
+        },
+        "environment": "abstract",
+        "lighting": "dark",
+        "composition": "centered",
+        "art_quality": "masterpiece",
+        "style_influences": [
+            "sumi-e"
+        ],
+        "objects": [
+            "crow",
+            "ink splash"
+        ],
+        "textures": [
+            "ink",
+            "splatter"
+        ],
+        "type": "single-character",
+        "tags": [
+            "ink",
+            "dark art",
+            "gothic",
+            "surreal",
+            "birds",
+            "crows",
+            "figure",
+            "abstract",
+            "illustration",
+            "monochrome",
+            "spooky",
+            "mysterious",
+            "dark fantasy",
+            "ink wash",
+            "grunge"
+        ]
+    }
+}

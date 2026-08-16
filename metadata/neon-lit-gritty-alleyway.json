@@ -1,0 +1,75 @@
+{
+    "file_name": "neon-lit-gritty-alleyway",
+    "file_cache_name": "neon-lit-gritty-alleyway.webp",
+    "file_main_name": "neon-lit-gritty-alleyway.png",
+    "width": 880,
+    "height": 1320,
+    "resolution": "HD",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-16T19:25:24.563255+00:00",
+    "category": "#cyberpunk",
+    "data": {
+        "suggested_filename": "neon-lit-gritty-alleyway",
+        "category": "#cyberpunk",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "cyberpunk",
+        "primary_colors": [
+            "blue",
+            "black"
+        ],
+        "secondary_colors": [
+            "cyan",
+            "magenta",
+            "green"
+        ],
+        "color_palette": "neon",
+        "mood": "mysterious",
+        "technique": "digital-painting",
+        "scene_description": "A narrow, dark urban alleyway cluttered with hanging wires, illuminated by cold neon blue light with silhouetted figures walking in the background.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "casual",
+            "pose": "walking",
+            "facial_expression": "unseen"
+        },
+        "environment": "urban",
+        "lighting": "neon",
+        "composition": "centered",
+        "art_quality": "high-detail",
+        "style_influences": [
+            "cyberpunk",
+            "street-photography"
+        ],
+        "objects": [
+            "wires",
+            "sign",
+            "overhead lights",
+            "bottles"
+        ],
+        "textures": [
+            "grime",
+            "metal",
+            "concrete"
+        ],
+        "type": "scenery",
+        "tags": [
+            "alleyway",
+            "urban",
+            "night",
+            "neon",
+            "blue-light",
+            "wires",
+            "slum",
+            "cyberpunk",
+            "moody",
+            "dark",
+            "silhouettes",
+            "city",
+            "narrow",
+            "street",
+            "gritty"
+        ]
+    }
+}

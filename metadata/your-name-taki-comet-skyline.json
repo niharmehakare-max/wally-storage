@@ -1,0 +1,75 @@
+{
+    "file_name": "your-name-taki-comet-skyline",
+    "file_cache_name": "your-name-taki-comet-skyline.webp",
+    "file_main_name": "your-name-taki-comet-skyline.png",
+    "width": 1308,
+    "height": 736,
+    "resolution": "HD",
+    "orientation": "Desktop",
+    "timestamp": "2026-08-14T05:25:06.293849+00:00",
+    "category": "#scenery",
+    "data": {
+        "suggested_filename": "your-name-taki-comet-skyline",
+        "category": "#scenery",
+        "character_names": [
+            "Taki Tachibana"
+        ],
+        "series": "Your Name",
+        "art_style": "anime",
+        "primary_colors": [
+            "#001f4d",
+            "#0055ff"
+        ],
+        "secondary_colors": [
+            "#ffaa00",
+            "#8a2be2"
+        ],
+        "color_palette": "cool",
+        "mood": "nostalgic",
+        "technique": "digital-painting",
+        "scene_description": "Taki Tachibana stands on a Tokyo balcony, watching the brilliant Tiamat comet split across the starry night sky.",
+        "character_details": {
+            "hair_color": "brown",
+            "eye_color": "brown",
+            "clothing_style": "casual",
+            "pose": "standing and looking up",
+            "facial_expression": "serene"
+        },
+        "environment": "urban",
+        "lighting": "cinematic",
+        "composition": "landscape",
+        "art_quality": "masterpiece",
+        "style_influences": [
+            "Makoto Shinkai"
+        ],
+        "objects": [
+            "comet",
+            "balcony",
+            "bicycle",
+            "antenna",
+            "buildings"
+        ],
+        "textures": [
+            "clouds",
+            "smooth"
+        ],
+        "type": "scenery",
+        "tags": [
+            "your name",
+            "kimi no na wa",
+            "taki tachibana",
+            "comet",
+            "tiamat comet",
+            "tokyo",
+            "skyline",
+            "night sky",
+            "stars",
+            "clouds",
+            "balcony",
+            "city lights",
+            "scenery",
+            "anime landscape",
+            "aesthetic"
+        ]
+    }
+}

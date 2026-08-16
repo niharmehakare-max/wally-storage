@@ -1,0 +1,69 @@
+{
+    "file_name": "emo-chibi-mascot-illustration",
+    "file_cache_name": "emo-chibi-mascot-illustration.webp",
+    "file_main_name": "emo-chibi-mascot-illustration.png",
+    "width": 2048,
+    "height": 2048,
+    "resolution": "2K",
+    "orientation": "Square",
+    "timestamp": "2026-08-16T19:37:52.858653+00:00",
+    "category": "#minimalist",
+    "data": {
+        "suggested_filename": "emo-chibi-mascot-illustration",
+        "category": "#minimalist",
+        "character_names": [
+            "unknown"
+        ],
+        "series": "Chiikawa parody",
+        "art_style": "minimalist",
+        "primary_colors": [
+            "white",
+            "black"
+        ],
+        "secondary_colors": [
+            "pink",
+            "blue"
+        ],
+        "color_palette": "monochrome",
+        "mood": "dark",
+        "technique": "sketch",
+        "scene_description": "A minimalist, round chibi creature with black emo hair and a crying eye on a plain white background.",
+        "character_details": {
+            "hair_color": "black",
+            "eye_color": "black",
+            "clothing_style": "none",
+            "pose": "standing",
+            "facial_expression": "sad"
+        },
+        "environment": "abstract",
+        "lighting": "soft-glow",
+        "composition": "centered",
+        "art_quality": "clean-vector",
+        "style_influences": [
+            "Chiikawa",
+            "Emo subculture"
+        ],
+        "objects": [],
+        "textures": [
+            "smooth"
+        ],
+        "type": "single-character",
+        "tags": [
+            "emo",
+            "chibi",
+            "sad",
+            "cute",
+            "meme",
+            "crying",
+            "goth",
+            "minimalist",
+            "line-art",
+            "mascot",
+            "white-background",
+            "round-creature",
+            "scene-hair",
+            "fringe",
+            "blush"
+        ]
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "file_name": "crying-fluffy-creature-blue-hair",
+    "file_cache_name": "crying-fluffy-creature-blue-hair.webp",
+    "file_main_name": "crying-fluffy-creature-blue-hair.png",
+    "width": 1378,
+    "height": 1378,
+    "resolution": "FHD",
+    "orientation": "Square",
+    "timestamp": "2026-08-14T06:14:03.359589+00:00",
+    "category": "#anime",
+    "data": {
+        "suggested_filename": "crying-fluffy-creature-blue-hair",
+        "category": "#anime",
+        "character_names": [
+            "unknown"
+        ],
+        "series": "unknown",
+        "art_style": "anime",
+        "primary_colors": [
+            "white",
+            "blue"
+        ],
+        "secondary_colors": [
+            "pink",
+            "brown"
+        ],
+        "color_palette": "pastel",
+        "mood": "sad",
+        "technique": "digital-painting",
+        "scene_description": "A very fluffy, white, chibi-style creature with blue hair and large, tearful eyes is depicted against a light background. The creature has rosy cheeks and a small mouth, with lines suggesting movement or distress.",
+        "character_details": {
+            "hair_color": "blue",
+            "eye_color": "brown",
+            "clothing_style": "unknown",
+            "pose": "sitting",
+            "facial_expression": "crying"
+        },
+        "environment": "abstract",
+        "lighting": "soft-glow",
+        "composition": "centered",
+        "art_quality": "masterpiece",
+        "style_influences": [
+            "chibi"
+        ],
+        "objects": [
+            "tear"
+        ],
+        "textures": [
+            "fluffy"
+        ],
+        "type": "single-character",
+        "tags": [
+            "cute",
+            "chibi",
+            "sad",
+            "crying",
+            "animal",
+            "creature",
+            "fluffy",
+            "anime",
+            "pastel",
+            "kawaii",
+            "blue hair",
+            "tearful",
+            "blush"
+        ]
+    }
+}

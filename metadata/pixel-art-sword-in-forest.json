@@ -1,0 +1,73 @@
+{
+    "file_name": "pixel-art-sword-in-forest",
+    "file_cache_name": "pixel-art-sword-in-forest.webp",
+    "file_main_name": "pixel-art-sword-in-forest.png",
+    "width": 1200,
+    "height": 675,
+    "resolution": "SD",
+    "orientation": "Desktop",
+    "timestamp": "2026-08-16T19:51:01.039596+00:00",
+    "category": "#fantasy",
+    "data": {
+        "suggested_filename": "pixel-art-sword-in-forest",
+        "category": "#fantasy",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "pixel-art",
+        "primary_colors": [
+            "green",
+            "dark-green"
+        ],
+        "secondary_colors": [
+            "blue",
+            "yellow"
+        ],
+        "color_palette": "dark",
+        "mood": "mysterious",
+        "technique": "digital-painting",
+        "scene_description": "A legendary sword stands embedded in a mossy rock amidst a sun-dappled, mystical forest. Rays of light pierce through the dense canopy, illuminating the ancient weapon.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "unknown",
+            "pose": "unknown",
+            "facial_expression": "unknown"
+        },
+        "environment": "nature",
+        "lighting": "natural-daylight",
+        "composition": "centered",
+        "art_quality": "masterpiece",
+        "style_influences": [
+            "fantasy-art"
+        ],
+        "objects": [
+            "sword",
+            "rock",
+            "trees",
+            "forest"
+        ],
+        "textures": [
+            "mossy",
+            "rocky",
+            "wood"
+        ],
+        "type": "scenery",
+        "tags": [
+            "pixel-art",
+            "fantasy",
+            "sword",
+            "forest",
+            "mysterious",
+            "nature",
+            "light-rays",
+            "ancient",
+            "legendary",
+            "epic",
+            "enchanted",
+            "deep-forest",
+            "digital-art",
+            "scenery",
+            "dark-fantasy"
+        ]
+    }
+}

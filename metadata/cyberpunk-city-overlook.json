@@ -1,0 +1,75 @@
+{
+    "file_name": "cyberpunk-city-overlook",
+    "file_cache_name": "cyberpunk-city-overlook.webp",
+    "file_main_name": "cyberpunk-city-overlook.png",
+    "width": 1000,
+    "height": 1614,
+    "resolution": "HD",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-14T05:21:57.868022+00:00",
+    "category": "#cyberpunk",
+    "data": {
+        "suggested_filename": "cyberpunk-city-overlook",
+        "category": "#cyberpunk",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "cyberpunk",
+        "primary_colors": [
+            "blue",
+            "purple"
+        ],
+        "secondary_colors": [
+            "cyan",
+            "magenta",
+            "green"
+        ],
+        "color_palette": "neon",
+        "mood": "mysterious",
+        "technique": "digital-painting",
+        "scene_description": "A man stands on a high ledge overlooking a towering cyberpunk city filled with neon-lit skyscrapers and flying vehicles.",
+        "character_details": {
+            "hair_color": "black",
+            "eye_color": "unknown",
+            "clothing_style": "futuristic jacket",
+            "pose": "standing, looking away",
+            "facial_expression": "unknown"
+        },
+        "environment": "urban",
+        "lighting": "neon",
+        "composition": "wide-shot",
+        "art_quality": "high-detail",
+        "style_influences": [
+            "comic-book",
+            "sci-fi-concept-art"
+        ],
+        "objects": [
+            "skyscrapers",
+            "flying car",
+            "girders",
+            "clouds",
+            "neon signs"
+        ],
+        "textures": [
+            "metal",
+            "glitch"
+        ],
+        "type": "scenery",
+        "tags": [
+            "cyberpunk",
+            "futuristic",
+            "cityscape",
+            "neon",
+            "skyscrapers",
+            "flying car",
+            "night",
+            "sci-fi",
+            "glowing",
+            "urban",
+            "overlook",
+            "dystopian",
+            "digital art",
+            "vertical wallpaper",
+            "high rise"
+        ]
+    }
+}

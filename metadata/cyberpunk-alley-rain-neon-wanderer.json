@@ -1,0 +1,76 @@
+{
+    "file_name": "cyberpunk-alley-rain-neon-wanderer",
+    "file_cache_name": "cyberpunk-alley-rain-neon-wanderer.webp",
+    "file_main_name": "cyberpunk-alley-rain-neon-wanderer.png",
+    "width": 832,
+    "height": 1248,
+    "resolution": "HD",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-14T05:20:37.525844+00:00",
+    "category": "#cyberpunk",
+    "data": {
+        "suggested_filename": "cyberpunk-alley-rain-neon-wanderer",
+        "category": "#cyberpunk",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "cyberpunk",
+        "primary_colors": [
+            "black",
+            "magenta",
+            "blue"
+        ],
+        "secondary_colors": [
+            "amber",
+            "cyan"
+        ],
+        "color_palette": "neon",
+        "mood": "mysterious",
+        "technique": "digital-painting",
+        "scene_description": "A hooded figure walks away down a wet, neon-lit night alleyway filled with glowing Asian signs and vibrant reflections.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "dark cyberpunk streetwear",
+            "pose": "walking away",
+            "facial_expression": "unknown"
+        },
+        "environment": "urban",
+        "lighting": "neon",
+        "composition": "portrait",
+        "art_quality": "high-detail",
+        "style_influences": [
+            "Blade Runner",
+            "Cyberpunk 2077"
+        ],
+        "objects": [
+            "neon signs",
+            "hoodie",
+            "boots",
+            "wet pavement",
+            "buildings"
+        ],
+        "textures": [
+            "wet asphalt",
+            "glowing glass",
+            "metal"
+        ],
+        "type": "single-character",
+        "tags": [
+            "cyberpunk",
+            "neon",
+            "alleyway",
+            "night",
+            "rain",
+            "wet street",
+            "reflections",
+            "hooded figure",
+            "urban",
+            "city",
+            "futuristic",
+            "glowing signs",
+            "dark",
+            "lonely",
+            "streetwear"
+        ]
+    }
+}

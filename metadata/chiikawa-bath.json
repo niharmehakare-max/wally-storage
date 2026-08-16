@@ -1,0 +1,71 @@
+{
+    "file_name": "chiikawa-bath",
+    "file_cache_name": "chiikawa-bath.webp",
+    "file_main_name": "chiikawa-bath.png",
+    "width": 828,
+    "height": 818,
+    "resolution": "HD",
+    "orientation": "Square",
+    "timestamp": "2026-08-16T19:43:07.979703+00:00",
+    "category": "#anime",
+    "data": {
+        "suggested_filename": "chiikawa-bath",
+        "category": "#anime",
+        "character_names": [
+            "Chiikawa"
+        ],
+        "series": "Chiikawa",
+        "art_style": "anime",
+        "primary_colors": [
+            "lightblue",
+            "white"
+        ],
+        "secondary_colors": [
+            "blue",
+            "pink"
+        ],
+        "color_palette": "pastel",
+        "mood": "cheerful",
+        "technique": "digital-painting",
+        "scene_description": "A cute, white cat-like character with blue cat ears is happily bathing in a light blue pool. The character has pink blushing cheeks and is looking forward with a gentle smile.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "black",
+            "clothing_style": "unknown",
+            "pose": "standing in water",
+            "facial_expression": "happy"
+        },
+        "environment": "indoor",
+        "lighting": "soft-glow",
+        "composition": "centered",
+        "art_quality": "smooth",
+        "style_influences": [
+            "kawaii"
+        ],
+        "objects": [
+            "water",
+            "pool"
+        ],
+        "textures": [
+            "water-ripple"
+        ],
+        "type": "single-character",
+        "tags": [
+            "chiikawa",
+            "cute",
+            "anime",
+            "cat",
+            "character",
+            "kawaii",
+            "bath",
+            "pool",
+            "water",
+            "bathing",
+            "pink cheeks",
+            "happy",
+            "adorable",
+            "pastel",
+            "illustration"
+        ]
+    }
+}

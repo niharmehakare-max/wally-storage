@@ -1,0 +1,71 @@
+{
+    "file_name": "golden-desert-dunes-portrait",
+    "file_cache_name": "golden-desert-dunes-portrait.webp",
+    "file_main_name": "golden-desert-dunes-portrait.png",
+    "width": 768,
+    "height": 1344,
+    "resolution": "HD",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-14T05:29:50.973690+00:00",
+    "category": "#nature",
+    "data": {
+        "suggested_filename": "golden-desert-dunes-portrait",
+        "category": "#nature",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "realistic",
+        "primary_colors": [
+            "beige",
+            "sand-gold"
+        ],
+        "secondary_colors": [
+            "soft-brown",
+            "cream"
+        ],
+        "color_palette": "warm",
+        "mood": "serene",
+        "technique": "photography",
+        "scene_description": "Smooth, sweeping sand dunes in a quiet desert landscape under a soft, warm light.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "unknown",
+            "pose": "unknown",
+            "facial_expression": "unknown"
+        },
+        "environment": "nature",
+        "lighting": "golden-hour",
+        "composition": "portrait",
+        "art_quality": "high-detail",
+        "style_influences": [
+            "minimalism",
+            "nature-photography"
+        ],
+        "objects": [
+            "sand-dunes",
+            "desert"
+        ],
+        "textures": [
+            "sand",
+            "wind-ripples"
+        ],
+        "type": "scenery",
+        "tags": [
+            "desert",
+            "sand",
+            "dunes",
+            "sahara",
+            "warm",
+            "serene",
+            "minimalist",
+            "nature",
+            "scenic",
+            "gold",
+            "shadows",
+            "ripples",
+            "peaceful",
+            "landscape",
+            "wilderness"
+        ]
+    }
+}

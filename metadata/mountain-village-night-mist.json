@@ -1,0 +1,77 @@
+{
+    "file_name": "mountain-village-night-mist",
+    "file_cache_name": "mountain-village-night-mist.webp",
+    "file_main_name": "mountain-village-night-mist.png",
+    "width": 736,
+    "height": 1549,
+    "resolution": "HD",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-14T05:28:52.927640+00:00",
+    "category": "#scenery",
+    "data": {
+        "suggested_filename": "mountain-village-night-mist",
+        "category": "#scenery",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "anime",
+        "primary_colors": [
+            "dark-green",
+            "gray"
+        ],
+        "secondary_colors": [
+            "white",
+            "brown"
+        ],
+        "color_palette": "dark",
+        "mood": "mysterious",
+        "technique": "digital-painting",
+        "scene_description": "A misty mountain looms over a small village at night. A single lamp post illuminates a grassy path leading towards the houses.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "unknown",
+            "pose": "unknown",
+            "facial_expression": "unknown"
+        },
+        "environment": "nature",
+        "lighting": "dark",
+        "composition": "landscape",
+        "art_quality": "masterpiece",
+        "style_influences": [
+            "ghibli"
+        ],
+        "objects": [
+            "mountain",
+            "village",
+            "house",
+            "lamp post",
+            "rocks",
+            "trees",
+            "grass",
+            "mist"
+        ],
+        "textures": [
+            "rocky",
+            "grassy",
+            "cloudy"
+        ],
+        "type": "landscape",
+        "tags": [
+            "night",
+            "mountain",
+            "village",
+            "mist",
+            "fog",
+            "anime",
+            "landscape",
+            "nature",
+            "dark",
+            "serene",
+            "cottagecore",
+            "cozy",
+            "ominous",
+            "peaceful",
+            "lighting"
+        ]
+    }
+}

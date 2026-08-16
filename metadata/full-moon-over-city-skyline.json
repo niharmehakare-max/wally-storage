@@ -1,0 +1,72 @@
+{
+    "file_name": "full-moon-over-city-skyline",
+    "file_cache_name": "full-moon-over-city-skyline.webp",
+    "file_main_name": "full-moon-over-city-skyline.png",
+    "width": 991,
+    "height": 567,
+    "resolution": "SD",
+    "orientation": "Desktop",
+    "timestamp": "2026-08-16T19:21:13.287428+00:00",
+    "category": "#scenery",
+    "data": {
+        "suggested_filename": "full-moon-over-city-skyline",
+        "category": "#scenery",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "realistic",
+        "primary_colors": [
+            "black",
+            "orange"
+        ],
+        "secondary_colors": [
+            "grey",
+            "yellow"
+        ],
+        "color_palette": "warm",
+        "mood": "serene",
+        "technique": "digital-painting",
+        "scene_description": "A large glowing full moon hangs over a vast, illuminated city skyline at night.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "unknown",
+            "pose": "unknown",
+            "facial_expression": "serene"
+        },
+        "environment": "urban",
+        "lighting": "dark",
+        "composition": "wide-shot",
+        "art_quality": "high-detail",
+        "style_influences": [
+            "night-photography"
+        ],
+        "objects": [
+            "moon",
+            "skyscrapers",
+            "city lights",
+            "hills"
+        ],
+        "textures": [
+            "smooth",
+            "hazy"
+        ],
+        "type": "scenery",
+        "tags": [
+            "full moon",
+            "cityscape",
+            "skyline",
+            "night",
+            "city lights",
+            "skyscrapers",
+            "urban",
+            "moonlight",
+            "architecture",
+            "dusk",
+            "scenery",
+            "los angeles",
+            "horizon",
+            "night sky",
+            "city"
+        ]
+    }
+}

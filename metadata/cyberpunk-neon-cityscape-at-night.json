@@ -1,0 +1,73 @@
+{
+    "file_name": "cyberpunk-neon-cityscape-at-night",
+    "file_cache_name": "cyberpunk-neon-cityscape-at-night.webp",
+    "file_main_name": "cyberpunk-neon-cityscape-at-night.png",
+    "width": 447,
+    "height": 447,
+    "resolution": "SD",
+    "orientation": "Square",
+    "timestamp": "2026-08-14T05:23:49.011953+00:00",
+    "category": "#cyberpunk",
+    "data": {
+        "suggested_filename": "cyberpunk-neon-cityscape-at-night",
+        "category": "#cyberpunk",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "cyberpunk",
+        "primary_colors": [
+            "dark-blue",
+            "black"
+        ],
+        "secondary_colors": [
+            "cyan",
+            "magenta",
+            "neon-yellow"
+        ],
+        "color_palette": "neon",
+        "mood": "mysterious",
+        "technique": "digital-painting",
+        "scene_description": "A towering cyberpunk cityscape at night, filled with glowing neon advertisements and futuristic skyscrapers.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "unknown",
+            "pose": "none",
+            "facial_expression": "none"
+        },
+        "environment": "urban",
+        "lighting": "neon",
+        "composition": "wide-shot",
+        "art_quality": "high-detail",
+        "style_influences": [
+            "blade-runner",
+            "dystopian-scifi"
+        ],
+        "objects": [
+            "skyscrapers",
+            "neon-signs",
+            "advertisements"
+        ],
+        "textures": [
+            "smooth",
+            "glowing"
+        ],
+        "type": "scenery",
+        "tags": [
+            "cyberpunk",
+            "futuristic",
+            "cityscape",
+            "neon",
+            "night",
+            "glowing",
+            "scenery",
+            "metropolis",
+            "scifi",
+            "dark",
+            "urban",
+            "skyscrapers",
+            "lights",
+            "dystopian",
+            "digital-art"
+        ]
+    }
+}

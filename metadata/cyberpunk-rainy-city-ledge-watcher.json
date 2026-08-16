@@ -1,0 +1,76 @@
+{
+    "file_name": "cyberpunk-rainy-city-ledge-watcher",
+    "file_cache_name": "cyberpunk-rainy-city-ledge-watcher.webp",
+    "file_main_name": "cyberpunk-rainy-city-ledge-watcher.png",
+    "width": 1080,
+    "height": 1920,
+    "resolution": "FHD",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-14T05:23:27.025954+00:00",
+    "category": "#cyberpunk",
+    "data": {
+        "suggested_filename": "cyberpunk-rainy-city-ledge-watcher",
+        "category": "#cyberpunk",
+        "character_names": [
+            "unknown"
+        ],
+        "series": "unknown",
+        "art_style": "cyberpunk",
+        "primary_colors": [
+            "#0d1117",
+            "#00ffff",
+            "#ff007f"
+        ],
+        "secondary_colors": [
+            "#ff0000",
+            "#ffffff"
+        ],
+        "color_palette": "neon",
+        "mood": "mysterious",
+        "technique": "3d-render",
+        "scene_description": "A man in a trench coat overlooks a rainy, neon-drenched cyberpunk cityscape at night.",
+        "character_details": {
+            "hair_color": "dark",
+            "eye_color": "unknown",
+            "clothing_style": "cyberpunk trench coat",
+            "pose": "standing, back turned",
+            "facial_expression": "unknown"
+        },
+        "environment": "urban",
+        "lighting": "neon",
+        "composition": "centered",
+        "art_quality": "high-detail",
+        "style_influences": [
+            "Blade Runner",
+            "Cyberpunk 2077"
+        ],
+        "objects": [
+            "billboards",
+            "holograms",
+            "neon signs",
+            "trench coat"
+        ],
+        "textures": [
+            "wet concrete",
+            "rain streaks"
+        ],
+        "type": "scenery",
+        "tags": [
+            "cyberpunk",
+            "rain",
+            "neon-city",
+            "futuristic",
+            "metropolis",
+            "trench-coat",
+            "night",
+            "hologram",
+            "billboard",
+            "sci-fi",
+            "dystopian",
+            "wet-streets",
+            "lonely",
+            "urban",
+            "scenery"
+        ]
+    }
+}

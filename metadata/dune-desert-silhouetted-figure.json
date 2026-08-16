@@ -1,0 +1,75 @@
+{
+    "file_name": "dune-desert-silhouetted-figure",
+    "file_cache_name": "dune-desert-silhouetted-figure.webp",
+    "file_main_name": "dune-desert-silhouetted-figure.png",
+    "width": 900,
+    "height": 1600,
+    "resolution": "HD",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-16T19:32:50.024313+00:00",
+    "category": "#scenery",
+    "data": {
+        "suggested_filename": "dune-desert-silhouetted-figure",
+        "category": "#scenery",
+        "character_names": [
+            "Paul Atreides"
+        ],
+        "series": "Dune",
+        "art_style": "minimalist",
+        "primary_colors": [
+            "orange",
+            "dark-brown"
+        ],
+        "secondary_colors": [
+            "yellow",
+            "gold"
+        ],
+        "color_palette": "warm",
+        "mood": "mysterious",
+        "technique": "digital-painting",
+        "scene_description": "A lone cloaked figure stands atop a massive orange sand dune beneath two celestial bodies in a desolate desert.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "cloak",
+            "pose": "standing",
+            "facial_expression": "unknown"
+        },
+        "environment": "fantasy-world",
+        "lighting": "cinematic",
+        "composition": "wide-shot",
+        "art_quality": "smooth",
+        "style_influences": [
+            "Denis Villeneuve",
+            "Dune"
+        ],
+        "objects": [
+            "sand-dune",
+            "sun",
+            "planet",
+            "cloak"
+        ],
+        "textures": [
+            "sand",
+            "smooth"
+        ],
+        "type": "landscape",
+        "tags": [
+            "dune",
+            "arrakis",
+            "desert",
+            "sand",
+            "sci-fi",
+            "silhouette",
+            "minimalist",
+            "orange",
+            "sunset",
+            "planet",
+            "moon",
+            "scifi",
+            "paul-atreides",
+            "traveler",
+            "lonely"
+        ]
+    }
+}

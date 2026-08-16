@@ -1,0 +1,72 @@
+{
+    "file_name": "minimalist-white-sand-dunes",
+    "file_cache_name": "minimalist-white-sand-dunes.webp",
+    "file_main_name": "minimalist-white-sand-dunes.png",
+    "width": 2048,
+    "height": 2048,
+    "resolution": "2K",
+    "orientation": "Square",
+    "timestamp": "2026-08-14T05:44:02.453973+00:00",
+    "category": "#minimal",
+    "data": {
+        "suggested_filename": "minimalist-white-sand-dunes",
+        "category": "#minimal",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "minimalist",
+        "primary_colors": [
+            "white",
+            "light-gray"
+        ],
+        "secondary_colors": [
+            "silver",
+            "off-white"
+        ],
+        "color_palette": "monochrome",
+        "mood": "serene",
+        "technique": "3d-render",
+        "scene_description": "Minimalist composition of smooth, rolling white sand dunes casting gentle shadows under a clear white sky.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "unknown",
+            "pose": "unknown",
+            "facial_expression": "unknown"
+        },
+        "environment": "abstract",
+        "lighting": "soft-glow",
+        "composition": "landscape",
+        "art_quality": "smooth",
+        "style_influences": [
+            "minimalism",
+            "modern-architecture"
+        ],
+        "objects": [
+            "dunes",
+            "curves",
+            "shadows"
+        ],
+        "textures": [
+            "fine-sand",
+            "smooth"
+        ],
+        "type": "abstract",
+        "tags": [
+            "white",
+            "minimalist",
+            "sand-dunes",
+            "curves",
+            "clean",
+            "abstract",
+            "serene",
+            "calm",
+            "monochrome",
+            "3d-render",
+            "desert",
+            "shadows",
+            "simple",
+            "peaceful",
+            "bright"
+        ]
+    }
+}

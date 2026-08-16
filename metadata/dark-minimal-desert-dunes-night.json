@@ -1,0 +1,70 @@
+{
+    "file_name": "dark-minimal-desert-dunes-night",
+    "file_cache_name": "dark-minimal-desert-dunes-night.webp",
+    "file_main_name": "dark-minimal-desert-dunes-night.png",
+    "width": 1125,
+    "height": 1892,
+    "resolution": "FHD",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-16T19:31:48.375478+00:00",
+    "category": "#scenery",
+    "data": {
+        "suggested_filename": "dark-minimal-desert-dunes-night",
+        "category": "#scenery",
+        "character_names": [],
+        "series": "macOS Mojave inspired",
+        "art_style": "minimalist",
+        "primary_colors": [
+            "#0d0c0c",
+            "#211d1a"
+        ],
+        "secondary_colors": [
+            "#8a775d",
+            "#dfceb4"
+        ],
+        "color_palette": "dark",
+        "mood": "serene",
+        "technique": "3d-render",
+        "scene_description": "Smooth sand dunes under a dark starry sky, softly illuminated by golden light along the crests.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "unknown",
+            "pose": "unknown",
+            "facial_expression": "unknown"
+        },
+        "environment": "nature",
+        "lighting": "soft-glow",
+        "composition": "portrait",
+        "art_quality": "smooth",
+        "style_influences": [
+            "macOS Mojave",
+            "minimalism"
+        ],
+        "objects": [
+            "sand dunes",
+            "stars"
+        ],
+        "textures": [
+            "smooth"
+        ],
+        "type": "landscape",
+        "tags": [
+            "sand",
+            "dune",
+            "desert",
+            "night",
+            "stars",
+            "minimal",
+            "dark",
+            "serene",
+            "smooth",
+            "shadow",
+            "gold-accent",
+            "scenery",
+            "mobile-wallpaper",
+            "clean",
+            "sleek"
+        ]
+    }
+}

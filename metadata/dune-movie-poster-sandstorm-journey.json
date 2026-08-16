@@ -1,0 +1,69 @@
+{
+    "file_name": "dune-movie-poster-sandstorm-journey",
+    "file_cache_name": "dune-movie-poster-sandstorm-journey.webp",
+    "file_main_name": "dune-movie-poster-sandstorm-journey.png",
+    "width": 1080,
+    "height": 1927,
+    "resolution": "FHD",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-14T05:42:25.350771+00:00",
+    "category": "#movie-poster",
+    "data": {
+        "suggested_filename": "dune-movie-poster-sandstorm-journey",
+        "category": "#movie-poster",
+        "character_names": [],
+        "series": "Dune",
+        "art_style": "realistic",
+        "primary_colors": [
+            "tan",
+            "beige"
+        ],
+        "secondary_colors": [
+            "brown",
+            "black"
+        ],
+        "color_palette": "warm",
+        "mood": "mysterious",
+        "technique": "digital-art",
+        "scene_description": "Two figures in cloaks walk through a sandstorm on a desert planet, with dunes and mountains in the background. The movie title 'DUNE' is subtly displayed at the bottom.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "cloaked robes",
+            "pose": "walking",
+            "facial_expression": "serene"
+        },
+        "environment": "fantasy-world",
+        "lighting": "natural-daylight",
+        "composition": "wide-shot",
+        "art_quality": "masterpiece",
+        "style_influences": [
+            "cinematic"
+        ],
+        "objects": [
+            "dunes",
+            "mountains",
+            "sandstorm"
+        ],
+        "textures": [
+            "sand",
+            "rippled sand"
+        ],
+        "type": "multiple-characters",
+        "tags": [
+            "dune",
+            "movie",
+            "science-fiction",
+            "sci-fi",
+            "desert",
+            "sandstorm",
+            "journey",
+            "adventure",
+            "epic",
+            "cinematic",
+            "poster",
+            "minimalist",
+            "figures"
+        ]
+    }
+}

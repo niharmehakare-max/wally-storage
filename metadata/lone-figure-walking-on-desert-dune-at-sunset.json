@@ -1,0 +1,68 @@
+{
+    "file_name": "lone-figure-walking-on-desert-dune-at-sunset",
+    "file_cache_name": "lone-figure-walking-on-desert-dune-at-sunset.webp",
+    "file_main_name": "lone-figure-walking-on-desert-dune-at-sunset.png",
+    "width": 768,
+    "height": 1344,
+    "resolution": "HD",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-14T06:00:38.721739+00:00",
+    "category": "#scenery",
+    "data": {
+        "suggested_filename": "lone-figure-walking-on-desert-dune-at-sunset",
+        "category": "#scenery",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "realistic",
+        "primary_colors": [
+            "orange",
+            "gold"
+        ],
+        "secondary_colors": [
+            "brown",
+            "yellow"
+        ],
+        "color_palette": "warm",
+        "mood": "serene",
+        "technique": "digital-painting",
+        "scene_description": "A solitary figure, cloaked in dark robes, walks along the crest of a large sand dune in the desert. The warm glow of sunset illuminates the undulating landscape and a flock of birds flies in the hazy sky.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "robe",
+            "pose": "walking",
+            "facial_expression": "serene"
+        },
+        "environment": "nature",
+        "lighting": "golden-hour",
+        "composition": "landscape",
+        "art_quality": "high-detail",
+        "style_influences": [],
+        "objects": [
+            "dune",
+            "figure",
+            "birds"
+        ],
+        "textures": [
+            "sand",
+            "wind-swept"
+        ],
+        "type": "single-character",
+        "tags": [
+            "desert",
+            "sunset",
+            "dune",
+            "sand",
+            "solitude",
+            "traveler",
+            "journey",
+            "landscape",
+            "nature",
+            "golden hour",
+            "birds",
+            "haze",
+            "serene",
+            "epic"
+        ]
+    }
+}

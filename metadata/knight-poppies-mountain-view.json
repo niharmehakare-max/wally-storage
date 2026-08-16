@@ -1,0 +1,79 @@
+{
+    "file_name": "knight-poppies-mountain-view",
+    "file_cache_name": "knight-poppies-mountain-view.webp",
+    "file_main_name": "knight-poppies-mountain-view.png",
+    "width": 881,
+    "height": 1910,
+    "resolution": "HD",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-16T19:56:54.615776+00:00",
+    "category": "#fantasy",
+    "data": {
+        "suggested_filename": "knight-poppies-mountain-view",
+        "category": "#fantasy",
+        "character_names": [
+            "unknown knight"
+        ],
+        "series": "unknown",
+        "art_style": "realistic",
+        "primary_colors": [
+            "red",
+            "gray"
+        ],
+        "secondary_colors": [
+            "green",
+            "white"
+        ],
+        "color_palette": "warm",
+        "mood": "serene",
+        "technique": "digital-painting",
+        "scene_description": "A knight in full armor rests amidst vibrant red poppies, overlooking a vast, snow-dusted mountain range under a cloudy sky.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "full plate armor",
+            "pose": "resting",
+            "facial_expression": "unknown"
+        },
+        "environment": "nature",
+        "lighting": "natural-daylight",
+        "composition": "portrait",
+        "art_quality": "high-detail",
+        "style_influences": [
+            "fantasy art"
+        ],
+        "objects": [
+            "knight",
+            "armor",
+            "sword",
+            "poppies",
+            "mountains",
+            "birds"
+        ],
+        "textures": [
+            "metal",
+            "fabric",
+            "rock",
+            "snow",
+            "petals"
+        ],
+        "type": "single-character",
+        "tags": [
+            "knight",
+            "armor",
+            "poppies",
+            "flowers",
+            "mountains",
+            "snow",
+            "birds",
+            "epic",
+            "fantasy",
+            "warrior",
+            "scenery",
+            "nature",
+            "red",
+            "serene",
+            "digital art"
+        ]
+    }
+}

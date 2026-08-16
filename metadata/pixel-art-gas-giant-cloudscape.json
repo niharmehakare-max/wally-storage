@@ -1,0 +1,76 @@
+{
+    "file_name": "pixel-art-gas-giant-cloudscape",
+    "file_cache_name": "pixel-art-gas-giant-cloudscape.webp",
+    "file_main_name": "pixel-art-gas-giant-cloudscape.png",
+    "width": 1792,
+    "height": 1008,
+    "resolution": "HD",
+    "orientation": "Desktop",
+    "timestamp": "2026-08-16T19:52:36.213225+00:00",
+    "category": "#space",
+    "data": {
+        "suggested_filename": "pixel-art-gas-giant-cloudscape",
+        "category": "#space",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "pixel-art",
+        "primary_colors": [
+            "purple",
+            "violet"
+        ],
+        "secondary_colors": [
+            "pink",
+            "cream",
+            "white"
+        ],
+        "color_palette": "pastel",
+        "mood": "serene",
+        "technique": "digital-painting",
+        "scene_description": "Pixel art view of a massive banded gas giant rising over thick purple clouds with small spacecrafts and distant moons.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "unknown",
+            "pose": "unknown",
+            "facial_expression": "serene"
+        },
+        "environment": "space",
+        "lighting": "soft-glow",
+        "composition": "landscape",
+        "art_quality": "high-detail",
+        "style_influences": [
+            "retro-gaming",
+            "sci-fi"
+        ],
+        "objects": [
+            "gas-giant",
+            "moons",
+            "spaceships",
+            "clouds",
+            "stars",
+            "sun"
+        ],
+        "textures": [
+            "pixelated",
+            "dithered"
+        ],
+        "type": "scenery",
+        "tags": [
+            "pixel-art",
+            "space",
+            "sci-fi",
+            "planet",
+            "gas-giant",
+            "clouds",
+            "skyline",
+            "purple",
+            "stars",
+            "spaceship",
+            "retro",
+            "scenery",
+            "aesthetic",
+            "8-bit",
+            "wallpaper"
+        ]
+    }
+}

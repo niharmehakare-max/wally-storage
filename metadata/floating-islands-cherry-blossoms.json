@@ -1,0 +1,75 @@
+{
+    "file_name": "floating-islands-cherry-blossoms",
+    "file_cache_name": "floating-islands-cherry-blossoms.webp",
+    "file_main_name": "floating-islands-cherry-blossoms.png",
+    "width": 2768,
+    "height": 1160,
+    "resolution": "2K",
+    "orientation": "Desktop",
+    "timestamp": "2026-08-14T05:25:51.165904+00:00",
+    "category": "#fantasy",
+    "data": {
+        "suggested_filename": "floating-islands-cherry-blossoms",
+        "category": "#fantasy",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "anime",
+        "primary_colors": [
+            "blue",
+            "pink",
+            "green"
+        ],
+        "secondary_colors": [
+            "white",
+            "brown"
+        ],
+        "color_palette": "vibrant",
+        "mood": "peaceful",
+        "technique": "digital-painting",
+        "scene_description": "Vibrant floating islands covered in green grass and blooming cherry blossom trees drift through a bright, cloudy sky with small wooden pagodas and bridges.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "unknown",
+            "pose": "unknown",
+            "facial_expression": "unknown"
+        },
+        "environment": "fantasy-world",
+        "lighting": "natural-daylight",
+        "composition": "wide-shot",
+        "art_quality": "masterpiece",
+        "style_influences": [
+            "Studio Ghibli",
+            "Anime scenery"
+        ],
+        "objects": [
+            "pagoda",
+            "bridge",
+            "cherry blossom tree",
+            "floating island"
+        ],
+        "textures": [
+            "grassy",
+            "rocky",
+            "wooden"
+        ],
+        "type": "scenery",
+        "tags": [
+            "floating islands",
+            "cherry blossoms",
+            "sakura",
+            "pagoda",
+            "shrine",
+            "anime landscape",
+            "clouds",
+            "blue sky",
+            "fantasy landscape",
+            "scenery",
+            "nature",
+            "bridges",
+            "glowing lights",
+            "scenic",
+            "peaceful"
+        ]
+    }
+}

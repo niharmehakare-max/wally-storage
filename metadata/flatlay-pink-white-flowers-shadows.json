@@ -1,0 +1,74 @@
+{
+    "file_name": "flatlay-pink-white-flowers-shadows",
+    "file_cache_name": "flatlay-pink-white-flowers-shadows.webp",
+    "file_main_name": "flatlay-pink-white-flowers-shadows.png",
+    "width": 576,
+    "height": 1024,
+    "resolution": "SD",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-14T05:17:36.854099+00:00",
+    "category": "#nature",
+    "data": {
+        "suggested_filename": "flatlay-pink-white-flowers-shadows",
+        "category": "#nature",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "realistic",
+        "primary_colors": [
+            "beige",
+            "pink",
+            "white"
+        ],
+        "secondary_colors": [
+            "yellow",
+            "green"
+        ],
+        "color_palette": "pastel",
+        "mood": "serene",
+        "technique": "3d-render",
+        "scene_description": "A flat lay arrangement of pink and white flowers scattered on a textured cream background with soft diagonal shadows.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "unknown",
+            "pose": "unknown",
+            "facial_expression": "unknown"
+        },
+        "environment": "indoor",
+        "lighting": "natural-daylight",
+        "composition": "portrait",
+        "art_quality": "high-detail",
+        "style_influences": [
+            "flat-lay-photography",
+            "minimalism"
+        ],
+        "objects": [
+            "flower",
+            "petal",
+            "stem",
+            "leaf"
+        ],
+        "textures": [
+            "plaster",
+            "soft-shadows"
+        ],
+        "type": "pattern",
+        "tags": [
+            "flowers",
+            "flatlay",
+            "pink-flowers",
+            "white-flowers",
+            "daisies",
+            "cosmos",
+            "shadows",
+            "minimalist",
+            "cream-background",
+            "botanical",
+            "floral",
+            "soft-lighting",
+            "wallpaper",
+            "aesthetic",
+            "spring"
+        ]
+    }
+}

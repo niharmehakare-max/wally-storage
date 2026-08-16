@@ -1,0 +1,75 @@
+{
+    "file_name": "futuristic-cyberpunk-megacity-neon-streets",
+    "file_cache_name": "futuristic-cyberpunk-megacity-neon-streets.webp",
+    "file_main_name": "futuristic-cyberpunk-megacity-neon-streets.png",
+    "width": 853,
+    "height": 1516,
+    "resolution": "HD",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-14T05:22:48.032816+00:00",
+    "category": "#cyberpunk",
+    "data": {
+        "suggested_filename": "futuristic-cyberpunk-megacity-neon-streets",
+        "category": "#cyberpunk",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "cyberpunk",
+        "primary_colors": [
+            "blue",
+            "red"
+        ],
+        "secondary_colors": [
+            "neon-green",
+            "yellow"
+        ],
+        "color_palette": "neon",
+        "mood": "energetic",
+        "technique": "3d-render",
+        "scene_description": "A towering futuristic cyberpunk megacity bustling with neon billboards, flying cars, a dense street market, and heavy traffic at night.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "unknown",
+            "pose": "unknown",
+            "facial_expression": "unknown"
+        },
+        "environment": "urban",
+        "lighting": "neon",
+        "composition": "portrait",
+        "art_quality": "high-detail",
+        "style_influences": [
+            "Blade Runner",
+            "Cyberpunk 2077"
+        ],
+        "objects": [
+            "billboards",
+            "flying cars",
+            "skyscrapers",
+            "market stalls",
+            "highway"
+        ],
+        "textures": [
+            "metallic",
+            "glass",
+            "glowing neon"
+        ],
+        "type": "scenery",
+        "tags": [
+            "cyberpunk",
+            "futuristic",
+            "megacity",
+            "neon",
+            "billboard",
+            "flying-cars",
+            "traffic",
+            "downtown",
+            "metropolis",
+            "nightlife",
+            "dystopian",
+            "scenery",
+            "sci-fi",
+            "crowd",
+            "urban"
+        ]
+    }
+}

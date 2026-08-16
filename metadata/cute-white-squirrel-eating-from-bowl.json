@@ -1,0 +1,69 @@
+{
+    "file_name": "cute-white-squirrel-eating-from-bowl",
+    "file_cache_name": "cute-white-squirrel-eating-from-bowl.webp",
+    "file_main_name": "cute-white-squirrel-eating-from-bowl.png",
+    "width": 4320,
+    "height": 4320,
+    "resolution": "8K",
+    "orientation": "Square",
+    "timestamp": "2026-08-16T19:36:52.469610+00:00",
+    "category": "#illustration",
+    "data": {
+        "suggested_filename": "cute-white-squirrel-eating-from-bowl",
+        "category": "#illustration",
+        "character_names": [
+            "unknown"
+        ],
+        "series": "unknown",
+        "art_style": "illustration",
+        "primary_colors": [
+            "white",
+            "green"
+        ],
+        "secondary_colors": [
+            "blue",
+            "yellow"
+        ],
+        "color_palette": "pastel",
+        "mood": "cheerful",
+        "technique": "digital-painting",
+        "scene_description": "A cute white squirrel with pink cheeks is happily eating from a bowl of food, with steam rising from it. The background is a soft pastel yellow and green with some leaf-like shapes.",
+        "character_details": {
+            "hair_color": "white",
+            "eye_color": "black",
+            "clothing_style": "unknown",
+            "pose": "eating",
+            "facial_expression": "happy"
+        },
+        "environment": "nature",
+        "lighting": "soft-glow",
+        "composition": "centered",
+        "art_quality": "smooth",
+        "style_influences": [
+            "kawaii"
+        ],
+        "objects": [
+            "bowl",
+            "food",
+            "steam"
+        ],
+        "textures": [
+            "smooth"
+        ],
+        "type": "single-character",
+        "tags": [
+            "squirrel",
+            "cute",
+            "kawaii",
+            "eating",
+            "food",
+            "bowl",
+            "animal",
+            "illustration",
+            "pastel",
+            "happy",
+            "nature",
+            "cartoon"
+        ]
+    }
+}

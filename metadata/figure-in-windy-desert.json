@@ -1,0 +1,63 @@
+{
+    "file_name": "figure-in-windy-desert",
+    "file_cache_name": "figure-in-windy-desert.webp",
+    "file_main_name": "figure-in-windy-desert.png",
+    "width": 736,
+    "height": 736,
+    "resolution": "HD",
+    "orientation": "Square",
+    "timestamp": "2026-08-14T05:40:09.725583+00:00",
+    "category": "#fantasy",
+    "data": {
+        "suggested_filename": "figure-in-windy-desert",
+        "category": "#fantasy",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "realistic",
+        "primary_colors": [
+            "tan",
+            "white"
+        ],
+        "secondary_colors": [
+            "black"
+        ],
+        "color_palette": "warm",
+        "mood": "mysterious",
+        "technique": "digital-painting",
+        "scene_description": "A lone figure draped in a dark cloak stands in a sandy, windy environment, suggesting a desolate or alien landscape. The wind whips the cloak dramatically, adding a sense of movement and mystery to the scene.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "cloak",
+            "pose": "standing",
+            "facial_expression": "serene"
+        },
+        "environment": "nature",
+        "lighting": "natural-daylight",
+        "composition": "centered",
+        "art_quality": "masterpiece",
+        "style_influences": [],
+        "objects": [
+            "cloak"
+        ],
+        "textures": [
+            "sand",
+            "fabric"
+        ],
+        "type": "single-character",
+        "tags": [
+            "fantasy",
+            "desert",
+            "figure",
+            "cloak",
+            "wind",
+            "mysterious",
+            "lone",
+            "traveler",
+            "cinematic",
+            "dramatic",
+            "drifting",
+            "sandy"
+        ]
+    }
+}

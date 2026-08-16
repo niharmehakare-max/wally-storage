@@ -1,0 +1,73 @@
+{
+    "file_name": "grim-reaper-warrior-sword",
+    "file_cache_name": "grim-reaper-warrior-sword.webp",
+    "file_main_name": "grim-reaper-warrior-sword.png",
+    "width": 1080,
+    "height": 1920,
+    "resolution": "FHD",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-16T19:53:51.392856+00:00",
+    "category": "#fantasy",
+    "data": {
+        "suggested_filename": "grim-reaper-warrior-sword",
+        "category": "#fantasy",
+        "character_names": [
+            "Grim Reaper"
+        ],
+        "series": "unknown",
+        "art_style": "digital-art",
+        "primary_colors": [
+            "black",
+            "white"
+        ],
+        "secondary_colors": [
+            "grey"
+        ],
+        "color_palette": "monochrome",
+        "mood": "dark",
+        "technique": "digital-painting",
+        "scene_description": "A skeletal warrior in full armor and a hood, holding a sword. The artwork is in black and white with a painterly style.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "armor, hood, tattered cloth",
+            "pose": "standing, holding sword",
+            "facial_expression": "skull"
+        },
+        "environment": "abstract",
+        "lighting": "cinematic",
+        "composition": "portrait",
+        "art_quality": "masterpiece",
+        "style_influences": [
+            "dark fantasy"
+        ],
+        "objects": [
+            "sword",
+            "armor",
+            "hood"
+        ],
+        "textures": [
+            "rough",
+            "metal",
+            "fabric"
+        ],
+        "type": "single-character",
+        "tags": [
+            "grim reaper",
+            "skeletal",
+            "warrior",
+            "fantasy",
+            "dark",
+            "art",
+            "digital",
+            "sword",
+            "armor",
+            "hooded",
+            "monochrome",
+            "death",
+            "artstation",
+            "concept art",
+            "illustration"
+        ]
+    }
+}

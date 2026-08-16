@@ -1,0 +1,74 @@
+{
+    "file_name": "japanese-temple-sunset-landscape",
+    "file_cache_name": "japanese-temple-sunset-landscape.webp",
+    "file_main_name": "japanese-temple-sunset-landscape.png",
+    "width": 1641,
+    "height": 736,
+    "resolution": "HD",
+    "orientation": "Desktop",
+    "timestamp": "2026-08-14T05:27:40.655345+00:00",
+    "category": "#scenery",
+    "data": {
+        "suggested_filename": "japanese-temple-sunset-landscape",
+        "category": "#scenery",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "anime",
+        "primary_colors": [
+            "#ff9e42",
+            "#2c3e50"
+        ],
+        "secondary_colors": [
+            "#e74c3c",
+            "#f1c40f"
+        ],
+        "color_palette": "warm",
+        "mood": "peaceful",
+        "technique": "digital-painting",
+        "scene_description": "Serene sunset over a traditional Japanese temple and pagoda under a vibrant orange sky.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "unknown",
+            "pose": "unknown",
+            "facial_expression": "unknown"
+        },
+        "environment": "nature",
+        "lighting": "golden-hour",
+        "composition": "landscape",
+        "art_quality": "high-detail",
+        "style_influences": [
+            "ukiyo-e",
+            "anime background art"
+        ],
+        "objects": [
+            "pagoda",
+            "temple",
+            "bridge",
+            "torii gate",
+            "pine tree",
+            "sun"
+        ],
+        "textures": [
+            "smooth"
+        ],
+        "type": "scenery",
+        "tags": [
+            "japan",
+            "pagoda",
+            "temple",
+            "sunset",
+            "sun",
+            "clouds",
+            "lake",
+            "reflection",
+            "bridge",
+            "torii",
+            "pine-tree",
+            "scenery",
+            "landscape",
+            "warm-colors",
+            "peaceful"
+        ]
+    }
+}

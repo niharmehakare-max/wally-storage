@@ -1,0 +1,73 @@
+{
+    "file_name": "neo-tokyo-1985-cyberpunk-city",
+    "file_cache_name": "neo-tokyo-1985-cyberpunk-city.webp",
+    "file_main_name": "neo-tokyo-1985-cyberpunk-city.png",
+    "width": 1024,
+    "height": 1536,
+    "resolution": "HD",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-14T05:22:11.676751+00:00",
+    "category": "#cyberpunk",
+    "data": {
+        "suggested_filename": "neo-tokyo-1985-cyberpunk-city",
+        "category": "#cyberpunk",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "cyberpunk",
+        "primary_colors": [
+            "black",
+            "neon pink"
+        ],
+        "secondary_colors": [
+            "cyan",
+            "orange"
+        ],
+        "color_palette": "neon",
+        "mood": "nostalgic",
+        "technique": "digital-painting",
+        "scene_description": "Retro-futuristic 1980s cyberpunk cityscape featuring flying cars, skyscrapers, and neon billboards at night.",
+        "character_details": {
+            "hair_color": "black",
+            "eye_color": "unknown",
+            "clothing_style": "casual",
+            "pose": "smoking cigarette on billboard",
+            "facial_expression": "pensive"
+        },
+        "environment": "urban",
+        "lighting": "neon",
+        "composition": "portrait",
+        "art_quality": "high-detail",
+        "style_influences": [
+            "Blade Runner",
+            "80s Comic Art"
+        ],
+        "objects": [
+            "sports car",
+            "flying vehicle",
+            "neon billboard",
+            "skyscrapers"
+        ],
+        "textures": [
+            "grainy",
+            "grungy"
+        ],
+        "type": "scenery",
+        "tags": [
+            "cyberpunk",
+            "neo-tokyo",
+            "1985",
+            "retro-futurism",
+            "neon",
+            "flying-car",
+            "cityscape",
+            "dystopian",
+            "sci-fi",
+            "night",
+            "synthwave",
+            "billboard",
+            "poster-art",
+            "urban",
+            "scenery"
+        ]
+    }
+}

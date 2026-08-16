@@ -1,0 +1,75 @@
+{
+    "file_name": "dune-part-two-minimalist-sun-poster",
+    "file_cache_name": "dune-part-two-minimalist-sun-poster.webp",
+    "file_main_name": "dune-part-two-minimalist-sun-poster.png",
+    "width": 839,
+    "height": 1200,
+    "resolution": "HD",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-14T05:44:16.594251+00:00",
+    "category": "#minimal",
+    "data": {
+        "suggested_filename": "dune-part-two-minimalist-sun-poster",
+        "category": "#minimal",
+        "character_names": [
+            "Paul Atreides"
+        ],
+        "series": "Dune: Part Two",
+        "art_style": "minimalist",
+        "primary_colors": [
+            "terracotta",
+            "sand-yellow"
+        ],
+        "secondary_colors": [
+            "orange",
+            "brown"
+        ],
+        "color_palette": "warm",
+        "mood": "mysterious",
+        "technique": "vector",
+        "scene_description": "A minimalist silhouette of Paul Atreides standing atop curving desert sand dunes beneath a massive red sun.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "stillsuit silhouette",
+            "pose": "standing holding maker hooks",
+            "facial_expression": "unknown"
+        },
+        "environment": "fantasy-world",
+        "lighting": "soft-glow",
+        "composition": "centered",
+        "art_quality": "clean-vector",
+        "style_influences": [
+            "flat-art",
+            "movie-poster-minimalism"
+        ],
+        "objects": [
+            "sun",
+            "sand-dunes",
+            "maker-hooks",
+            "text-logo"
+        ],
+        "textures": [
+            "smooth",
+            "gradient"
+        ],
+        "type": "single-character",
+        "tags": [
+            "dune",
+            "dune-part-two",
+            "paul-atreides",
+            "arrakis",
+            "desert",
+            "minimalist",
+            "poster",
+            "sand-dunes",
+            "sun",
+            "scifi",
+            "warm-tones",
+            "silhouette",
+            "clean-vector",
+            "flat-design",
+            "movie-art"
+        ]
+    }
+}

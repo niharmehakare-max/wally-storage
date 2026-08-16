@@ -1,0 +1,75 @@
+{
+    "file_name": "cyberpunk-neon-cityscape-silhouette",
+    "file_cache_name": "cyberpunk-neon-cityscape-silhouette.webp",
+    "file_main_name": "cyberpunk-neon-cityscape-silhouette.png",
+    "width": 1400,
+    "height": 1750,
+    "resolution": "FHD",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-16T19:23:33.487998+00:00",
+    "category": "#cyberpunk",
+    "data": {
+        "suggested_filename": "cyberpunk-neon-cityscape-silhouette",
+        "category": "#cyberpunk",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "cyberpunk",
+        "primary_colors": [
+            "cyan",
+            "magenta"
+        ],
+        "secondary_colors": [
+            "blue",
+            "red"
+        ],
+        "color_palette": "neon",
+        "mood": "mysterious",
+        "technique": "3d-render",
+        "scene_description": "A silhouetted figure overlooks a massive cyberpunk cityscape illuminated by vivid neon billboards and holographic displays.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "jacket and trousers",
+            "pose": "standing, back turned",
+            "facial_expression": "unknown"
+        },
+        "environment": "urban",
+        "lighting": "neon",
+        "composition": "centered",
+        "art_quality": "high-detail",
+        "style_influences": [
+            "blade runner",
+            "matrix"
+        ],
+        "objects": [
+            "billboard",
+            "hologram",
+            "cityscape",
+            "flying vehicle",
+            "cat"
+        ],
+        "textures": [
+            "glitch",
+            "digital",
+            "screen"
+        ],
+        "type": "scenery",
+        "tags": [
+            "cyberpunk",
+            "neon",
+            "futuristic",
+            "city",
+            "silhouette",
+            "hologram",
+            "digital art",
+            "cyan",
+            "magenta",
+            "glowing",
+            "scifi",
+            "dystopian",
+            "billboard",
+            "night city",
+            "matrix"
+        ]
+    }
+}

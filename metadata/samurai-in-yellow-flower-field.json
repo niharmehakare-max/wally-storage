@@ -1,0 +1,71 @@
+{
+    "file_name": "samurai-in-yellow-flower-field",
+    "file_cache_name": "samurai-in-yellow-flower-field.webp",
+    "file_main_name": "samurai-in-yellow-flower-field.png",
+    "width": 1200,
+    "height": 674,
+    "resolution": "SD",
+    "orientation": "Desktop",
+    "timestamp": "2026-08-14T05:28:16.491619+00:00",
+    "category": "#fantasy",
+    "data": {
+        "suggested_filename": "samurai-in-yellow-flower-field",
+        "category": "#fantasy",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "digital-art",
+        "primary_colors": [
+            "yellow",
+            "teal"
+        ],
+        "secondary_colors": [
+            "black",
+            "grey"
+        ],
+        "color_palette": "cool",
+        "mood": "mysterious",
+        "technique": "digital-painting",
+        "scene_description": "A lone samurai in black robes holding a katana stands amidst a field of yellow flowers under a misty sky.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "traditional Japanese robe with straw hat",
+            "pose": "standing",
+            "facial_expression": "unknown"
+        },
+        "environment": "nature",
+        "lighting": "cinematic",
+        "composition": "wide-shot",
+        "art_quality": "high-detail",
+        "style_influences": [
+            "Ghost of Tsushima"
+        ],
+        "objects": [
+            "katana",
+            "straw hat",
+            "yellow flowers"
+        ],
+        "textures": [
+            "petals",
+            "mist"
+        ],
+        "type": "single-character",
+        "tags": [
+            "samurai",
+            "ronin",
+            "katana",
+            "straw-hat",
+            "yellow-flowers",
+            "mist",
+            "mountains",
+            "nature",
+            "sword",
+            "warrior",
+            "japanese-aesthetic",
+            "cherry-blossoms",
+            "solitude",
+            "scenery",
+            "peaceful"
+        ]
+    }
+}

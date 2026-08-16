@@ -1,0 +1,67 @@
+{
+    "file_name": "lonely-figure-kneeling-in-desert-dune",
+    "file_cache_name": "lonely-figure-kneeling-in-desert-dune.webp",
+    "file_main_name": "lonely-figure-kneeling-in-desert-dune.png",
+    "width": 1215,
+    "height": 2160,
+    "resolution": "FHD",
+    "orientation": "Mobile",
+    "timestamp": "2026-08-14T05:41:52.194061+00:00",
+    "category": "#scenery",
+    "data": {
+        "suggested_filename": "lonely-figure-kneeling-in-desert-dune",
+        "category": "#scenery",
+        "character_names": [],
+        "series": "unknown",
+        "art_style": "realistic",
+        "primary_colors": [
+            "beige",
+            "sandy-brown"
+        ],
+        "secondary_colors": [
+            "dark-gray",
+            "light-brown"
+        ],
+        "color_palette": "warm",
+        "mood": "peaceful",
+        "technique": "realistic",
+        "scene_description": "A lone figure in dark clothing kneels on a sand dune, silhouetted against a soft, hazy sky. The image evokes a sense of solitude and contemplation in a vast desert landscape.",
+        "character_details": {
+            "hair_color": "unknown",
+            "eye_color": "unknown",
+            "clothing_style": "hooded outfit",
+            "pose": "kneeling",
+            "facial_expression": "unknown"
+        },
+        "environment": "nature",
+        "lighting": "natural-daylight",
+        "composition": "rule-of-thirds",
+        "art_quality": "high-detail",
+        "style_influences": [],
+        "objects": [
+            "sand dune",
+            "figure"
+        ],
+        "textures": [
+            "sand"
+        ],
+        "type": "single-character",
+        "tags": [
+            "desert",
+            "sand",
+            "dune",
+            "solitude",
+            "figure",
+            "kneeling",
+            "sky",
+            "hazy",
+            "nature",
+            "landscape",
+            "contemplation",
+            "warm",
+            "peaceful",
+            "minimalist",
+            "lonely"
+        ]
+    }
+}
